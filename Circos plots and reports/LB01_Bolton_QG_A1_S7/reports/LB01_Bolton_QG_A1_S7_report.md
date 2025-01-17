@@ -1,0 +1,17210 @@
+# AMR Analysis Report for LB01_Bolton_QG_A1_S7
+
+# Organism Classifications:
+
+## Aeromonas salmonicida
+**Strain Statistics:**
+- Total genome length: 24.7 kbp
+- Total scaffolds: 1535
+- Scaffolds with AMR genes: 84
+- Total genes annotated: 8
+- Total AMR genes: 84
+- Unique AMR genes: 57
+- Distinct AMR mechanisms: 7
+- Distinct AMR families: 26
+- Distinct drug classes: 28
+
+**Circos Plot:**
+
+![Circos plot for Aeromonas salmonicida](../circos_LB01_Bolton_QG_A1_S7_Aeromonas_salmonicida.png)
+
+### Clostridioides difficile cplR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; nucleoside antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_76051_1 : position 3-176
+
+### Klebsiella pneumoniae OmpK37
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20040_1 : position 204-374
+
+### LlmA 23S ribosomal RNA methyltransferase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Llm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_86964_1 : position 2-259
+
+### LptD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13341_1 : position 3-440
+  - gnl|SPADES|LDMNMAEC_23898_1 : position 3-353
+
+### MCR-7.1
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18239_1 : position 3-386
+
+### MexI
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_194902_1 : position 1-207
+
+### MexV
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16922_1 : position 2-397
+
+### MexW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65421_1 : position 2-271
+
+### NmcR (found in 4 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15754_1 : position 2-301
+  - gnl|SPADES|LDMNMAEC_22045_1 : position 1-363
+  - gnl|SPADES|LDMNMAEC_26849_1 : position 23-337
+  - gnl|SPADES|LDMNMAEC_54171_1 : position 1-276
+
+### OmpA
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: General Bacterial Porin with reduced permeability to peptide antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49540_1 : position 1-279
+
+### ParR (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_182002_1 : position 2-214
+  - gnl|SPADES|LDMNMAEC_23452_1 : position 3-353
+
+### ParS (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_131357_1 : position 3-239
+  - gnl|SPADES|LDMNMAEC_29752_1 : position 1-327
+
+### PmpM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80225_1 : position 3-263
+
+### Pseudomonas aeruginosa CpxR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_181713_1 : position 3-215
+
+### QnrA2
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24605_1 : position 2-178
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11237_1 : position 3-482
+
+### TaeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21151_1 : position 3-365
+
+### TolC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_142051_1 : position 1-234
+
+### TxR (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_171608_1 : position 1-219
+  - gnl|SPADES|LDMNMAEC_27815_1 : position 3-335
+  - gnl|SPADES|LDMNMAEC_46671_1 : position 2-283
+
+### YojI
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_197525_1 : position 1-207
+
+### adeL (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_146862_1 : position 1-231
+  - gnl|SPADES|LDMNMAEC_15841_1 : position 2-406
+  - gnl|SPADES|LDMNMAEC_28574_1 : position 2-232
+
+### arlR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_103920_1 : position 1-252
+
+### arnA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27884_1 : position 2-334
+
+### bacA (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_170261_1 : position 144-218
+  - gnl|SPADES|LDMNMAEC_82319_1 : position 15-260
+
+### baeR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111519_1 : position 1-246
+  - gnl|SPADES|LDMNMAEC_137213_1 : position 3-233
+
+### bcr-1 (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_120573_1 : position 3-242
+  - gnl|SPADES|LDMNMAEC_34278_1 : position 2-154
+
+### cdeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_22708_1 : position 3-359
+
+### cfrC
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_105517_1 : position 1-249
+
+### cphA5
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: CphA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_93371_1 : position 3-215
+
+### cpxA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20247_1 : position 3-203
+
+### dfrA3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_172222_1 : position 2-217
+
+### evgA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_159633_1 : position 2-223
+
+### evgS (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_115677_1 : position 1-246
+  - gnl|SPADES|LDMNMAEC_132715_1 : position 2-238
+  - gnl|SPADES|LDMNMAEC_132767_1 : position 2-238
+  - gnl|SPADES|LDMNMAEC_143181_1 : position 1-231
+  - gnl|SPADES|LDMNMAEC_157777_1 : position 2-226
+  - gnl|SPADES|LDMNMAEC_55851_1 : position 3-275
+  - gnl|SPADES|LDMNMAEC_91432_1 : position 2-256
+
+### golS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109093_1 : position 83-247
+
+### hmrM (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_23659_1 : position 3-194
+  - gnl|SPADES|LDMNMAEC_53313_1 : position 1-276
+
+### kdpE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122706_1 : position 28-243
+
+### lin
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: lincosamide nucleotidyltransferase (LNU)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_53013_1 : position 3-278
+
+### macA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_95002_1 : position 2-256
+
+### macB (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_120149_1 : position 3-242
+  - gnl|SPADES|LDMNMAEC_123065_1 : position 2-241
+  - gnl|SPADES|LDMNMAEC_172515_1 : position 2-217
+  - gnl|SPADES|LDMNMAEC_35544_1 : position 1-306
+  - gnl|SPADES|LDMNMAEC_61721_1 : position 2-271
+
+### mdtH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_28796_1 : position 2-331
+
+### mecC
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_155924_1 : position 1-225
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21657_1 : position 1-363
+
+### msbA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_148634_1 : position 2-229
+  - gnl|SPADES|LDMNMAEC_186385_1 : position 3-212
+  - gnl|SPADES|LDMNMAEC_41610_1 : position 1-288
+  - gnl|SPADES|LDMNMAEC_6063_1 : position 2-601
+
+### msr(G)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; streptogramin antibiotic
+- **AMR Family**: msr-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_171592_1 : position 3-218
+
+### nalD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16554_1 : position 2-400
+
+### otr(C)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169138_1 : position 3-221
+
+### patA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_91548_1 : position 3-257
+
+### patB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15070_2 : position 126-416
+
+### salB
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25601_1 : position 2-322
+
+### smeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_189197_1 : position 2-211
+
+### smeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165290_1 : position 3-221
+
+### srmB
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20216_1 : position 2-373
+
+### tcr3
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_176059_1 : position 1-216
+
+### tet(41)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_195134_1 : position 3-206
+
+### tetA(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_81387_1 : position 2-262
+
+### vanR gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16395_1 : position 2-211
+
+### vanR gene in vanP cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24611_1 : position 1-348
+
+
+## Aeromonas salmonicida subsp. masoucida
+**Strain Statistics:**
+- Total genome length: 0.5 kbp
+- Total scaffolds: 22
+- Scaffolds with AMR genes: 2
+- Total genes annotated: 2
+- Total AMR genes: 2
+- Unique AMR genes: 2
+- Distinct AMR mechanisms: 2
+- Distinct AMR families: 2
+- Distinct drug classes: 7
+
+**Circos Plot:**
+
+![Circos plot for Aeromonas salmonicida subsp. masoucida](../circos_LB01_Bolton_QG_A1_S7_Aeromonas_salmonicida_subsp._masoucida.png)
+
+### OprN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_53276_1 : position 1-276
+
+### vgaA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: vga-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_75869_1 : position 80-265
+
+
+## Aeromonas salmonicida subsp. pectinolytica 34mel
+**Strain Statistics:**
+- Total genome length: 1.0 kbp
+- Total scaffolds: 46
+- Scaffolds with AMR genes: 3
+- Total genes annotated: 2
+- Total AMR genes: 3
+- Unique AMR genes: 3
+- Distinct AMR mechanisms: 3
+- Distinct AMR families: 3
+- Distinct drug classes: 4
+
+**Circos Plot:**
+
+![Circos plot for Aeromonas salmonicida subsp. pectinolytica 34mel](../circos_LB01_Bolton_QG_A1_S7_Aeromonas_salmonicida_subsp._pectinolytica_34mel.png)
+
+### cprR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38617_1 : position 2-295
+
+### cpxA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_106837_1 : position 2-250
+
+### vanH gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14896_1 : position 3-419
+
+
+## Buttiauxella agrestis
+**Strain Statistics:**
+- Total genome length: 37.7 kbp
+- Total scaffolds: 908
+- Scaffolds with AMR genes: 70
+- Total genes annotated: 54
+- Total AMR genes: 70
+- Unique AMR genes: 51
+- Distinct AMR mechanisms: 7
+- Distinct AMR families: 19
+- Distinct drug classes: 27
+
+**Circos Plot:**
+
+![Circos plot for Buttiauxella agrestis](../circos_LB01_Bolton_QG_A1_S7_Buttiauxella_agrestis.png)
+
+### Acinetobacter baumannii AbaF (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16917_1 : position 1-396
+  - gnl|SPADES|LDMNMAEC_30323_1 : position 3-323
+  - gnl|SPADES|LDMNMAEC_52646_1 : position 3-278
+  - gnl|SPADES|LDMNMAEC_88232_1 : position 3-257
+
+### Acinetobacter baumannii AbaQ (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_22687_1 : position 2-358
+  - gnl|SPADES|LDMNMAEC_6259_1 : position 3-812
+
+### Chlamydia trachomatis intrinsic murA conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30101_1 : position 1-324
+
+### Enterobacter cloacae acrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10330_1 : position 2-511
+
+### Escherichia coli emrE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25729_1 : position 2-193
+
+### Escherichia coli mdfA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12188_1 : position 3-461
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_45535_1 : position 1-180
+
+### Klebsiella pneumoniae KpnG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9455_1 : position 156-545
+
+### LptD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8067_1 : position 2-628
+
+### MdtK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10519_1 : position 3-266
+
+### MexS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4661_2 : position 266-1090
+
+### NmcR
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13441_1 : position 2-142
+
+### RanA (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_22562_1 : position 2-358
+  - gnl|SPADES|LDMNMAEC_33936_1 : position 3-311
+  - gnl|SPADES|LDMNMAEC_3759_1 : position 1-759
+  - gnl|SPADES|LDMNMAEC_38248_1 : position 1-234
+  - gnl|SPADES|LDMNMAEC_6842_1 : position 62-739
+  - gnl|SPADES|LDMNMAEC_8449_2 : position 248-598
+
+### Staphylococcus aureus LmrS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; oxazolidinone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10229_1 : position 2-514
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_62585_1 : position 3-272
+
+### Staphylococcus aureus pgsA mutations conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant pgsA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11632_1 : position 1-405
+
+### TxR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5840_1 : position 3-545
+
+### acrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_23457_1 : position 1-354
+
+### adeL (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24307_1 : position 35-349
+  - gnl|SPADES|LDMNMAEC_38991_1 : position 3-266
+  - gnl|SPADES|LDMNMAEC_5034_1 : position 2-868
+
+### arlR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8718_2 : position 305-583
+
+### arnA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_110716_1 : position 2-247
+
+### baeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8181_1 : position 3-302
+
+### basS
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17686_1 : position 3-389
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7598_1 : position 1-666
+
+### bcrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14116_2 : position 155-427
+  - gnl|SPADES|LDMNMAEC_6060_1 : position 3-158
+
+### cpxA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46129_1 : position 2-283
+  - gnl|SPADES|LDMNMAEC_6395_1 : position 3-794
+
+### dfrA3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11482_1 : position 220-477
+
+### emrR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_47769_1 : position 1-282
+
+### emrY
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_138941_1 : position 18-233
+
+### hp1181
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; nitroimidazole antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16999_1 : position 202-396
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6608_1 : position 2-223
+
+### lmrC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17889_1 : position 1-387
+
+### macB (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_132551_1 : position 2-238
+  - gnl|SPADES|LDMNMAEC_138379_1 : position 2-235
+  - gnl|SPADES|LDMNMAEC_7400_1 : position 2-373
+  - gnl|SPADES|LDMNMAEC_9267_1 : position 3-554
+
+### mdtG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5157_1 : position 3-983
+
+### msbA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18338_1 : position 39-383
+
+### mtrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5319_2 : position 376-951
+
+### nalD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13187_1 : position 187-444
+
+### novA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32678_1 : position 1-273
+  - gnl|SPADES|LDMNMAEC_3886_1 : position 2-592
+
+### oleC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_164190_1 : position 2-223
+
+### putative nickel/cobalt transporter
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic; isoniazid-like antibiotic
+- **AMR Family**: metal transporters with antibiotic efflux
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59045_1 : position 1-273
+
+### smeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7601_1 : position 3-344
+
+### tetA(58) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4973_2 : position 724-1020
+  - gnl|SPADES|LDMNMAEC_6885_2 : position 79-732
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5695_1 : position 2-514
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18369_1 : position 1-384
+
+### tetB(P)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_23117_1 : position 61-357
+
+### vanF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9078_1 : position 3-158
+
+### vanH gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5710_1 : position 2-838
+
+### vanR gene in vanB cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25385_1 : position 2-295
+  - gnl|SPADES|LDMNMAEC_8975_1 : position 1-240
+
+### vanR gene in vanC cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19587_2 : position 154-375
+
+### vanR gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49115_1 : position 3-152
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4217_1 : position 871-1212
+
+
+## Carnobacterium divergens
+**Strain Statistics:**
+- Total genome length: 2623.8 kbp
+- Total scaffolds: 498
+- Scaffolds with AMR genes: 53
+- Total genes annotated: 5034
+- Total AMR genes: 271
+- Unique AMR genes: 142
+- Distinct AMR mechanisms: 10
+- Distinct AMR families: 63
+- Distinct drug classes: 32
+
+**Circos Plot:**
+
+![Circos plot for Carnobacterium divergens](../circos_LB01_Bolton_QG_A1_S7_Carnobacterium_divergens.png)
+
+### AAC(6')-34
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48_67 : position 66771-67298
+
+### AAC(6')-Ii
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_110 : position 117115-117573
+
+### ACC-3
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: monobactam; cephalosporin; penam
+- **AMR Family**: ACC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_105 : position 112361-113548
+
+### ANT(6)-Ia
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ANT(6)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_10 : position 6643-7521
+
+### Acinetobacter baumannii AbaF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_324_25 : position 19526-20761
+
+### Acinetobacter baumannii AbaQ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27_42 : position 43823-45076
+
+### AcrE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_422 : position 439351-440520
+
+### AcrS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48_56 : position 57843-58424
+  - gnl|SPADES|LDMNMAEC_7_256 : position 268967-269584
+
+### Agrobacterium fabrum chloramphenicol acetyltransferase
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19_104 : position 111691-112266
+
+### BcI
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penem
+- **AMR Family**: class A Bacillus cereus Bc beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_256_10 : position 7072-7977
+
+### CAR-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: CAR beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3691_2 : position 507-1367
+
+### CPS-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: CPS beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_91 : position 99244-99864
+
+### Clostridioides difficile gyrA conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_11 : position 12440-14908
+  - gnl|SPADES|LDMNMAEC_84_61 : position 58645-61131
+
+### Clostridioides difficile gyrB conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_12 : position 14898-16925
+  - gnl|SPADES|LDMNMAEC_84_60 : position 56643-58580
+
+### DfrA36
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_11 : position 7343-7867
+
+### Enterococcus faecalis cls with mutation conferring resistance to daptomycin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_149 : position 152553-154001
+  - gnl|SPADES|LDMNMAEC_21_45 : position 51453-52970
+
+### Erm(K)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_259 : position 261874-262764
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_306 : position 318354-318962
+  - gnl|SPADES|LDMNMAEC_7_120 : position 121368-121994
+
+### Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_172 : position 185742-186203
+
+### Escherichia coli EF-Tu mutants conferring resistance to kirromycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_30 : position 34731-35918
+
+### Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: disinfecting agents and antiseptics; isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant fabI
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_628_8 : position 6617-7375
+
+### EstT (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide esterase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19_88 : position 94949-95761
+  - gnl|SPADES|LDMNMAEC_66_68 : position 66476-67192
+
+### FosC2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosC phosphotransferase family
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_29 : position 34305-34685
+
+### HelR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: helicase-like RNA polymerase protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_18 : position 17062-19356
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_49 : position 51246-53843
+  - gnl|SPADES|LDMNMAEC_8_40 : position 43258-45384
+
+### Helicobacter pylori rdxA mutation conferring resistance to metronidazole
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: Antibiotic resistant Helicobacter pylori nitroreductase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_87 : position 96413-97039
+
+### Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_228_28 : position 26733-30362
+
+### IreK (found in 2 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: cephalosporin
+- **AMR Family**: Serine/threonine kinases
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_129 : position 132167-134167
+  - gnl|SPADES|LDMNMAEC_27_70 : position 75774-76322
+
+### Klebsiella pneumoniae KpnH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_95 : position 93019-93867
+
+### Listeria monocytogenes mprF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: defensin resistant mprF
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_382 : position 390572-393121
+
+### LlmA 23S ribosomal RNA methyltransferase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Llm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_40 : position 36068-37246
+
+### MexS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_41 : position 49146-50096
+  - gnl|SPADES|LDMNMAEC_324_20 : position 15777-16760
+
+### Mycolicibacterium smegmatis ndh with mutation conferring resistance to isoniazid (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_228_4 : position 2153-4024
+  - gnl|SPADES|LDMNMAEC_7_156 : position 154572-155777
+
+### Neisseria gonorrhoeae mtrR with mutation conferring resistance
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_76 : position 73076-73669
+
+### NmcR (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_8 : position 7892-8845
+  - gnl|SPADES|LDMNMAEC_2015_1 : position 43-909
+
+### PAM-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin
+- **AMR Family**: PAM beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_373 : position 380846-381559
+
+### PmrF (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19_25 : position 30523-31773
+  - gnl|SPADES|LDMNMAEC_19_76 : position 83569-84753
+  - gnl|SPADES|LDMNMAEC_7_261 : position 272999-273949
+
+### Pseudomonas mutant PhoP conferring resistance to colistin
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; resistance by absence
+- **Drug Classes**: macrolide antibiotic; peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; pmr phosphoethanolamine transferase; transmembrane protein conferring colistin resistance
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48_12 : position 14127-14846
+
+### QnrS15
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_133 : position 131876-132499
+
+### QnrVC4
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_366 : position 373006-373641
+
+### RanA (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_157_24 : position 28071-29045
+  - gnl|SPADES|LDMNMAEC_19_97 : position 104583-105701
+  - gnl|SPADES|LDMNMAEC_1_159 : position 164381-165574
+  - gnl|SPADES|LDMNMAEC_21_134 : position 142012-143049
+  - gnl|SPADES|LDMNMAEC_48_82 : position 83803-84897
+  - gnl|SPADES|LDMNMAEC_7_229 : position 236124-236933
+  - gnl|SPADES|LDMNMAEC_7_58 : position 59350-60123
+
+### RlmA(II)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (G748)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_24 : position 24126-24983
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_439_4 : position 2834-4312
+
+### SAT-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_288_19 : position 17142-17987
+
+### SatA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_6 : position 3110-3544
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_129 : position 138786-140363
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_322 : position 330556-333342
+  - gnl|SPADES|LDMNMAEC_8_256 : position 258451-260475
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_281 : position 292375-295020
+  - gnl|SPADES|LDMNMAEC_340_11 : position 12618-15032
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_323_3 : position 2998-4263
+  - gnl|SPADES|LDMNMAEC_7_83 : position 84187-85500
+
+### Staphylococcus aureus rpoB mutants conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_228_27 : position 23040-26615
+
+### Streptococcus pneumoniae PBP2b conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_364 : position 367992-370112
+
+### Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_335 : position 345445-347610
+
+### TaeA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_36 : position 38382-40268
+  - gnl|SPADES|LDMNMAEC_8_274 : position 274782-276422
+
+### TxR (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_126_5 : position 4228-6900
+  - gnl|SPADES|LDMNMAEC_334_18 : position 18332-21193
+  - gnl|SPADES|LDMNMAEC_7_191 : position 194489-197350
+  - gnl|SPADES|LDMNMAEC_84_70 : position 69128-71791
+
+### VIM-38
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: VIM beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5291_1 : position 3-545
+
+### VatI
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_49 : position 48318-49019
+
+### YajC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_383 : position 393206-393622
+
+### aac(6')-Ib-cr11
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic
+- **AMR Family**: AAC(6'); AAC(6')-Ib-cr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48_57 : position 58443-59015
+
+### adeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_157_18 : position 20585-21280
+
+### almE (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_65 : position 62594-64120
+  - gnl|SPADES|LDMNMAEC_8_253 : position 255228-256667
+
+### arlR (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_249 : position 265110-265793
+  - gnl|SPADES|LDMNMAEC_1_415 : position 431659-432345
+  - gnl|SPADES|LDMNMAEC_69_73 : position 90788-92239
+  - gnl|SPADES|LDMNMAEC_7_236 : position 243410-244126
+  - gnl|SPADES|LDMNMAEC_8_92 : position 100355-101029
+
+### arlS (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_248 : position 263827-265113
+  - gnl|SPADES|LDMNMAEC_1_414 : position 430139-431662
+  - gnl|SPADES|LDMNMAEC_629_2 : position 1026-2861
+  - gnl|SPADES|LDMNMAEC_7_235 : position 241638-243413
+  - gnl|SPADES|LDMNMAEC_8_91 : position 99293-100342
+
+### arnA (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_132 : position 136320-137270
+  - gnl|SPADES|LDMNMAEC_7_19 : position 21857-22438
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_118 : position 126401-127219
+
+### baeS (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116994_1 : position 3-245
+  - gnl|SPADES|LDMNMAEC_7_79 : position 80069-81463
+  - gnl|SPADES|LDMNMAEC_8_169 : position 182791-184167
+
+### bcrA (found in 10 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_124854_1 : position 2-241
+  - gnl|SPADES|LDMNMAEC_1525_4 : position 1387-2160
+  - gnl|SPADES|LDMNMAEC_17759_1 : position 1-390
+  - gnl|SPADES|LDMNMAEC_21_103 : position 110941-111840
+  - gnl|SPADES|LDMNMAEC_27_47 : position 49329-50810
+  - gnl|SPADES|LDMNMAEC_48_109 : position 108207-108899
+  - gnl|SPADES|LDMNMAEC_48_18 : position 19469-20389
+  - gnl|SPADES|LDMNMAEC_8_109 : position 119028-119969
+  - gnl|SPADES|LDMNMAEC_8_218 : position 224446-225333
+  - gnl|SPADES|LDMNMAEC_8_49 : position 54176-54910
+
+### bcrC
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_439_10 : position 9676-10347
+
+### bmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; nucleoside antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19_155 : position 167074-168297
+
+### carA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_265 : position 266911-267618
+
+### catB11
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_215_29 : position 30090-30752
+
+### cfrA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_138_39 : position 42483-43541
+
+### cprR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_60 : position 66017-66550
+
+### dfrE
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_34 : position 36889-37377
+
+### efrA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_219 : position 233603-235384
+  - gnl|SPADES|LDMNMAEC_48_48 : position 49329-51134
+  - gnl|SPADES|LDMNMAEC_7_119 : position 119563-121284
+  - gnl|SPADES|LDMNMAEC_8_87 : position 92593-94335
+
+### efrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_218 : position 231828-233606
+
+### evgA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_226 : position 241152-241784
+
+### floR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27_17 : position 13898-15085
+
+### golS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_138_44 : position 49908-50714
+  - gnl|SPADES|LDMNMAEC_158_35 : position 32597-32980
+
+### hmrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_213 : position 219695-221044
+
+### kdpD (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122_6 : position 6154-8883
+  - gnl|SPADES|LDMNMAEC_48_11 : position 12481-14130
+  - gnl|SPADES|LDMNMAEC_68855_1 : position 3-269
+
+### kdpE (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122_7 : position 8880-9566
+  - gnl|SPADES|LDMNMAEC_44834_1 : position 3-284
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_7 : position 3564-4379
+
+### lin
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: lincosamide nucleotidyltransferase (LNU)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4729_1 : position 3-269
+
+### lmrB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic; nucleoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_68 : position 78846-80243
+  - gnl|SPADES|LDMNMAEC_8_54 : position 59969-61423
+
+### lmrD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_158_46 : position 38740-40821
+  - gnl|SPADES|LDMNMAEC_8539_1 : position 3-281
+
+### lmrP (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5259_2 : position 249-962
+  - gnl|SPADES|LDMNMAEC_7708_1 : position 3-467
+
+### macA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_62 : position 72306-73166
+
+### macB (found in 29 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122_19 : position 20051-20746
+  - gnl|SPADES|LDMNMAEC_157_28 : position 31326-32054
+  - gnl|SPADES|LDMNMAEC_19_158 : position 169527-170264
+  - gnl|SPADES|LDMNMAEC_1_148 : position 151171-152361
+  - gnl|SPADES|LDMNMAEC_1_240 : position 254284-255042
+  - gnl|SPADES|LDMNMAEC_1_269 : position 282157-282855
+  - gnl|SPADES|LDMNMAEC_1_304 : position 316473-317144
+  - gnl|SPADES|LDMNMAEC_1_420 : position 437391-438629
+  - gnl|SPADES|LDMNMAEC_1_421 : position 438626-439336
+  - gnl|SPADES|LDMNMAEC_21_139 : position 145669-147612
+  - gnl|SPADES|LDMNMAEC_21_60 : position 70356-71558
+  - gnl|SPADES|LDMNMAEC_21_61 : position 71598-72290
+  - gnl|SPADES|LDMNMAEC_27_10 : position 6357-7166
+  - gnl|SPADES|LDMNMAEC_288_13 : position 12267-13340
+  - gnl|SPADES|LDMNMAEC_439_8 : position 7611-8267
+  - gnl|SPADES|LDMNMAEC_48_54 : position 55447-56175
+  - gnl|SPADES|LDMNMAEC_48_78 : position 78098-79807
+  - gnl|SPADES|LDMNMAEC_49821_1 : position 3-278
+  - gnl|SPADES|LDMNMAEC_6548_2 : position 134-775
+  - gnl|SPADES|LDMNMAEC_66_21 : position 16313-17116
+  - gnl|SPADES|LDMNMAEC_7_109 : position 110423-111652
+  - gnl|SPADES|LDMNMAEC_7_110 : position 111645-112334
+  - gnl|SPADES|LDMNMAEC_7_222 : position 228330-231173
+  - gnl|SPADES|LDMNMAEC_7_240 : position 247653-248339
+  - gnl|SPADES|LDMNMAEC_7_72 : position 73232-73933
+  - gnl|SPADES|LDMNMAEC_8_108 : position 117908-119035
+  - gnl|SPADES|LDMNMAEC_8_167 : position 180916-181590
+  - gnl|SPADES|LDMNMAEC_8_212 : position 218705-219430
+  - gnl|SPADES|LDMNMAEC_8_93 : position 101246-102013
+
+### marA (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122_28 : position 29229-31070
+  - gnl|SPADES|LDMNMAEC_69_32 : position 40596-41432
+
+### mdeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic; penam; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_230_31 : position 31674-33104
+
+### mdtG (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38717_1 : position 2-295
+  - gnl|SPADES|LDMNMAEC_66_41 : position 37340-38587
+
+### mecA
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_41 : position 45373-47406
+
+### mecI
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_209 : position 216291-216806
+
+### mepR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_40 : position 48773-49174
+  - gnl|SPADES|LDMNMAEC_21_67 : position 78347-78859
+
+### mgrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; penam; tetracycline antibiotic; peptide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_104 : position 105662-106312
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27_126 : position 133725-134669
+
+### msbA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_116 : position 117435-121013
+  - gnl|SPADES|LDMNMAEC_289_17 : position 20295-21056
+  - gnl|SPADES|LDMNMAEC_340_7 : position 6250-8361
+  - gnl|SPADES|LDMNMAEC_7_103 : position 103896-105665
+
+### mtrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_5 : position 3913-4674
+
+### nalD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_157_5 : position 3580-4236
+
+### norB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122_31 : position 32883-34274
+
+### novA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_146 : position 151582-152355
+  - gnl|SPADES|LDMNMAEC_39307_1 : position 3-293
+  - gnl|SPADES|LDMNMAEC_7_160 : position 158732-160504
+  - gnl|SPADES|LDMNMAEC_7_161 : position 160497-162239
+
+### oleC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_57 : position 58644-59348
+
+### optrA (found in 4 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_157_30 : position 32540-34393
+  - gnl|SPADES|LDMNMAEC_27_124 : position 130641-132239
+  - gnl|SPADES|LDMNMAEC_69_60 : position 75564-77192
+  - gnl|SPADES|LDMNMAEC_7_282 : position 297263-299263
+
+### otr(B)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_94 : position 92423-92989
+
+### patA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_47 : position 45162-46889
+  - gnl|SPADES|LDMNMAEC_745_3 : position 2917-3756
+
+### patB (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48_47 : position 47585-49336
+  - gnl|SPADES|LDMNMAEC_66_46 : position 43409-45169
+  - gnl|SPADES|LDMNMAEC_69_36 : position 45055-46815
+  - gnl|SPADES|LDMNMAEC_7_118 : position 117668-119563
+  - gnl|SPADES|LDMNMAEC_7_228 : position 235347-236111
+  - gnl|SPADES|LDMNMAEC_84_27 : position 23467-25605
+  - gnl|SPADES|LDMNMAEC_8_88 : position 94328-96103
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_64 : position 74205-75368
+
+### rphB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_137 : position 146791-148512
+
+### sta (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_303 : position 315946-316416
+  - gnl|SPADES|LDMNMAEC_324_24 : position 18970-19395
+  - gnl|SPADES|LDMNMAEC_745_7 : position 6287-6766
+
+### tet(32)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27_118 : position 122987-124822
+
+### tet(63)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9827_1 : position 85-528
+
+### tet(O/32/O)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27_131 : position 137785-140199
+
+### tet(T)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_199 : position 206949-208793
+
+### tetA(58) (found in 10 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_156075_1 : position 2-226
+  - gnl|SPADES|LDMNMAEC_157_16 : position 18441-19379
+  - gnl|SPADES|LDMNMAEC_1_294 : position 307226-307984
+  - gnl|SPADES|LDMNMAEC_1_299 : position 312304-313812
+  - gnl|SPADES|LDMNMAEC_1_377 : position 384725-385486
+  - gnl|SPADES|LDMNMAEC_1_406 : position 419718-421307
+  - gnl|SPADES|LDMNMAEC_66_61 : position 58839-59744
+  - gnl|SPADES|LDMNMAEC_68984_1 : position 2-268
+  - gnl|SPADES|LDMNMAEC_745_4 : position 3732-4607
+  - gnl|SPADES|LDMNMAEC_84_50 : position 47506-48273
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_289_4 : position 1744-3495
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25515_1 : position 2-346
+
+### tetB(60) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_289_5 : position 3495-5273
+  - gnl|SPADES|LDMNMAEC_69_37 : position 46802-48583
+
+### tetR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_385 : position 394850-395419
+
+### tsnR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122_55 : position 60966-61835
+  - gnl|SPADES|LDMNMAEC_66_83 : position 81098-81853
+
+### vanD
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8_181 : position 192447-193817
+
+### vanH gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48_31 : position 32255-33205
+
+### vanH gene in vanD cluster (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_334_16 : position 15803-16987
+  - gnl|SPADES|LDMNMAEC_48_13 : position 14884-15900
+  - gnl|SPADES|LDMNMAEC_7_189 : position 191960-193144
+
+### vanH gene in vanO cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48_59 : position 59780-60769
+
+### vanL
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_323_15 : position 12724-13815
+
+### vanN
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_33 : position 38422-39549
+
+### vanR gene in vanB cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_45909_1 : position 2-283
+  - gnl|SPADES|LDMNMAEC_7_112 : position 113694-114407
+
+### vanR gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_5 : position 4303-5034
+
+### vanR gene in vanF cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_84_6 : position 6078-6767
+  - gnl|SPADES|LDMNMAEC_8_170 : position 184164-184835
+
+### vanR gene in vanI cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19_4 : position 2524-3168
+  - gnl|SPADES|LDMNMAEC_629_1 : position 312-1019
+
+### vanR gene in vanM cluster (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_75 : position 79348-80070
+  - gnl|SPADES|LDMNMAEC_27_94 : position 96424-97116
+  - gnl|SPADES|LDMNMAEC_7_80 : position 81487-82206
+
+### vanS gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_107 : position 108923-109723
+
+### vanS gene in vanF cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1_74 : position 77517-79340
+  - gnl|SPADES|LDMNMAEC_84_5 : position 4892-6028
+
+### vanS gene in vanN cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19_5 : position 3191-4567
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_323_20: position 18774-19874
+
+### vanY gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanY; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7_45: position 49347-50102
+
+### vanZ gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanZ; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66_42 : position 38620-39258
+
+### vatB (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2015_2 : position 1027-1593
+  - gnl|SPADES|LDMNMAEC_2325_3 : position 761-1093
+  - gnl|SPADES|LDMNMAEC_84_19 : position 18618-19199
+
+### vga(E) Staphylococcus cohnii
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: vga-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_138_40 : position 43894-45459
+
+### vgaE
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: vga-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2975_3 : position 1426-1707
+
+### vmlR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic; nucleoside antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_142 : position 148768-149151
+
+### ykkC (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_88 : position 97114-97461
+  - gnl|SPADES|LDMNMAEC_323_13 : position 11927-12256
+  - gnl|SPADES|LDMNMAEC_323_14 : position 12253-12570
+
+### ykkD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21_89 : position 97439-97786
+
+
+## Carnobacterium maltaromaticum
+**Strain Statistics:**
+- Total genome length: 1528.3 kbp
+- Total scaffolds: 760
+- Scaffolds with AMR genes: 90
+- Total genes annotated: 2871
+- Total AMR genes: 189
+- Unique AMR genes: 109
+- Distinct AMR mechanisms: 9
+- Distinct AMR families: 51
+- Distinct drug classes: 35
+
+**Circos Plot:**
+
+![Circos plot for Carnobacterium maltaromaticum](../circos_LB01_Bolton_QG_A1_S7_Carnobacterium_maltaromaticum.png)
+
+### AAC(6')-34
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_521_9 : position 6966-7499
+
+### Acinetobacter baumannii AbaQ (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_602_4 : position 5082-6374
+  - gnl|SPADES|LDMNMAEC_756_6 : position 6265-7521
+
+### Acinetobacter baumannii AmvA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_651_5 : position 3658-5088
+
+### BcI
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penem
+- **AMR Family**: class A Bacillus cereus Bc beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_471_4 : position 6397-7296
+
+### EdeQ (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: peptide antibiotic; polyamine antibiotic
+- **AMR Family**: Edeine acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_150_6 : position 5439-5891
+  - gnl|SPADES|LDMNMAEC_292_5 : position 3541-3993
+
+### Enterococcus faecalis cls with mutation conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_96_32 : position 33636-35084
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_500_9 : position 10121-10765
+
+### Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_266_27 : position 23809-24273
+
+### Escherichia coli EF-Tu mutants conferring resistance to kirromycin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4161_1 : position 1-1155
+  - gnl|SPADES|LDMNMAEC_482_1 : position 3-230
+
+### Helicobacter pylori frxA mutation conferring resistance to metronidazole
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: Antibiotic resistant Helicobacter pylori nitroreductase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_521_13 : position 10150-10821
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_195_14 : position 15634-17760
+
+### IreK (found in 3 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: cephalosporin
+- **AMR Family**: Serine/threonine kinases
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_766_6 : position 4453-6744
+  - gnl|SPADES|LDMNMAEC_96_14 : position 15157-17181
+  - gnl|SPADES|LDMNMAEC_96_40 : position 42094-43290
+
+### Listeria monocytogenes mprF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: defensin resistant mprF
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_241_8 : position 7301-9874
+
+### LlmA 23S ribosomal RNA methyltransferase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Llm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_31 : position 30662-31828
+
+### MOX-9
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: MOX beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_640_3 : position 3443-4699
+
+### MexS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_120_56 : position 62442-63554
+  - gnl|SPADES|LDMNMAEC_521_1 : position 74-1054
+
+### Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: Pyrazinamide resistant pncA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_691_3 : position 2161-2706
+
+### Mycolicibacterium smegmatis ndh with mutation conferring resistance to isoniazid (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_319_7 : position 6059-7921
+  - gnl|SPADES|LDMNMAEC_858_5 : position 3586-4791
+
+### NmcR (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1102_1 : position 2-868
+  - gnl|SPADES|LDMNMAEC_320_13 : position 9974-10858
+  - gnl|SPADES|LDMNMAEC_423_14 : position 13474-14358
+
+### PAM-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin
+- **AMR Family**: PAM beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_241_13 : position 16288-16968
+
+### QnrB57
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_241_22 : position 25901-26536
+
+### QnrVC1
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_636_9 : position 8435-9058
+
+### RanA (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_120_24 : position 28122-28856
+  - gnl|SPADES|LDMNMAEC_120_38 : position 42777-43871
+  - gnl|SPADES|LDMNMAEC_1540_2 : position 972-1625
+  - gnl|SPADES|LDMNMAEC_155_23 : position 19698-20375
+  - gnl|SPADES|LDMNMAEC_168_39 : position 36463-37188
+  - gnl|SPADES|LDMNMAEC_192_1 : position 196-1311
+  - gnl|SPADES|LDMNMAEC_581_6 : position 5616-6602
+  - gnl|SPADES|LDMNMAEC_618_6 : position 4724-5455
+  - gnl|SPADES|LDMNMAEC_96_56 : position 60187-61380
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_264_3 : position 2587-4071
+
+### SatA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_534_11 : position 10330-10782
+
+### Staphylococcus aureus LmrS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; oxazolidinone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_195_26 : position 29770-31194
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_297_21 : position 23038-25122
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_95_55 : position 57342-60125
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_155_36 : position 31360-34029
+  - gnl|SPADES|LDMNMAEC_264_21 : position 25395-27809
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_43 : position 43797-45104
+
+### Staphylococcus aureus rpoB mutants conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_297_16 : position 13464-17036
+
+### Streptococcus pneumoniae PBP2b conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_241_24 : position 29539-31593
+
+### Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_95_42 : position 42474-44663
+
+### TxR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_192_7 : position 6669-9332
+  - gnl|SPADES|LDMNMAEC_279_20 : position 20873-23683
+
+### VatI
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3140_1 : position 160-861
+
+### YajC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_241_7 : position 6744-7121
+
+### YojI
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_36 : position 37417-37965
+
+### aac(6')-Ib-cr11
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic
+- **AMR Family**: AAC(6'); AAC(6')-Ib-cr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_618_3 : position 1844-2407
+
+### apmA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(2')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_319_18 : position 15433-15942
+
+### arlR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_266_29 : position 25281-25952
+
+### arlS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_189_17 : position 13206-14258
+
+### arnA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_96_17 : position 19342-20295
+
+### arr-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin ADP-ribosyltransferase (Arr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_858_1 : position 87-500
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1138_4 : position 3726-4544
+
+### baeS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_37 : position 38080-39531
+  - gnl|SPADES|LDMNMAEC_266_30 : position 25949-27337
+
+### basS
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_95_17 : position 19138-20202
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_187_11 : position 12220-13467
+
+### bcrA (found in 8 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1482_3 : position 2722-3432
+  - gnl|SPADES|LDMNMAEC_168_26 : position 24093-24998
+  - gnl|SPADES|LDMNMAEC_168_36 : position 33569-34456
+  - gnl|SPADES|LDMNMAEC_189_8 : position 6370-7146
+  - gnl|SPADES|LDMNMAEC_195_23 : position 26644-27393
+  - gnl|SPADES|LDMNMAEC_462_10 : position 9672-10598
+  - gnl|SPADES|LDMNMAEC_799_5 : position 5868-6497
+  - gnl|SPADES|LDMNMAEC_840_10 : position 5807-6553
+
+### bcrC
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_264_7 : position 7407-8075
+
+### catB11
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2721_2 : position 768-1424
+
+### cmeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; fusidane antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_403_17 : position 17832-18014
+
+### cmlA9
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_553_5 : position 6881-8083
+
+### efrA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_417_10 : position 9669-11414
+  - gnl|SPADES|LDMNMAEC_500_8 : position 8350-10071
+  - gnl|SPADES|LDMNMAEC_545_8 : position 6700-8454
+
+### efrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_545_9 : position 8451-10229
+
+### emrR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_585_1 : position 179-610
+
+### evgA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_545_3 : position 2056-2688
+
+### golS (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_168_38 : position 35823-36173
+  - gnl|SPADES|LDMNMAEC_320_15 : position 12009-12377
+  - gnl|SPADES|LDMNMAEC_320_18 : position 14342-14734
+  - gnl|SPADES|LDMNMAEC_3496_2 : position 251-679
+  - gnl|SPADES|LDMNMAEC_903_2 : position 724-1482
+
+### kdpD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_640_6 : position 6266-8959
+
+### kdpE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_640_5 : position 5530-6234
+
+### lsaE
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3275_2 : position 270-1556
+
+### macA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_234_27 : position 27445-28305
+
+### macB (found in 19 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_20 : position 19808-20509
+  - gnl|SPADES|LDMNMAEC_111_29 : position 28312-28971
+  - gnl|SPADES|LDMNMAEC_120_3 : position 876-2516
+  - gnl|SPADES|LDMNMAEC_120_44 : position 49446-51155
+  - gnl|SPADES|LDMNMAEC_165620_1 : position 2-157
+  - gnl|SPADES|LDMNMAEC_18302_2 : position 216-383
+  - gnl|SPADES|LDMNMAEC_189_19 : position 15082-17448
+  - gnl|SPADES|LDMNMAEC_234_28 : position 28321-29013
+  - gnl|SPADES|LDMNMAEC_234_29 : position 29029-30255
+  - gnl|SPADES|LDMNMAEC_266_32 : position 28496-29053
+  - gnl|SPADES|LDMNMAEC_335_11 : position 11341-12099
+  - gnl|SPADES|LDMNMAEC_367_1 : position 3-170
+  - gnl|SPADES|LDMNMAEC_37682_1 : position 2-298
+  - gnl|SPADES|LDMNMAEC_5352_2 : position 612-947
+  - gnl|SPADES|LDMNMAEC_571_6 : position 5846-6589
+  - gnl|SPADES|LDMNMAEC_581_10 : position 9190-9918
+  - gnl|SPADES|LDMNMAEC_5979_2 : position 494-847
+  - gnl|SPADES|LDMNMAEC_95_19 : position 21243-22010
+  - gnl|SPADES|LDMNMAEC_96_31 : position 32171-33367
+
+### marA (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_382_4 : position 2833-3669
+  - gnl|SPADES|LDMNMAEC_923_1 : position 180-1064
+
+### mdtG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_32 : position 31876-33084
+
+### mecD
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_702_6 : position 4641-6671
+
+### mecI
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_168_42 : position 39135-39590
+
+### mepR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2724_2 : position 815-1264
+
+### mphO
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide phosphotransferase (MPH)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_189_24 : position 19821-20660
+
+### msbA (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1169_2 : position 2689-4428
+  - gnl|SPADES|LDMNMAEC_130_35 : position 19128-19967
+  - gnl|SPADES|LDMNMAEC_192_30 : position 32751-33533
+  - gnl|SPADES|LDMNMAEC_268_3 : position 3598-5313
+  - gnl|SPADES|LDMNMAEC_423_5 : position 2916-5066
+  - gnl|SPADES|LDMNMAEC_430_13 : position 10088-12238
+  - gnl|SPADES|LDMNMAEC_965_3 : position 1393-3669
+
+### msrA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; streptogramin antibiotic; streptogramin B antibiotic
+- **AMR Family**: msr-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_424_18 : position 13870-14445
+
+### msrE
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; streptogramin antibiotic
+- **AMR Family**: msr-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1169_1 : position 20-2260
+
+### mtrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_423_10 : position 8893-9747
+
+### nalD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_581_3 : position 2433-3083
+  - gnl|SPADES|LDMNMAEC_618_4 : position 2428-3006
+
+### oleC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_8 : position 6473-7177
+
+### optrA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_448_17 : position 13886-15760
+
+### otr(B)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_557_4 : position 2768-4048
+
+### patA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1132_1 : position 67-1548
+  - gnl|SPADES|LDMNMAEC_234_2 : position 2110-3831
+  - gnl|SPADES|LDMNMAEC_382_5 : position 4067-5821
+
+### patB (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_234_1 : position 338-2110
+  - gnl|SPADES|LDMNMAEC_382_6 : position 5814-7595
+  - gnl|SPADES|LDMNMAEC_417_11 : position 11416-13167
+  - gnl|SPADES|LDMNMAEC_500_7 : position 6450-8348
+
+### ramA
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_96_35 : position 36775-37692
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_234_25 : position 25150-26310
+
+### salC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_120_22 : position 26217-26924
+
+### sta
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1200_1 : position 28-930
+
+### tet(T)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_824_7 : position 4630-6714
+
+### tetA(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_856_1 : position 2-748
+
+### tetA(58) (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_9 : position 7181-7954
+  - gnl|SPADES|LDMNMAEC_130_36 : position 19943-20824
+  - gnl|SPADES|LDMNMAEC_150_4 : position 3658-4575
+  - gnl|SPADES|LDMNMAEC_155_50 : position 47608-48366
+  - gnl|SPADES|LDMNMAEC_189_6 : position 4744-5706
+  - gnl|SPADES|LDMNMAEC_309_1 : position 493-1374
+  - gnl|SPADES|LDMNMAEC_95_58 : position 61380-62297
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_292_15 : position 20364-22115
+
+### tetB(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_150_5 : position 4568-5338
+
+### tetB(60) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_292_14 : position 18574-20364
+  - gnl|SPADES|LDMNMAEC_595_4 : position 4975-7065
+
+### tsnR
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_319_15 : position 12584-13459
+
+### tva(A)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_234_31 : position 31189-31857
+
+### vanD
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_266_18 : position 16113-17477
+
+### vanH gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4629_1 : position 1-1005
+
+### vanR gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2707_2 : position 1599-1868
+
+### vanR gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_824_1 : position 160-849
+
+### vanR gene in vanF cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_150_45 : position 41010-41717
+  - gnl|SPADES|LDMNMAEC_189_18 : position 14255-14929
+
+### vanR gene in vanI cluster (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_304_12 : position 10657-11352
+  - gnl|SPADES|LDMNMAEC_95_18 : position 20330-21004
+  - gnl|SPADES|LDMNMAEC_96_53 : position 57445-58140
+
+### vanR gene in vanM cluster (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_38 : position 39534-40253
+  - gnl|SPADES|LDMNMAEC_150_33 : position 30845-31567
+  - gnl|SPADES|LDMNMAEC_271_5 : position 9681-10370
+
+### vanS gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2707_1 : position 2-1036
+
+### vanS gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_271_6 : position 10424-11557
+
+### vanS gene in vanG cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_304_11 : position 9160-10650
+  - gnl|SPADES|LDMNMAEC_96_52 : position 55254-57455
+
+### vanS gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_150_32 : position 29036-30838
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_818_3 : position 841-1995
+
+### vanY gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanY; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_1: position 286-1059
+
+### vanZ gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanZ; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111_33 : position 33187-33837
+
+### vatB (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1102_2 : position 995-1564
+  - gnl|SPADES|LDMNMAEC_423_15 : position 14465-15043
+  - gnl|SPADES|LDMNMAEC_652_7 : position 8429-8980
+
+### vatE (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_592_3 : position 1536-2147
+  - gnl|SPADES|LDMNMAEC_643_3 : position 1424-1993
+
+### vatH
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1455_3 : position 2106-2732
+
+### ykkC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1826_2 : position 353-676
+
+### ykkD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1826_1 : position 19-336
+
+
+## Carnobacterium maltaromaticum LMA28
+**Strain Statistics:**
+- Total genome length: 1432.4 kbp
+- Total scaffolds: 237
+- Scaffolds with AMR genes: 48
+- Total genes annotated: 2615
+- Total AMR genes: 150
+- Unique AMR genes: 101
+- Distinct AMR mechanisms: 9
+- Distinct AMR families: 51
+- Distinct drug classes: 31
+
+**Circos Plot:**
+
+![Circos plot for Carnobacterium maltaromaticum LMA28](../circos_LB01_Bolton_QG_A1_S7_Carnobacterium_maltaromaticum_LMA28.png)
+
+### AAC(3)-IXa
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(3)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_181_28 : position 31951-32763
+
+### AAC(3)-Ic
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(3)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_477_10 : position 6220-6657
+
+### AAC(6')-Ia
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_185_35 : position 33743-34279
+
+### AAC(6')-Ir
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_57_56 : position 69438-70043
+
+### CRP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_477_13 : position 8328-8990
+
+### Clostridioides difficile gyrA conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_178_23 : position 30067-32616
+  - gnl|SPADES|LDMNMAEC_29_90 : position 93733-96204
+
+### Clostridioides difficile gyrB conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_178_24 : position 32766-34703
+  - gnl|SPADES|LDMNMAEC_29_91 : position 96194-98209
+
+### Enterococcus faecium cls conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_308_8 : position 5957-7477
+
+### ErmR
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_123_6 : position 4636-5529
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_185_4 : position 2450-3046
+
+### Escherichia coli EF-Tu mutants conferring resistance to kirromycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_214_10 : position 10876-12063
+
+### Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: disinfecting agents and antiseptics; isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant fabI
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_181_21 : position 26433-27191
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_306_22 : position 18734-19261
+
+### EstT
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide esterase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_238_11 : position 11560-12393
+
+### FosA7
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_142_35 : position 31515-31895
+
+### FosC2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosC phosphotransferase family
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_214_11 : position 12118-12498
+
+### FusF
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: Target protecting FusB-type protein conferring resistance to Fusidic acid
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_142_25 : position 22313-22960
+
+### HelR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: helicase-like RNA polymerase protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_181_9 : position 8942-11233
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29_132 : position 135067-137703
+
+### Helicobacter pylori rdxA mutation conferring resistance to metronidazole
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: Antibiotic resistant Helicobacter pylori nitroreductase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_435_9 : position 7631-8260
+
+### MexL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_57_22 : position 27587-28204
+
+### MexS (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_201_16 : position 16180-17118
+  - gnl|SPADES|LDMNMAEC_238_12 : position 12413-13501
+  - gnl|SPADES|LDMNMAEC_366_13 : position 13270-14214
+
+### NmcR (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29_87 : position 89166-90113
+  - gnl|SPADES|LDMNMAEC_477_7 : position 3134-4027
+
+### PEDO-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: subclass B3 PEDO beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_181_3 : position 3075-3776
+
+### PEDO-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: subclass B3 PEDO beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_201_2 : position 892-1509
+
+### PmrF (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_148_3 : position 3191-4441
+  - gnl|SPADES|LDMNMAEC_57_24 : position 30285-31232
+
+### Pseudomonas aeruginosa soxR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_308_21 : position 17907-18344
+
+### RanA (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116_12 : position 12159-13268
+  - gnl|SPADES|LDMNMAEC_142_29 : position 26133-27164
+  - gnl|SPADES|LDMNMAEC_185_8 : position 7392-8432
+  - gnl|SPADES|LDMNMAEC_317_23 : position 22557-23363
+  - gnl|SPADES|LDMNMAEC_412_8 : position 10461-11576
+  - gnl|SPADES|LDMNMAEC_601_5 : position 4152-5669
+
+### RlmA(II)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (G748)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_626_7 : position 6563-7420
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116_46 : position 50162-51739
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_123_9 : position 6952-8967
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_201_34 : position 32894-34162
+
+### Streptomyces rimosus otr(A)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_82_66 : position 64666-67173
+
+### TaeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29_116 : position 120248-122149
+
+### TxR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_156_39 : position 43377-44738
+  - gnl|SPADES|LDMNMAEC_660_9 : position 4573-7269
+
+### aadK
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ANT(6)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29_57 : position 58313-59164
+
+### adeL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_287_3 : position 2297-3184
+
+### adeN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; lincosamide antibiotic; carbapenem; cephalosporin; tetracycline antibiotic; rifamycin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_238_15 : position 15324-15899
+
+### adeR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_178_4 : position 4674-5372
+  - gnl|SPADES|LDMNMAEC_372_10 : position 11338-12066
+
+### adeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1399_6 : position 2946-3683
+
+### almE (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_123_11 : position 10618-12060
+  - gnl|SPADES|LDMNMAEC_326_13 : position 14635-16158
+
+### arlR (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_377_13 : position 9855-10538
+  - gnl|SPADES|LDMNMAEC_412_11 : position 14932-15732
+  - gnl|SPADES|LDMNMAEC_57_3 : position 2259-2978
+  - gnl|SPADES|LDMNMAEC_87_23 : position 26218-26904
+
+### arlS (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1399_5 : position 2570-2983
+  - gnl|SPADES|LDMNMAEC_366_8 : position 7056-8885
+  - gnl|SPADES|LDMNMAEC_377_14 : position 10535-11830
+  - gnl|SPADES|LDMNMAEC_87_22 : position 24707-26221
+
+### arnA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_214_18 : position 19137-19718
+
+### baeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116_9 : position 10010-10693
+
+### baeS (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116_8 : position 8616-10013
+  - gnl|SPADES|LDMNMAEC_148_16 : position 23406-24767
+  - gnl|SPADES|LDMNMAEC_57_2 : position 493-2262
+
+### bcrA (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116_11 : position 11228-12169
+  - gnl|SPADES|LDMNMAEC_142_32 : position 28852-29838
+  - gnl|SPADES|LDMNMAEC_201_8 : position 7068-8651
+  - gnl|SPADES|LDMNMAEC_728_4 : position 2637-3362
+  - gnl|SPADES|LDMNMAEC_82_1 : position 72-1004
+
+### bmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; nucleoside antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_316_16 : position 21125-22348
+
+### catB11
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9687_1 : position 10-534
+
+### cfrE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1026_2 : position 2946-4013
+
+### cprR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_156_20 : position 21477-22196
+
+### dfrE
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29_114 : position 118771-119259
+
+### efmA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_483_12 : position 9915-11183
+
+### efrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_360_13 : position 14344-15450
+
+### evgS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_306_5 : position 3533-4105
+
+### golS (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_142_12 : position 11705-12517
+  - gnl|SPADES|LDMNMAEC_142_2 : position 443-823
+  - gnl|SPADES|LDMNMAEC_214_8 : position 9196-10026
+
+### kdpD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_372_11 : position 12063-13709
+
+### kdpE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29_84 : position 85568-86302
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_87_49 : position 48991-49818
+
+### lmrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic; nucleoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_360_15 : position 16110-17510
+
+### lmrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_148_38 : position 50813-51595
+
+### lsaC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_398_13 : position 12836-13519
+
+### macA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_87_30 : position 33553-34749
+
+### macB (found in 13 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_185_13 : position 12690-13952
+  - gnl|SPADES|LDMNMAEC_185_14 : position 13936-14634
+  - gnl|SPADES|LDMNMAEC_185_2 : position 561-1229
+  - gnl|SPADES|LDMNMAEC_199_13 : position 12085-13161
+  - gnl|SPADES|LDMNMAEC_29_47 : position 50371-51189
+  - gnl|SPADES|LDMNMAEC_317_18 : position 16373-19222
+  - gnl|SPADES|LDMNMAEC_435_2 : position 1422-2219
+  - gnl|SPADES|LDMNMAEC_483_3 : position 1925-3406
+  - gnl|SPADES|LDMNMAEC_57_7 : position 6576-7262
+  - gnl|SPADES|LDMNMAEC_814_3 : position 3957-4361
+  - gnl|SPADES|LDMNMAEC_87_28 : position 31588-32832
+  - gnl|SPADES|LDMNMAEC_87_29 : position 32829-33536
+  - gnl|SPADES|LDMNMAEC_87_62 : position 61194-61997
+
+### marA (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_411_11 : position 10212-10985
+  - gnl|SPADES|LDMNMAEC_82_15 : position 17480-17866
+
+### mepR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_360_14 : position 15614-16129
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_82_59 : position 58962-59906
+
+### msbA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_142_40 : position 35088-35861
+  - gnl|SPADES|LDMNMAEC_29_27 : position 27714-28499
+
+### mtrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_957_5 : position 3381-4208
+
+### novA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_156_6 : position 4031-5833
+  - gnl|SPADES|LDMNMAEC_156_7 : position 5826-7568
+
+### optrA (found in 4 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_142_9 : position 7992-9530
+  - gnl|SPADES|LDMNMAEC_1935_1 : position 244-1368
+  - gnl|SPADES|LDMNMAEC_412_3 : position 3579-5207
+  - gnl|SPADES|LDMNMAEC_57_52 : position 64843-66807
+
+### patB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_317_22 : position 21781-22545
+
+### qacH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_353_24 : position 18918-19244
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_148_24 : position 32868-34016
+
+### rphB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116_39 : position 41764-43485
+
+### salC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1593_2 : position 1399-3102
+
+### sta
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29_65 : position 65404-65919
+
+### tet(35)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_199_19 : position 19877-21274
+
+### tet(42)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_123_49 : position 50284-51519
+
+### tet(O/W)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_82_41 : position 39184-41019
+
+### tet(T)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_143_14 : position 20273-22114
+
+### tetA(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_142_7 : position 5841-7532
+
+### tetA(58) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_326_9 : position 10713-11645
+  - gnl|SPADES|LDMNMAEC_87_13 : position 13776-15344
+
+### tmrB (found in 2 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: tunicamycin resistance protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1935_2 : position 1946-2287
+  - gnl|SPADES|LDMNMAEC_1935_3 : position 2284-2457
+
+### tsnR
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_308_13 : position 12750-13514
+
+### ugd
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3942_1 : position 1-1200
+
+### vanH gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_372_8 : position 9849-10862
+
+### vanH gene in vanO cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_156_29 : position 31662-32855
+
+### vanI
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_156_42 : position 47782-48909
+
+### vanL
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_201_28 : position 26228-27319
+
+### vanN
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_353_26 : position 19697-20776
+
+### vanR gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_185_12 : position 11940-12611
+
+### vanR gene in vanE cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_116_2 : position 1038-2525
+  - gnl|SPADES|LDMNMAEC_5028_1 : position 63-746
+
+### vanR gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_316_7 : position 7758-9188
+
+### vanR gene in vanI cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_148_17 : position 24799-25437
+
+### vanR gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_366_9 : position 8892-9599
+
+### vanS gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_185_11 : position 10498-11943
+
+### vanS gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_82_3 : position 1883-2791
+
+### vatB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_185_21 : position 21429-21989
+
+### vga(E) Staphylococcus cohnii
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: vga-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1121_2 : position 1946-3517
+
+### ykkD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_353_25 : position 19244-19561
+
+
+## Citrobacter
+**Strain Statistics:**
+- Total genome length: 1.7 kbp
+- Total scaffolds: 42
+- Scaffolds with AMR genes: 5
+- Total genes annotated: 0
+- Total AMR genes: 5
+- Unique AMR genes: 5
+- Distinct AMR mechanisms: 2
+- Distinct AMR families: 4
+- Distinct drug classes: 6
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter](../circos_LB01_Bolton_QG_A1_S7_Citrobacter.png)
+
+### almE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14618_1 : position 1-420
+
+### evgS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_132704_1 : position 1-237
+
+### kdpD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_158605_1 : position 1-225
+
+### macB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13779_1 : position 152-433
+
+### oleC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25834_1 : position 3-344
+
+
+## Citrobacter amalonaticus
+**Strain Statistics:**
+- Total genome length: 0.4 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 0
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 4
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter amalonaticus](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_amalonaticus.png)
+
+### LptD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12914_1 : position 2-448
+
+
+## Citrobacter arsenatis
+**Strain Statistics:**
+- Total genome length: 0.3 kbp
+- Total scaffolds: 6
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 0
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 2
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter arsenatis](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_arsenatis.png)
+
+### tlrC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_66070_1 : position 3-269
+
+
+## Citrobacter braakii
+**Strain Statistics:**
+- Total genome length: 2.5 kbp
+- Total scaffolds: 11
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 6
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 6
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter braakii](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_braakii.png)
+
+### H-NS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1977_5 : position 1611-2015
+
+
+## Citrobacter farmeri
+**Strain Statistics:**
+- Total genome length: 0.9 kbp
+- Total scaffolds: 5
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 0
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 1
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter farmeri](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_farmeri.png)
+
+### cmlv
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5401_2 : position 363-938
+
+
+## Citrobacter freundii
+**Strain Statistics:**
+- Total genome length: 0.3 kbp
+- Total scaffolds: 53
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 2
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 1
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter freundii](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_freundii.png)
+
+### AAC(6')-Ib8
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25570_1 : position 4-105
+
+
+## Citrobacter freundii complex sp. CFNIH3
+**Strain Statistics:**
+- Total genome length: 2.6 kbp
+- Total scaffolds: 5
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 12
+- Total AMR genes: 2
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 6
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter freundii complex sp. CFNIH3](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_freundii_complex_sp._CFNIH3.png)
+
+### H-NS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1943_5 : position 1406-1648
+  - gnl|SPADES|LDMNMAEC_1943_7 : position 2327-2572
+
+
+## Citrobacter sp. R56
+**Strain Statistics:**
+- Total genome length: 0.4 kbp
+- Total scaffolds: 4
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 0
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 1
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter sp. R56](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_sp._R56.png)
+
+### acrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24217_1 : position 2-352
+
+
+## Citrobacter tructae
+**Strain Statistics:**
+- Total genome length: 0.3 kbp
+- Total scaffolds: 8
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 2
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 1
+
+**Circos Plot:**
+
+![Circos plot for Citrobacter tructae](../circos_LB01_Bolton_QG_A1_S7_Citrobacter_tructae.png)
+
+### bcrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38680_1 : position 18-296
+
+
+## Enterobacter hormaechei
+**Strain Statistics:**
+- Total genome length: 0.7 kbp
+- Total scaffolds: 16
+- Scaffolds with AMR genes: 2
+- Total genes annotated: 2
+- Total AMR genes: 2
+- Unique AMR genes: 2
+- Distinct AMR mechanisms: 2
+- Distinct AMR families: 2
+- Distinct drug classes: 7
+
+**Circos Plot:**
+
+![Circos plot for Enterobacter hormaechei](../circos_LB01_Bolton_QG_A1_S7_Enterobacter_hormaechei.png)
+
+### Klebsiella pneumoniae OmpK37
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_28339_1 : position 2-331
+
+### tetA(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32490_1 : position 20-316
+
+
+## Escherichia coli
+**Strain Statistics:**
+- Total genome length: 2797.5 kbp
+- Total scaffolds: 144
+- Scaffolds with AMR genes: 60
+- Total genes annotated: 5203
+- Total AMR genes: 272
+- Unique AMR genes: 154
+- Distinct AMR mechanisms: 10
+- Distinct AMR families: 65
+- Distinct drug classes: 36
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli.png)
+
+### AAC(6')-If
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_138 : position 147759-148184
+
+### APH(3'')-Ib
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: APH(3'')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_611_15: position 8866-9669
+
+### APH(6)-Id
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: APH(6)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_611_14: position 8030-8866
+
+### Acinetobacter baumannii AbaF (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_125_1 : position 369-1667
+  - gnl|SPADES|LDMNMAEC_225_16 : position 12246-13595
+  - gnl|SPADES|LDMNMAEC_496_3 : position 9065-10381
+  - gnl|SPADES|LDMNMAEC_68_4 : position 3550-4872
+
+### Acinetobacter baumannii AbaQ (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_202_25 : position 25670-27022
+  - gnl|SPADES|LDMNMAEC_33_53 : position 56614-57990
+  - gnl|SPADES|LDMNMAEC_43_37 : position 43919-45250
+  - gnl|SPADES|LDMNMAEC_47_103 : position 112381-113673
+
+### Acinetobacter baumannii AmvA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_459_16 : position 12949-14307
+
+### AcrE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169_33: position 35097-36254
+
+### AcrF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169_34: position 36266-39370
+
+### AcrS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169_32: position 34035-34697
+
+### Bifidobacterium bifidum ileS conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_22 : position 22514-25096
+
+### Brucella suis mprF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: defensin resistant mprF
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_86_41 : position 40632-41588
+
+### CAR-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: CAR beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_219_7 : position 5298-6053
+
+### CRP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_90_17: position 12068-12700
+
+### Clostridioides difficile gyrB conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_102_34 : position 34068-35960
+  - gnl|SPADES|LDMNMAEC_160_41 : position 45836-48250
+
+### CrcB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_39 : position 39361-39744
+
+### D-Ala-D-Ala ligase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_73_9 : position 9726-10646
+
+### EC-13
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: EC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_393_8: position 4640-5773
+
+### Erm(34) (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_121_32 : position 32327-32953
+  - gnl|SPADES|LDMNMAEC_43_31 : position 38626-39447
+
+### Escherichia coli EF-Tu mutants conferring resistance to kirromycin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_129_47 : position 45502-48174
+  - gnl|SPADES|LDMNMAEC_68_78 : position 90480-92324
+
+### Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: disinfecting agents and antiseptics; isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant fabI
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_227_19 : position 18861-19592
+
+### Escherichia coli mdfA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_100_41: position 40984-42216
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance (found in 5 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_186_30 : position 27948-28886
+  - gnl|SPADES|LDMNMAEC_186_31 : position 28870-29706
+  - gnl|SPADES|LDMNMAEC_191_14 : position 17725-18576
+  - gnl|SPADES|LDMNMAEC_43_86 : position 99320-100189
+  - gnl|SPADES|LDMNMAEC_844_9 : position 6139-6555
+
+### EstT
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide esterase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_404_4 : position 2607-3371
+
+### H-NS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_246_31: position 29478-29891
+  - gnl|SPADES|LDMNMAEC_253_12 : position 10678-11082
+
+### Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_1 : position 2-1150
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_53 : position 58874-61186
+  - gnl|SPADES|LDMNMAEC_73_64 : position 72254-74788
+
+### Helicobacter pylori pbp2 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_29 : position 29080-30981
+
+### Helicobacter pylori rdxA mutation conferring resistance to metronidazole
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: Antibiotic resistant Helicobacter pylori nitroreductase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_88 : position 90717-91370
+
+### Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_378_1 : position 3-1415
+
+### IreK
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: cephalosporin
+- **AMR Family**: Serine/threonine kinases
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33_107 : position 121968-123437
+
+### Klebsiella pneumoniae OmpK37 (found in 4 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_105_60 : position 64361-65449
+  - gnl|SPADES|LDMNMAEC_137_52 : position 43970-45157
+  - gnl|SPADES|LDMNMAEC_37_10 : position 18591-19715
+  - gnl|SPADES|LDMNMAEC_400_3 : position 2786-3883
+
+### LlmA 23S ribosomal RNA methyltransferase (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Llm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_105_22 : position 21213-22388
+  - gnl|SPADES|LDMNMAEC_202_29 : position 32770-34071
+
+### LptD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_28 : position 33947-36301
+
+### MCR-3.22
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_47_90 : position 98853-100346
+
+### MCR-4.2
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_86_69 : position 69948-71531
+
+### MCR-8.3
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_191_13 : position 15843-17576
+
+### MCR-8.4
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_129_51 : position 52148-53773
+
+### MdtK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2742_1 : position 149-1636
+
+### MdtQ
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_37_85 : position 100611-102047
+
+### MexR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_121_35 : position 35408-35815
+  - gnl|SPADES|LDMNMAEC_33_46 : position 50056-50502
+
+### MexV
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_92 : position 97426-98649
+
+### MuxC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_91 : position 94271-97414
+
+### Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: antibiotic resistant gidB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_361_16 : position 18037-18660
+
+### Mycobacterium tuberculosis inhA mutations conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: isoniazid resistant inhA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_102_56 : position 56686-57570
+
+### Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant kasA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_227_21 : position 20053-21222
+
+### Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: isoniazid resistant katG
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_191_25 : position 29872-32052
+
+### Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_67_16 : position 14501-15805
+
+### Mycobacterium tuberculosis rpsA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: pyrazinamide resistant rpsA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_207_1 : position 2-607
+
+### Neisseria gonorrhoeae pilQ gene conferring resistance to beta-lactam
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_90_50 : position 45394-46602
+
+### NmcR (found in 8 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_202_6 : position 5203-6120
+  - gnl|SPADES|LDMNMAEC_24_35 : position 37783-38673
+  - gnl|SPADES|LDMNMAEC_33_1 : position 234-1073
+  - gnl|SPADES|LDMNMAEC_33_75 : position 81683-82594
+  - gnl|SPADES|LDMNMAEC_33_9 : position 10035-10928
+  - gnl|SPADES|LDMNMAEC_86_19 : position 17998-18951
+  - gnl|SPADES|LDMNMAEC_89_52 : position 50295-51191
+  - gnl|SPADES|LDMNMAEC_89_57 : position 56822-57715
+
+### Nocardia farcinica rox
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_89_66 : position 65542-66744
+
+### OmpA (found in 7 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: General Bacterial Porin with reduced permeability to peptide antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_105_32 : position 31114-32166
+  - gnl|SPADES|LDMNMAEC_183_38 : position 40068-40589
+  - gnl|SPADES|LDMNMAEC_252_12 : position 12195-12677
+  - gnl|SPADES|LDMNMAEC_346_18 : position 20831-21610
+  - gnl|SPADES|LDMNMAEC_464_9 : position 7018-7857
+  - gnl|SPADES|LDMNMAEC_473_5 : position 4813-6465
+  - gnl|SPADES|LDMNMAEC_68_36 : position 46173-46832
+
+### OprM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_94 : position 99024-100403
+
+### PDC-456
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: monobactam; carbapenem; cephalosporin
+- **AMR Family**: PDC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_142 : position 150309-151613
+
+### PEDO-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: subclass B3 PEDO beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_342_1 : position 186-833
+
+### ParR
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_90_66 : position 62536-63255
+
+### ParS
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_44 : position 43407-45065
+
+### PmrF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_47_35 : position 41408-42391
+
+### Pseudomonas aeruginosa CpxR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_186_24 : position 21772-22470
+  - gnl|SPADES|LDMNMAEC_52_43 : position 42758-43438
+
+### RanA (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_100_28 : position 29765-30898
+  - gnl|SPADES|LDMNMAEC_100_54 : position 56498-58369
+  - gnl|SPADES|LDMNMAEC_253_20 : position 17402-18604
+  - gnl|SPADES|LDMNMAEC_322_18 : position 16666-17475
+  - gnl|SPADES|LDMNMAEC_37_43 : position 51533-53122
+  - gnl|SPADES|LDMNMAEC_37_94 : position 111963-112889
+  - gnl|SPADES|LDMNMAEC_67_33 : position 32893-34029
+
+### RanB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_322_19 : position 17483-18265
+
+### Rhodococcus fascians cmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_47_73 : position 82352-83590
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_89_27 : position 23768-25162
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_108 : position 122197-123786
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_57 : position 65815-68631
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_322_24 : position 20237-21496
+
+### Staphylococcus aureus pgsA mutations conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant pgsA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_137_6 : position 4130-4678
+
+### Streptomyces rimosus otr(A)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_225_26 : position 23320-25143
+
+### Streptomyces venezuelae rox
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_2 : position 208-1383
+
+### TaeA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_105_40 : position 39307-41214
+  - gnl|SPADES|LDMNMAEC_43_91 : position 104003-105670
+
+### TolC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_102_29: position 29868-31356
+
+### TxR (found in 8 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_121_49 : position 48318-50396
+  - gnl|SPADES|LDMNMAEC_225_29 : position 28160-29569
+  - gnl|SPADES|LDMNMAEC_24_18 : position 18010-19344
+  - gnl|SPADES|LDMNMAEC_24_82 : position 92284-94296
+  - gnl|SPADES|LDMNMAEC_332_8 : position 6006-6473
+  - gnl|SPADES|LDMNMAEC_332_9 : position 6588-6992
+  - gnl|SPADES|LDMNMAEC_378_19 : position 15141-16466
+  - gnl|SPADES|LDMNMAEC_67_86 : position 84410-86329
+
+### YojI
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_37_14: position 22746-24389
+
+### acrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_111: position 116078-119191
+
+### adeB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_611_11 : position 5365-6201
+
+### adeL (found in 10 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_102_5 : position 4565-5497
+  - gnl|SPADES|LDMNMAEC_125_11 : position 10795-11676
+  - gnl|SPADES|LDMNMAEC_169_13 : position 11043-11972
+  - gnl|SPADES|LDMNMAEC_191_7 : position 6947-7864
+  - gnl|SPADES|LDMNMAEC_207_12 : position 13034-13942
+  - gnl|SPADES|LDMNMAEC_219_3 : position 1017-1931
+  - gnl|SPADES|LDMNMAEC_24_163 : position 171753-172679
+  - gnl|SPADES|LDMNMAEC_37_67 : position 79752-80633
+  - gnl|SPADES|LDMNMAEC_68_2 : position 1106-2077
+  - gnl|SPADES|LDMNMAEC_68_72 : position 84455-85429
+
+### adeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_246_29 : position 27211-28224
+
+### almE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_78 : position 78960-82841
+
+### arlR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_137_55 : position 48066-48848
+  - gnl|SPADES|LDMNMAEC_52_95 : position 100560-101243
+
+### arnA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_572_8 : position 4648-5595
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_102_8: position 6691-7512
+
+### baeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_180_32 : position 36111-36803
+
+### basS (found in 5 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_102_38 : position 37631-38980
+  - gnl|SPADES|LDMNMAEC_137_54 : position 46708-48066
+  - gnl|SPADES|LDMNMAEC_43_83 : position 96510-97934
+  - gnl|SPADES|LDMNMAEC_52_96 : position 101233-102681
+  - gnl|SPADES|LDMNMAEC_67_36 : position 36851-38311
+
+### bcr-1 (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_160_31 : position 33165-34340
+  - gnl|SPADES|LDMNMAEC_37_41 : position 49661-50851
+  - gnl|SPADES|LDMNMAEC_47_85 : position 95862-97046
+
+### bcrA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_25 : position 28318-29829
+  - gnl|SPADES|LDMNMAEC_343_15 : position 11840-13387
+  - gnl|SPADES|LDMNMAEC_37_75 : position 90080-91600
+  - gnl|SPADES|LDMNMAEC_86_16 : position 14930-15988
+
+### carA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_37_25 : position 33157-33774
+  - gnl|SPADES|LDMNMAEC_89_41 : position 40329-41006
+
+### clbB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_55 : position 61916-63070
+
+### cprR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_102_39 : position 38977-39636
+
+### cpxA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_186_25: position 22467-23840
+  - gnl|SPADES|LDMNMAEC_225_28 : position 27099-28148
+  - gnl|SPADES|LDMNMAEC_90_65 : position 61187-62539
+
+### dfrA3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_34 : position 40754-41233
+
+### efrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_89_42 : position 41000-41677
+
+### emeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33_44 : position 46872-48233
+
+### emrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_253_27: position 24119-25291
+
+### emrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_253_28: position 25308-26846
+
+### emrK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_108_31: position 31405-32568
+
+### emrR (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_253_26: position 23462-23992
+  - gnl|SPADES|LDMNMAEC_343_7 : position 3242-3742
+  - gnl|SPADES|LDMNMAEC_400_13 : position 15358-15858
+
+### emrY (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_108_30: position 29867-31405
+  - gnl|SPADES|LDMNMAEC_361_2 : position 1105-2532
+
+### eptB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_68_30 : position 38410-40101
+
+### evgA (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_108_32: position 32984-33598
+  - gnl|SPADES|LDMNMAEC_137_8 : position 6564-7220
+  - gnl|SPADES|LDMNMAEC_246_17 : position 12802-13452
+  - gnl|SPADES|LDMNMAEC_37_33 : position 39472-40119
+  - gnl|SPADES|LDMNMAEC_434_9 : position 10410-11060
+  - gnl|SPADES|LDMNMAEC_47_80 : position 91938-92528
+
+### evgS (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_108_33: position 33603-37196
+  - gnl|SPADES|LDMNMAEC_180_34 : position 37932-40631
+  - gnl|SPADES|LDMNMAEC_202_28 : position 29957-32713
+  - gnl|SPADES|LDMNMAEC_231_19 : position 19955-20344
+  - gnl|SPADES|LDMNMAEC_322_3 : position 3706-6042
+  - gnl|SPADES|LDMNMAEC_378_18 : position 13768-15144
+  - gnl|SPADES|LDMNMAEC_37_7 : position 11464-14313
+
+### farA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_86_48 : position 48064-49059
+
+### fexB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_253_23 : position 21001-22185
+  - gnl|SPADES|LDMNMAEC_432_9 : position 7756-9246
+
+### gadW (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_346_11 : position 10626-11360
+  - gnl|SPADES|LDMNMAEC_346_15 : position 14206-14988
+
+### golS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_572_3 : position 679-1104
+
+### kdpD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_598_5 : position 2398-5082
+
+### kdpE (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_598_4: position 1724-2401
+  - gnl|SPADES|LDMNMAEC_67_37 : position 38311-38982
+
+### leuO (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_160_30 : position 32231-33190
+  - gnl|SPADES|LDMNMAEC_43_8: position 7251-8195
+  - gnl|SPADES|LDMNMAEC_459_17 : position 14434-15342
+  - gnl|SPADES|LDMNMAEC_52_35 : position 35920-36873
+  - gnl|SPADES|LDMNMAEC_52_60 : position 59567-60469
+
+### lmrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_207_25 : position 31716-33482
+
+### macA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_100_5 : position 5562-6677
+
+### macB (found in 14 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_100_19 : position 22178-22906
+  - gnl|SPADES|LDMNMAEC_100_4 : position 3619-5565
+  - gnl|SPADES|LDMNMAEC_105_56 : position 57136-57903
+  - gnl|SPADES|LDMNMAEC_137_11 : position 8922-9674
+  - gnl|SPADES|LDMNMAEC_169_40 : position 43670-44428
+  - gnl|SPADES|LDMNMAEC_24_150 : position 158755-159852
+  - gnl|SPADES|LDMNMAEC_361_7 : position 6434-7939
+  - gnl|SPADES|LDMNMAEC_43_18 : position 19636-20334
+  - gnl|SPADES|LDMNMAEC_52_12 : position 12043-12768
+  - gnl|SPADES|LDMNMAEC_67_24 : position 25053-25754
+  - gnl|SPADES|LDMNMAEC_68_24 : position 31646-32650
+  - gnl|SPADES|LDMNMAEC_68_25 : position 32647-33630
+  - gnl|SPADES|LDMNMAEC_68_51 : position 60426-61967
+  - gnl|SPADES|LDMNMAEC_86_63 : position 64675-65397
+
+### marA
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_567_1 : position 275-1111
+
+### mdtG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_203_40: position 36119-37345
+
+### mdtH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_203_28: position 26280-27488
+
+### mdtM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; lincosamide antibiotic; nucleoside antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33_64: position 71453-72685
+
+### mdtN (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_47_7 : position 8583-9719
+  - gnl|SPADES|LDMNMAEC_68_73 : position 85426-86562
+
+### mef(E)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_73 : position 73448-74698
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_58 : position 68674-69615
+
+### msbA (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_160_16 : position 17582-18355
+  - gnl|SPADES|LDMNMAEC_207_26 : position 33483-35204
+  - gnl|SPADES|LDMNMAEC_231_4 : position 3099-4613
+  - gnl|SPADES|LDMNMAEC_27775_1 : position 3-335
+  - gnl|SPADES|LDMNMAEC_342_14: position 16114-17862
+  - gnl|SPADES|LDMNMAEC_73_66 : position 77302-78099
+
+### mtrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_20 : position 21298-22176
+  - gnl|SPADES|LDMNMAEC_68_53 : position 63204-64382
+
+### nalC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_67_18 : position 16633-17328
+
+### nalD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_180_14 : position 19419-20057
+  - gnl|SPADES|LDMNMAEC_844_8 : position 5458-6126
+
+### novA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_567_5 : position 4309-6456
+
+### oleC (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_52_76 : position 76799-77614
+  - gnl|SPADES|LDMNMAEC_73_42 : position 50255-51181
+
+### optrA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_86_74 : position 74897-76489
+  - gnl|SPADES|LDMNMAEC_90_12 : position 7237-9150
+
+### oqxA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169_11 : position 9717-10649
+
+### ramA
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_108_45 : position 50357-51214
+
+### rosB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_35 : position 41426-43288
+  - gnl|SPADES|LDMNMAEC_90_10 : position 4750-6555
+
+### rphB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_155 : position 162816-164543
+
+### salD
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_86_11 : position 10692-12164
+
+### sdiA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_137_10 : position 7970-8692
+
+### smeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_84 : position 97934-98623
+
+### sta
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_110 : position 124569-125015
+
+### sul2
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_611_12: position 6442-7257
+
+### sul4
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_129_54 : position 56223-57071
+
+### tet(51)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline inactivation enzyme
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_459_12 : position 9331-10524
+
+### tet(B)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_844_7: position 4140-5345
+
+### tet(S)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_121_24 : position 26427-27854
+
+### tet(X6) (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline inactivation enzyme
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_113 : position 121261-123240
+  - gnl|SPADES|LDMNMAEC_37_78 : position 94098-95336
+
+### tetA(58) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_322_12 : position 12062-12787
+  - gnl|SPADES|LDMNMAEC_86_47 : position 46335-48071
+
+### tetB(P)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_125_19 : position 18991-20790
+
+### tetR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_844_6: position 3435-4058
+
+### tsnR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_235_15 : position 16894-17625
+  - gnl|SPADES|LDMNMAEC_47_61 : position 65666-66322
+
+### vanE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169_24 : position 27160-28509
+
+### vanH gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_89_60 : position 59057-60289
+
+### vanH gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_434_16 : position 14782-15720
+
+### vanH gene in vanO cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_68_37 : position 46936-47910
+
+### vanR gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43_81 : position 94324-95040
+
+### vanR gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_231_18 : position 18891-19940
+
+### vanR gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_108_44 : position 49610-50344
+
+### vanS gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24_16 : position 15760-17142
+
+### vanT gene in vanC cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_67_74 : position 72223-73293
+
+### vanT gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_68_45 : position 54112-55107
+
+### vatB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_47_20 : position 26052-26873
+
+### ykkC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_393_6 : position 3704-4021
+
+
+## Escherichia coli APEC IMT5155
+**Strain Statistics:**
+- Total genome length: 72.4 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 134
+- Total AMR genes: 4
+- Unique AMR genes: 4
+- Distinct AMR mechanisms: 2
+- Distinct AMR families: 3
+- Distinct drug classes: 17
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli APEC IMT5155](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_APEC_IMT5155.png)
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_92_62 : position 62818-65673
+
+### adeN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; lincosamide antibiotic; carbapenem; cephalosporin; tetracycline antibiotic; rifamycin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_92_12 : position 10301-10939
+
+### nalC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_92_53 : position 56292-56885
+
+### tetA(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_92_33 : position 32845-34347
+
+
+## Escherichia coli K-12
+**Strain Statistics:**
+- Total genome length: 272.3 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 488
+- Total AMR genes: 30
+- Unique AMR genes: 28
+- Distinct AMR mechanisms: 8
+- Distinct AMR families: 15
+- Distinct drug classes: 23
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli K-12](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_K-12.png)
+
+### Acinetobacter baumannii AbaF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_92 : position 107730-109097
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_131 : position 152537-153127
+
+### Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_72: position 89597-90031
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_210 : position 234371-235282
+
+### FosC2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosC phosphotransferase family
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_166 : position 183829-184236
+
+### Klebsiella pneumoniae KpnE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_113: position 129395-129760
+
+### Klebsiella pneumoniae KpnF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_112: position 129079-129408
+
+### Klebsiella pneumoniae OmpK37
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_12 : position 12801-13091
+
+### NmcR (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_108 : position 124958-125851
+  - gnl|SPADES|LDMNMAEC_10_67 : position 85282-86163
+
+### ParR
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_121 : position 138418-139137
+
+### ParS
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_122 : position 139141-140442
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_176 : position 195888-197099
+
+### bcrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_54 : position 71470-73005
+
+### cmlB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_109 : position 125958-127211
+
+### cmlv (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_172 : position 192098-193267
+  - gnl|SPADES|LDMNMAEC_10_70 : position 87505-88695
+
+### emrR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_157 : position 176382-176816
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_40 : position 49643-50404
+
+### hmrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_179 : position 199434-200807
+
+### lmrC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_224 : position 248793-249542
+
+### macB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_25 : position 24738-25724
+
+### marA
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_73: position 90051-90434
+
+### mdtN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_159 : position 177343-178113
+
+### nalD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_164 : position 182015-182614
+
+### novA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_196 : position 217743-218489
+
+### rphB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_217 : position 240719-243097
+
+### tetA(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_24 : position 23819-24745
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_37 : position 44372-46057
+
+### vanX gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanX; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10_29 : position 29202-29783
+
+
+## Escherichia coli M12
+**Strain Statistics:**
+- Total genome length: 115.5 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 213
+- Total AMR genes: 5
+- Unique AMR genes: 5
+- Distinct AMR mechanisms: 2
+- Distinct AMR families: 4
+- Distinct drug classes: 7
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli M12](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_M12.png)
+
+### Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: salicylic acid antibiotic
+- **AMR Family**: aminosalicylate resistant thymidylate synthase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49_83 : position 84107-84901
+
+### TxR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49_30 : position 36524-38302
+
+### evgA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49_52 : position 54358-54801
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49_70 : position 69305-70240
+
+### lfrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49_68 : position 67079-68497
+
+
+## Escherichia coli O157:H7
+**Strain Statistics:**
+- Total genome length: 620.3 kbp
+- Total scaffolds: 4
+- Scaffolds with AMR genes: 3
+- Total genes annotated: 1143
+- Total AMR genes: 70
+- Unique AMR genes: 53
+- Distinct AMR mechanisms: 6
+- Distinct AMR families: 18
+- Distinct drug classes: 26
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli O157:H7](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_O157_H7.png)
+
+### Acinetobacter baumannii AbaF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_25 : position 30670-32172
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_202: position 218568-219215
+
+### Escherichia coli acrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_201: position 217233-218426
+
+### Escherichia coli soxR with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_68: position 77038-77502
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_69: position 77588-77911
+  - gnl|SPADES|LDMNMAEC_5_42 : position 45135-45992
+
+### Klebsiella pneumoniae OmpK37 (found in 2 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_22 : position 19758-20813
+  - gnl|SPADES|LDMNMAEC_5_297 : position 312090-313187
+
+### MexS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_81 : position 90760-91743
+
+### NmcR
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_241 : position 263907-264833
+
+### Nocardia farcinica rox
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_89 : position 101519-103183
+
+### RanA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_36 : position 44239-45309
+  - gnl|SPADES|LDMNMAEC_46_68 : position 74665-75471
+
+### SST-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: SST beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_110 : position 125008-126165
+
+### SatA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_42 : position 46631-47065
+
+### TxR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_7 : position 12000-13598
+  - gnl|SPADES|LDMNMAEC_5_73 : position 80549-82135
+
+### YajC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_140 : position 157198-157530
+
+### acrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_200: position 214061-217210
+
+### adeL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_55 : position 62363-63295
+
+### arlR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_22 : position 28724-29392
+
+### baeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_132 : position 147053-147742
+
+### basS
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_23 : position 29393-30493
+
+### bcrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_72 : position 77826-80561
+  - gnl|SPADES|LDMNMAEC_5_65 : position 73085-74569
+
+### cmlv
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_129 : position 141211-142479
+
+### efpA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: rifamycin antibiotic; isoniazid-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_95 : position 107965-109176
+
+### eptA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_21: position 27084-28727
+
+### evgA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_271 : position 296380-297012
+
+### evgS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_10 : position 11011-12642
+
+### farA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_73 : position 80558-81625
+
+### fexB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_61 : position 67405-68655
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_104 : position 115043-115771
+
+### gadX (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_19 : position 24745-25506
+  - gnl|SPADES|LDMNMAEC_46_105: position 116139-116963
+  - gnl|SPADES|LDMNMAEC_5_334 : position 346429-347190
+
+### golS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_225 : position 246598-247005
+
+### hp1181
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; nitroimidazole antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_162 : position 175839-177203
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_80 : position 90698-91597
+
+### macB (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_100 : position 107092-108207
+  - gnl|SPADES|LDMNMAEC_31_30 : position 37012-37800
+  - gnl|SPADES|LDMNMAEC_31_39 : position 44274-44954
+  - gnl|SPADES|LDMNMAEC_31_73 : position 81100-83922
+  - gnl|SPADES|LDMNMAEC_46_51 : position 58965-59633
+  - gnl|SPADES|LDMNMAEC_5_104 : position 117275-118042
+  - gnl|SPADES|LDMNMAEC_5_233 : position 252338-253024
+
+### mdtE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_101: position 110385-111542
+
+### mdtF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_102: position 111567-114680
+
+### mdtN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_48: position 51428-52459
+
+### mdtO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_49: position 52459-54510
+
+### mdtP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_50: position 54507-55973
+
+### mepA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_88 : position 95871-97196
+
+### msbA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_46_67 : position 73904-74668
+  - gnl|SPADES|LDMNMAEC_5_228 : position 248524-249201
+
+### mtrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_17 : position 21046-21954
+  - gnl|SPADES|LDMNMAEC_5_45 : position 49086-49940
+
+### rosA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_217 : position 236283-237503
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_216 : position 234369-236045
+
+### smeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_133 : position 147800-149095
+
+### tetA(58) (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_38 : position 43405-44163
+  - gnl|SPADES|LDMNMAEC_46_40 : position 48850-49563
+  - gnl|SPADES|LDMNMAEC_46_41 : position 49565-50332
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_187 : position 201679-203451
+
+### tetB(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_188 : position 203444-205225
+
+### vanG
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_116: position 129707-130801
+
+### vanR gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_1 : position 738-2276
+
+### vanR gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_4 : position 3553-4395
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31_79 : position 88130-89209
+
+### vatB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_197 : position 212174-212725
+
+### vatD
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5_84 : position 94157-94777
+
+
+## Escherichia coli O157:H7 str. EDL933
+**Strain Statistics:**
+- Total genome length: 292.2 kbp
+- Total scaffolds: 3
+- Scaffolds with AMR genes: 3
+- Total genes annotated: 551
+- Total AMR genes: 19
+- Unique AMR genes: 19
+- Distinct AMR mechanisms: 3
+- Distinct AMR families: 12
+- Distinct drug classes: 15
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli O157:H7 str. EDL933](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_O157_H7_str._EDL933.png)
+
+### ArnT
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_23: position 28186-29838
+
+### Clostridioides difficile gyrA conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_1 : position 3-920
+
+### Escherichia coli GlpT with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant GlpT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_9 : position 12352-13710
+
+### Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: Pyrazinamide resistant pncA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_99 : position 94981-95622
+
+### NmcR
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_52 : position 58557-59495
+
+### PmrF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_20: position 24349-25317
+
+### RanA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_111 : position 108109-108762
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_115_31 : position 28960-30258
+
+### adeL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_75 : position 72962-73885
+
+### almE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_69 : position 64734-66485
+
+### arnA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_21 : position 25317-27299
+
+### bcrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_14 : position 11134-11889
+
+### chrB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (G748)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_51 : position 47491-48300
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_115_4 : position 2979-3917
+
+### macB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_69 : position 76602-77375
+
+### tcr3
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_46 : position 42903-44276
+
+### tet(41)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_85 : position 91808-92986
+
+### vanH gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65_83 : position 89581-90717
+
+### vanM
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41_23 : position 22493-23671
+
+
+## Escherichia coli O25b:H4-ST131
+**Strain Statistics:**
+- Total genome length: 107.7 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 226
+- Total AMR genes: 6
+- Unique AMR genes: 6
+- Distinct AMR mechanisms: 3
+- Distinct AMR families: 4
+- Distinct drug classes: 9
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli O25b:H4-ST131](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_O25b_H4-ST131.png)
+
+### H-NS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_55_93 : position 88901-89305
+
+### adeL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_55_52 : position 54860-55810
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_55_81 : position 80263-81177
+
+### ugd
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_55_39: position 43524-44690
+
+### vatE
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_55_31 : position 35200-35496
+
+### vatF
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_55_10 : position 10887-11435
+
+
+## Escherichia coli O27:H7
+**Strain Statistics:**
+- Total genome length: 202.1 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 368
+- Total AMR genes: 18
+- Unique AMR genes: 14
+- Distinct AMR mechanisms: 4
+- Distinct AMR families: 9
+- Distinct drug classes: 18
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli O27:H7](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_O27_H7.png)
+
+### CRP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_99 : position 100532-101284
+
+### Enterococcus faecalis cls with mutation conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_11 : position 10636-12096
+
+### Klebsiella pneumoniae OmpK37
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_112 : position 114457-115590
+
+### MexS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_180 : position 190120-191157
+
+### NmcR
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_35 : position 35269-36243
+
+### RanA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_55 : position 54050-55042
+  - gnl|SPADES|LDMNMAEC_17_8 : position 8205-9218
+  - gnl|SPADES|LDMNMAEC_17_9 : position 9215-10219
+
+### TxR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_67 : position 68349-69326
+  - gnl|SPADES|LDMNMAEC_17_87 : position 88133-89674
+
+### adeL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_94 : position 94948-95847
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_104 : position 106499-107407
+
+### macB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_171 : position 182586-183599
+  - gnl|SPADES|LDMNMAEC_17_82 : position 82234-83316
+
+### sta
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_179 : position 189421-189939
+
+### tetB(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_54 : position 53242-54048
+
+### vanH gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_116 : position 120551-121540
+
+### vatB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17_175 : position 186981-187790
+
+
+## Escherichia coli O80:H26
+**Strain Statistics:**
+- Total genome length: 53.9 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 94
+- Total AMR genes: 6
+- Unique AMR genes: 6
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 2
+- Distinct drug classes: 3
+
+**Circos Plot:**
+
+![Circos plot for Escherichia coli O80:H26](../circos_LB01_Bolton_QG_A1_S7_Escherichia_coli_O80_H26.png)
+
+### baeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_140_32: position 29100-29822
+
+### baeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_140_33 : position 29819-31222
+
+### emrY
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_140_34 : position 31219-32634
+
+### mdtA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_140_37: position 38835-40082
+
+### mdtB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_140_36: position 35713-38835
+
+### mdtC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_140_35: position 32635-35712
+
+
+## Ewingella americana
+**Strain Statistics:**
+- Total genome length: 26.2 kbp
+- Total scaffolds: 1170
+- Scaffolds with AMR genes: 81
+- Total genes annotated: 10
+- Total AMR genes: 81
+- Unique AMR genes: 60
+- Distinct AMR mechanisms: 7
+- Distinct AMR families: 23
+- Distinct drug classes: 29
+
+**Circos Plot:**
+
+![Circos plot for Ewingella americana](../circos_LB01_Bolton_QG_A1_S7_Ewingella_americana.png)
+
+### Acinetobacter baumannii AbaF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7167_1 : position 1-705
+
+### Acinetobacter baumannii AbaQ (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10904_1 : position 1-261
+  - gnl|SPADES|LDMNMAEC_43658_1 : position 3-287
+  - gnl|SPADES|LDMNMAEC_64850_1 : position 2-271
+
+### Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59388_1 : position 1-273
+
+### Clostridioides difficile cplR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; nucleoside antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19629_1 : position 2-376
+
+### Corynebacterium striatum tetA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_193856_1 : position 2-208
+
+### Helicobacter pylori pbp2 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_148552_1 : position 2-229
+
+### Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_171865_1 : position 3-218
+
+### Klebsiella aerogenes Omp36
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12136_1 : position 21-461
+
+### Klebsiella pneumoniae OmpK37 (found in 3 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26767_1 : position 88-339
+  - gnl|SPADES|LDMNMAEC_59742_1 : position 1-273
+  - gnl|SPADES|LDMNMAEC_82308_1 : position 3-260
+
+### MexW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_192285_1 : position 1-207
+
+### MexZ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9659_1 : position 155-535
+
+### MuxC (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_65890_1 : position 2-271
+  - gnl|SPADES|LDMNMAEC_85245_1 : position 1-261
+  - gnl|SPADES|LDMNMAEC_9205_1 : position 2-559
+
+### Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant kasA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26123_1 : position 2-280
+
+### NmcR (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_178794_1 : position 1-216
+  - gnl|SPADES|LDMNMAEC_197478_1 : position 2-205
+
+### OpmB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26723_1 : position 2-340
+
+### OprM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_176298_1 : position 1-216
+
+### PAC-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: PAC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_49266_1 : position 2-280
+
+### QnrB22
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_190051_1 : position 46-210
+
+### RanA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_103562_1 : position 3-251
+  - gnl|SPADES|LDMNMAEC_150018_1 : position 1-228
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20070_1 : position 2-373
+
+### TaeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14237_1 : position 3-425
+
+### TolC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17191_1 : position 1-393
+
+### TxR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8185_1 : position 3-620
+
+### YajC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_183399_1 : position 1-213
+
+### adeL (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_132067_1 : position 2-238
+  - gnl|SPADES|LDMNMAEC_14696_1 : position 1-375
+  - gnl|SPADES|LDMNMAEC_24425_1 : position 1-351
+  - gnl|SPADES|LDMNMAEC_25165_1 : position 3-278
+  - gnl|SPADES|LDMNMAEC_30345_1 : position 3-323
+  - gnl|SPADES|LDMNMAEC_36065_1 : position 77-304
+  - gnl|SPADES|LDMNMAEC_41765_1 : position 142-288
+
+### bcrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_100590_1 : position 3-251
+  - gnl|SPADES|LDMNMAEC_125867_1 : position 1-240
+
+### cmlB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169171_1 : position 3-221
+
+### cmrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59405_1 : position 3-272
+
+### efrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_185293_1 : position 3-212
+
+### emrR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_160151_1 : position 2-223
+
+### eptB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_67823_1 : position 1-267
+
+### evgA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_93820_2 : position 82-255
+
+### evgS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15506_1 : position 1-411
+
+### farA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11397_2 : position 212-478
+
+### kdpE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_82136_1 : position 2-262
+
+### lsaC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_37028_1 : position 2-286
+
+### macB (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33941_1 : position 2-310
+  - gnl|SPADES|LDMNMAEC_6730_1 : position 3-662
+  - gnl|SPADES|LDMNMAEC_87505_1 : position 3-260
+
+### mdtB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_130379_1 : position 2-238
+  - gnl|SPADES|LDMNMAEC_34193_1 : position 3-311
+
+### mdtC (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35426_1 : position 3-305
+  - gnl|SPADES|LDMNMAEC_54376_1 : position 3-275
+
+### mdtH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21365_1 : position 1-216
+
+### mdtN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_50467_1 : position 1-279
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25573_1 : position 55-345
+
+### novA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27333_1 : position 1-336
+
+### oqxB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_119192_1 : position 3-242
+  - gnl|SPADES|LDMNMAEC_15050_1 : position 1-417
+
+### poxtA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic; oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_58068_1 : position 1-273
+
+### ramA
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32845_1 : position 2-316
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27634_1 : position 2-334
+
+### salC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59057_1 : position 1-273
+
+### sdrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25917_1 : position 1-342
+
+### tet(45)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12884_1 : position 1-447
+
+### tet(T)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_64867_1 : position 89-271
+
+### tetA(58) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_125650_1 : position 2-241
+  - gnl|SPADES|LDMNMAEC_7434_1 : position 2-679
+
+### vanG
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_172360_1 : position 3-218
+
+### vanH gene in vanP cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16424_1 : position 2-400
+
+### vanO
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_155902_1 : position 3-227
+
+### vanR gene in vanC cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_42032_1 : position 1-165
+
+### vanR gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16758_1 : position 3-398
+
+### vanR gene in vanI cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_138868_1 : position 1-234
+
+### vanR gene in vanO cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_88340_1 : position 2-259
+
+### vanY gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanY; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_97181_1: position 2-253
+
+
+## Hafnia alvei
+**Strain Statistics:**
+- Total genome length: 46.6 kbp
+- Total scaffolds: 2041
+- Scaffolds with AMR genes: 128
+- Total genes annotated: 46
+- Total AMR genes: 129
+- Unique AMR genes: 80
+- Distinct AMR mechanisms: 9
+- Distinct AMR families: 30
+- Distinct drug classes: 32
+
+**Circos Plot:**
+
+![Circos plot for Hafnia alvei](../circos_LB01_Bolton_QG_A1_S7_Hafnia_alvei.png)
+
+### AAC(6')-Ib8
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_187893_1 : position 105-209
+
+### ACC-1a
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: monobactam; cephalosporin; cephamycin; penam; oxacephem
+- **AMR Family**: ACC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_36640_1 : position 2-265
+
+### APH(6)-Ic
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: APH(6)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20438_1 : position 2-370
+
+### Acinetobacter baumannii AbaF (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18066_1 : position 2-307
+  - gnl|SPADES|LDMNMAEC_25752_1 : position 3-344
+  - gnl|SPADES|LDMNMAEC_7044_1 : position 2-718
+
+### Acinetobacter baumannii AbaQ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_41354_1 : position 3-290
+
+### Acinetobacter baumannii AmvA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29019_1 : position 3-329
+
+### Bifidobacterium bifidum ileS conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33170_1 : position 2-313
+
+### Escherichia coli mdfA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16180_1 : position 1-402
+  - gnl|SPADES|LDMNMAEC_20325_1 : position 171-371
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20206_1 : position 3-371
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_123577_1 : position 3-242
+
+### Klebsiella pneumoniae OmpK37 (found in 2 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12223_1 : position 2-310
+  - gnl|SPADES|LDMNMAEC_123155_1 : position 2-241
+
+### LpeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_143022_1 : position 1-231
+
+### Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: antibiotic resistant gidB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_24190_1 : position 3-350
+
+### NmcR (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15850_1 : position 2-406
+  - gnl|SPADES|LDMNMAEC_20811_1 : position 3-368
+  - gnl|SPADES|LDMNMAEC_8375_2 : position 306-605
+
+### ParR
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30932_2 : position 141-323
+
+### Planobispora rosea EF-Tu mutants conferring resistance to inhibitor GE2270A
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6272_1 : position 2-811
+
+### Pseudomonas aeruginosa CpxR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33577_1 : position 3-314
+
+### RanA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10266_1 : position 2-514
+  - gnl|SPADES|LDMNMAEC_145123_1 : position 1-231
+  - gnl|SPADES|LDMNMAEC_187883_1 : position 3-209
+
+### RanB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15460_1 : position 2-412
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_98417_1 : position 3-254
+
+### TaeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13388_1 : position 3-440
+
+### TxR (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10861_1 : position 1-492
+  - gnl|SPADES|LDMNMAEC_113656_1 : position 1-246
+  - gnl|SPADES|LDMNMAEC_125284_1 : position 2-241
+  - gnl|SPADES|LDMNMAEC_140009_1 : position 3-233
+  - gnl|SPADES|LDMNMAEC_14804_1 : position 2-418
+  - gnl|SPADES|LDMNMAEC_21516_1 : position 1-363
+  - gnl|SPADES|LDMNMAEC_66149_1 : position 1-270
+
+### aadT (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_178045_1 : position 1-216
+  - gnl|SPADES|LDMNMAEC_42572_1 : position 3-287
+
+### acrB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10704_1 : position 1-498
+  - gnl|SPADES|LDMNMAEC_47416_1 : position 31-282
+
+### acrD (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11576_1 : position 2-475
+  - gnl|SPADES|LDMNMAEC_128100_1 : position 3-239
+  - gnl|SPADES|LDMNMAEC_13066_1 : position 1-444
+  - gnl|SPADES|LDMNMAEC_81650_1 : position 3-260
+
+### adeL (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18705_1 : position 1-381
+  - gnl|SPADES|LDMNMAEC_38526_1 : position 63-296
+  - gnl|SPADES|LDMNMAEC_9696_1 : position 2-319
+
+### adeN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; lincosamide antibiotic; carbapenem; cephalosporin; tetracycline antibiotic; rifamycin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17266_1 : position 2-301
+
+### adeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_55385_1 : position 2-277
+
+### almE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14978_1 : position 1-417
+
+### arlR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27859_1 : position 1-333
+
+### arnA (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_197388_1 : position 1-207
+  - gnl|SPADES|LDMNMAEC_54729_1 : position 3-275
+  - gnl|SPADES|LDMNMAEC_9697_1 : position 2-535
+
+### baeR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8078_1 : position 98-628
+  - gnl|SPADES|LDMNMAEC_92590_2 : position 91-255
+
+### baeS (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13269_1 : position 3-440
+  - gnl|SPADES|LDMNMAEC_139388_1 : position 3-233
+  - gnl|SPADES|LDMNMAEC_176447_1 : position 3-215
+
+### basS (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31105_1 : position 2-208
+  - gnl|SPADES|LDMNMAEC_63080_1 : position 3-272
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_130254_1 : position 1-237
+
+### bcrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12499_1 : position 2-454
+  - gnl|SPADES|LDMNMAEC_18809_1 : position 78-380
+
+### carA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29418_1 : position 1-258
+
+### cdeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25840_1 : position 1-342
+
+### cfrE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_93783_1 : position 3-257
+
+### cmlv
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_74133_1 : position 3-266
+
+### cpxA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_110449_1 : position 3-248
+  - gnl|SPADES|LDMNMAEC_19555_1 : position 3-146
+
+### emrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_118675_1 : position 2-244
+  - gnl|SPADES|LDMNMAEC_184306_1 : position 2-211
+
+### eptB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_34831_1 : position 2-307
+
+### evgA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11670_1 : position 160-471
+  - gnl|SPADES|LDMNMAEC_8557_1 : position 1-330
+  - gnl|SPADES|LDMNMAEC_8618_1 : position 35-523
+
+### evgS (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10874_1 : position 2-493
+  - gnl|SPADES|LDMNMAEC_144672_1 : position 2-130
+  - gnl|SPADES|LDMNMAEC_31286_1 : position 1-321
+  - gnl|SPADES|LDMNMAEC_8187_1 : position 1-618
+  - gnl|SPADES|LDMNMAEC_9897_1 : position 217-525
+
+### farA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8760_1 : position 1-579
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15818_2 : position 218-406
+
+### gadX
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_37507_1 : position 2-208
+
+### hmrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14253_1 : position 2-427
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20012_1 : position 1-372
+
+### lmrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14971_1 : position 114-416
+
+### macB (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4072_2 : position 380-1069
+  - gnl|SPADES|LDMNMAEC_7767_1 : position 2-244
+  - gnl|SPADES|LDMNMAEC_9941_1 : position 2-526
+
+### mdtB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_158668_1 : position 1-225
+  - gnl|SPADES|LDMNMAEC_84355_1 : position 1-261
+
+### mdtC (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_122394_1 : position 2-241
+  - gnl|SPADES|LDMNMAEC_158014_1 : position 1-225
+  - gnl|SPADES|LDMNMAEC_7435_1 : position 3-680
+  - gnl|SPADES|LDMNMAEC_95947_1 : position 2-253
+
+### mdtF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30370_1 : position 1-324
+
+### mdtG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_97976_1 : position 3-254
+
+### mdtH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17492_1 : position 3-392
+
+### mdtN (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17796_1 : position 3-389
+  - gnl|SPADES|LDMNMAEC_66750_1 : position 2-268
+  - gnl|SPADES|LDMNMAEC_8074_1 : position 3-488
+
+### mdtP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_123479_1 : position 3-242
+
+### mecB
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_145315_1 : position 3-230
+
+### mecD
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_44684_1 : position 2-286
+
+### mef(B)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15599_1 : position 277-411
+
+### msbA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_127104_1 : position 3-239
+  - gnl|SPADES|LDMNMAEC_141863_1 : position 3-194
+
+### novA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11260_1 : position 1-408
+
+### oleC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_156462_1 : position 3-227
+
+### optrA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32613_1 : position 2-316
+  - gnl|SPADES|LDMNMAEC_9751_1 : position 2-532
+
+### otr(C)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31225_1 : position 3-221
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20335_1 : position 131-370
+
+### salC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_170821_1 : position 1-219
+
+### sdiA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33069_1 : position 1-279
+
+### tet(S)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_128091_1 : position 3-239
+
+### tet(X4)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: tetracycline inactivation enzyme
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33280_1 : position 1-315
+
+### tetA(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_164231_1 : position 1-222
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_36041_2 : position 134-304
+
+### ugd (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_118326_1 : position 1-243
+  - gnl|SPADES|LDMNMAEC_14798_1 : position 2-418
+  - gnl|SPADES|LDMNMAEC_38050_1 : position 2-298
+
+### vanR gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19555_2 : position 136-375
+
+### vanR gene in vanM cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31642_1 : position 3-320
+  - gnl|SPADES|LDMNMAEC_39410_1 : position 3-293
+
+### vanS gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_182773_1 : position 1-213
+
+### vanT gene in vanN cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14177_1 : position 3-428
+
+### ykkD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15024_1 : position 197-415
+
+
+## Hafnia alvei FB1
+**Strain Statistics:**
+- Total genome length: 1.4 kbp
+- Total scaffolds: 62
+- Scaffolds with AMR genes: 2
+- Total genes annotated: 0
+- Total AMR genes: 3
+- Unique AMR genes: 3
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 2
+
+**Circos Plot:**
+
+![Circos plot for Hafnia alvei FB1](../circos_LB01_Bolton_QG_A1_S7_Hafnia_alvei_FB1.png)
+
+### macA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4933_1 : position 2-736
+
+### macB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4933_2 : position 733-1029
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26032_1 : position 1-342
+
+
+## Hafnia paralvei
+**Strain Statistics:**
+- Total genome length: 4492.4 kbp
+- Total scaffolds: 100
+- Scaffolds with AMR genes: 44
+- Total genes annotated: 8156
+- Total AMR genes: 426
+- Unique AMR genes: 213
+- Distinct AMR mechanisms: 11
+- Distinct AMR families: 73
+- Distinct drug classes: 37
+
+**Circos Plot:**
+
+![Circos plot for Hafnia paralvei](../circos_LB01_Bolton_QG_A1_S7_Hafnia_paralvei.png)
+
+### AAC(6')-32
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_150 : position 161105-161707
+
+### AAC(6')-Iu
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25_106 : position 112080-112538
+
+### ACC-1a
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: monobactam; cephalosporin; cephamycin; penam; oxacephem
+- **AMR Family**: ACC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38_3: position 3734-4906
+
+### ALI-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: ALI beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_81_26 : position 23222-24100
+
+### APH(6)-Ic
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: APH(6)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_29 : position 27550-28353
+
+### Acinetobacter baumannii AbaF (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_224 : position 257312-258613
+  - gnl|SPADES|LDMNMAEC_35_50 : position 61890-63215
+  - gnl|SPADES|LDMNMAEC_45_4 : position 3565-4794
+  - gnl|SPADES|LDMNMAEC_4_335 : position 329807-331309
+  - gnl|SPADES|LDMNMAEC_70_55 : position 62614-63948
+  - gnl|SPADES|LDMNMAEC_81_34 : position 31575-33116
+
+### Acinetobacter baumannii AbaQ (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_16 : position 15908-17245
+  - gnl|SPADES|LDMNMAEC_14_177 : position 194245-195591
+  - gnl|SPADES|LDMNMAEC_14_98 : position 110512-111735
+  - gnl|SPADES|LDMNMAEC_25_126 : position 131281-132573
+  - gnl|SPADES|LDMNMAEC_39_47 : position 44459-45835
+  - gnl|SPADES|LDMNMAEC_40_110 : position 121786-123114
+  - gnl|SPADES|LDMNMAEC_93_5 : position 4754-6049
+
+### AcrE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_253 : position 278764-279927
+
+### AcrF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_254 : position 279966-283088
+
+### Agrobacterium fabrum chloramphenicol acetyltransferase
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_134_13 : position 14709-15263
+
+### ArnT
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_29: position 30577-32226
+
+### Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_357_1 : position 3-2018
+
+### Bifidobacterium bifidum ileS conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_283 : position 309382-311964
+
+### CRP (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_154 : position 165056-165853
+  - gnl|SPADES|LDMNMAEC_54_75: position 87389-88021
+
+### Clostridioides difficile gyrA conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_791_2 : position 1172-3820
+
+### Clostridioides difficile gyrB conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25_134 : position 138172-140586
+  - gnl|SPADES|LDMNMAEC_88_52 : position 59975-61870
+
+### D-Ala-D-Ala ligase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_50_22 : position 26752-27672
+
+### EVM-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: EVM beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_174 : position 211667-212488
+
+### Enterobacter cloacae acrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_44 : position 43886-45076
+
+### Enterococcus faecium cls conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_355 : position 347386-348846
+
+### ErmX
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_70_13 : position 14856-15668
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_43 : position 43042-43746
+
+### Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_109 : position 117024-117455
+  - gnl|SPADES|LDMNMAEC_20_163 : position 174997-175488
+
+### Escherichia coli EF-Tu mutants conferring resistance to Enacyloxin IIa
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_64 : position 64859-67561
+
+### Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_499_7 : position 6063-7247
+
+### Escherichia coli PtsI with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant ptsI phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_190_26 : position 24217-25944
+
+### Escherichia coli acrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_61_78 : position 90942-92129
+
+### Escherichia coli mdfA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_148 : position 157821-159041
+  - gnl|SPADES|LDMNMAEC_38_94 : position 118195-119427
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance (found in 4 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38_69 : position 84465-85328
+  - gnl|SPADES|LDMNMAEC_4_330 : position 326053-326424
+  - gnl|SPADES|LDMNMAEC_6_261 : position 289575-290396
+  - gnl|SPADES|LDMNMAEC_79_9 : position 7333-8211
+
+### Escherichia coli uhpA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant UhpT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_312_9 : position 10199-10915
+
+### FosC2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosC phosphotransferase family
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_314 : position 347617-348081
+
+### H-NS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_78_74 : position 81701-82108
+
+### Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_59 : position 51663-53435
+  - gnl|SPADES|LDMNMAEC_50_14 : position 15848-17611
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_50_66 : position 78639-81218
+  - gnl|SPADES|LDMNMAEC_6_25 : position 33240-35513
+
+### Helicobacter pylori pbp2 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_277 : position 303998-305893
+
+### Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_357_2 : position 2161-6381
+
+### Klebsiella aerogenes Omp36
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_14 : position 13574-14722
+
+### Klebsiella pneumoniae KpnE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_239 : position 234488-234919
+
+### Klebsiella pneumoniae KpnF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_240: position 234906-235235
+
+### Klebsiella pneumoniae KpnG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_61 : position 79501-80676
+
+### Klebsiella pneumoniae KpnH (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_354_2 : position 1107-2546
+  - gnl|SPADES|LDMNMAEC_6_60: position 77948-79483
+
+### Klebsiella pneumoniae OmpK37 (found in 6 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_60 : position 67896-69008
+  - gnl|SPADES|LDMNMAEC_3_70 : position 86373-87488
+  - gnl|SPADES|LDMNMAEC_40_67 : position 70914-72056
+  - gnl|SPADES|LDMNMAEC_50_67 : position 81400-82539
+  - gnl|SPADES|LDMNMAEC_79_66 : position 68572-69672
+  - gnl|SPADES|LDMNMAEC_81_57 : position 53998-55101
+
+### Klebsiella pneumoniae acrR with mutation conferring multidrug antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_252 : position 277557-278171
+
+### LRA-19
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penam
+- **AMR Family**: subclass B3 LRA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_72 : position 89049-89696
+
+### LlmA 23S ribosomal RNA methyltransferase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Llm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_41 : position 50259-51452
+
+### LptD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_70_10 : position 10057-12459
+
+### MCR-10.4
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_131_11 : position 11159-12793
+
+### MCR-3.4
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_58 : position 49691-51298
+
+### MCR-3.41
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25_52 : position 57364-58986
+
+### MCR-5.1
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25_16 : position 19752-21479
+
+### MdtK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_245 : position 269929-271386
+
+### MdtQ
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_14 : position 12521-14026
+
+### MexG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_340 : position 333979-334395
+
+### MexS (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_138 : position 162544-163521
+  - gnl|SPADES|LDMNMAEC_35_35 : position 40430-41449
+  - gnl|SPADES|LDMNMAEC_39_124 : position 123358-124389
+  - gnl|SPADES|LDMNMAEC_3_310 : position 343065-344189
+  - gnl|SPADES|LDMNMAEC_42_116 : position 129309-130295
+  - gnl|SPADES|LDMNMAEC_79_17 : position 15657-16658
+
+### MexT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_58 : position 61995-62888
+
+### MexV
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_141_12 : position 12774-14291
+
+### MexZ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_88_4 : position 1924-2529
+
+### Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: antibiotic resistant gidB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_354_16 : position 18287-18907
+
+### Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_265 : position 259316-260620
+
+### Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: Pyrazinamide resistant pncA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_81_66 : position 64993-65628
+
+### Mycobacterium tuberculosis rpoB mutations conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_499_14 : position 11366-13429
+
+### Mycobacterium tuberculosis rpsA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: pyrazinamide resistant rpsA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_97 : position 120271-121950
+
+### Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: salicylic acid antibiotic
+- **AMR Family**: aminosalicylate resistant thymidylate synthase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_50_80 : position 97124-97918
+
+### NmcR (found in 8 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_222 : position 241245-242138
+  - gnl|SPADES|LDMNMAEC_11_234 : position 256272-257144
+  - gnl|SPADES|LDMNMAEC_134_27 : position 31234-32193
+  - gnl|SPADES|LDMNMAEC_14_102 : position 115602-116531
+  - gnl|SPADES|LDMNMAEC_20_26 : position 34786-35760
+  - gnl|SPADES|LDMNMAEC_40_95 : position 108850-109755
+  - gnl|SPADES|LDMNMAEC_45_1 : position 365-1192
+  - gnl|SPADES|LDMNMAEC_56_37 : position 30587-31483
+
+### OmpA (found in 4 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: General Bacterial Porin with reduced permeability to peptide antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_110_56 : position 63989-64504
+  - gnl|SPADES|LDMNMAEC_25_110 : position 114929-115588
+  - gnl|SPADES|LDMNMAEC_3_51 : position 60511-61569
+  - gnl|SPADES|LDMNMAEC_4_334 : position 328743-329234
+
+### OprM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_58_67 : position 78566-79927
+
+### ParR (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_87 : position 98455-99168
+  - gnl|SPADES|LDMNMAEC_54_36 : position 42383-43102
+
+### ParS (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_86 : position 97120-98448
+  - gnl|SPADES|LDMNMAEC_88_12 : position 7551-9212
+
+### Planobispora rosea EF-Tu mutants conferring resistance to inhibitor GE2270A
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_118 : position 136326-138194
+
+### PmrF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_26 : position 26665-27681
+
+### Pseudomonas aeruginosa CpxR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25_41 : position 47077-47775
+
+### Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam (found in 3 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic inactivation
+- **Drug Classes**: monobactam; carbapenem; cephalosporin
+- **AMR Family**: PDC beta-lactamase; ampR transcriptional regulator with mutation conferring resistance to monobactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_107_55 : position 60559-61476
+  - gnl|SPADES|LDMNMAEC_38_4 : position 5121-5987
+  - gnl|SPADES|LDMNMAEC_93_17 : position 18059-19006
+
+### QepA2
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_192 : position 204141-205547
+
+### QepA4
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_94 : position 107397-108680
+
+### RanA (found in 13 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_190_8 : position 6170-7105
+  - gnl|SPADES|LDMNMAEC_20_92 : position 100975-101601
+  - gnl|SPADES|LDMNMAEC_25_152 : position 158985-159761
+  - gnl|SPADES|LDMNMAEC_302_10 : position 9882-10907
+  - gnl|SPADES|LDMNMAEC_38_39 : position 50334-51341
+  - gnl|SPADES|LDMNMAEC_3_153 : position 187546-188679
+  - gnl|SPADES|LDMNMAEC_56_1 : position 611-1420
+  - gnl|SPADES|LDMNMAEC_58_48 : position 57619-59232
+  - gnl|SPADES|LDMNMAEC_78_54 : position 58249-59388
+  - gnl|SPADES|LDMNMAEC_78_66 : position 69674-70678
+  - gnl|SPADES|LDMNMAEC_78_67 : position 70675-71661
+  - gnl|SPADES|LDMNMAEC_79_54 : position 58812-59642
+  - gnl|SPADES|LDMNMAEC_93_42 : position 42600-43676
+
+### RanB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_79_53 : position 58025-58807
+
+### RlmA(II)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (G748)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_30 : position 38503-39315
+
+### SAT-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_45_26 : position 29963-30691
+
+### SRT-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: SRT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_76 : position 80931-82070
+
+### SatA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_324 : position 320913-321356
+
+### Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant GlpT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_113 : position 130754-132109
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_161 : position 172512-174101
+  - gnl|SPADES|LDMNMAEC_54_99 : position 107318-109432
+
+### Staphylococcus aureus fusE with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_333_28 : position 18124-18657
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_70_44 : position 47295-50144
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_81 : position 87109-89964
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_79_48 : position 54629-55888
+
+### Staphylococcus aureus pgsA mutations conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant pgsA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_45 : position 36187-36735
+
+### Staphylococcus aureus walK with mutation conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant walK
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_87 : position 95549-97423
+
+### Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_54_44 : position 51884-54454
+
+### Streptomyces rimosus otr(A)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38_88 : position 111216-113039
+
+### Streptomyces venezuelae rox (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_229 : position 248551-249729
+  - gnl|SPADES|LDMNMAEC_11_230 : position 249816-251021
+  - gnl|SPADES|LDMNMAEC_6_297 : position 325810-326985
+
+### TaeA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_60 : position 70011-71918
+  - gnl|SPADES|LDMNMAEC_79_15 : position 12897-14564
+
+### TolC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_88_57 : position 64803-66284
+
+### TxR (found in 13 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_206 : position 233433-235211
+  - gnl|SPADES|LDMNMAEC_14_86 : position 94158-95552
+  - gnl|SPADES|LDMNMAEC_14_93 : position 104066-105511
+  - gnl|SPADES|LDMNMAEC_358_4 : position 3529-4869
+  - gnl|SPADES|LDMNMAEC_38_85 : position 106636-108057
+  - gnl|SPADES|LDMNMAEC_3_204 : position 242076-244910
+  - gnl|SPADES|LDMNMAEC_467_8 : position 9042-10619
+  - gnl|SPADES|LDMNMAEC_56_65 : position 59044-60495
+  - gnl|SPADES|LDMNMAEC_61_35 : position 38580-40841
+  - gnl|SPADES|LDMNMAEC_6_235 : position 258247-259779
+  - gnl|SPADES|LDMNMAEC_78_31 : position 32623-34209
+  - gnl|SPADES|LDMNMAEC_78_42 : position 43609-44610
+  - gnl|SPADES|LDMNMAEC_88_58 : position 66445-68400
+
+### YajC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_105 : position 111979-112311
+
+### YojI
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_3 : position 3162-3755
+
+### aadT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_85 : position 76865-78334
+
+### abeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminocoumarin antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_327 : position 324403-324747
+
+### acrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_45 : position 45122-48274
+
+### acrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_95 : position 118298-121444
+
+### adeF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_61_79: position 92196-95306
+
+### adeG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_107 : position 115745-116605
+
+### adeL (found in 22 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_107_7 : position 8593-9492
+  - gnl|SPADES|LDMNMAEC_110_31 : position 36563-37498
+  - gnl|SPADES|LDMNMAEC_141_40 : position 45031-45924
+  - gnl|SPADES|LDMNMAEC_14_127 : position 147284-148204
+  - gnl|SPADES|LDMNMAEC_14_189 : position 207422-208336
+  - gnl|SPADES|LDMNMAEC_14_60 : position 63863-64789
+  - gnl|SPADES|LDMNMAEC_20_104 : position 112493-113395
+  - gnl|SPADES|LDMNMAEC_25_7 : position 7114-8040
+  - gnl|SPADES|LDMNMAEC_25_94 : position 97105-98037
+  - gnl|SPADES|LDMNMAEC_302_7 : position 5918-6832
+  - gnl|SPADES|LDMNMAEC_38_17 : position 20334-21227
+  - gnl|SPADES|LDMNMAEC_39_117 : position 117890-118783
+  - gnl|SPADES|LDMNMAEC_39_76 : position 77527-78423
+  - gnl|SPADES|LDMNMAEC_3_122 : position 154202-155101
+  - gnl|SPADES|LDMNMAEC_40_61 : position 65613-66521
+  - gnl|SPADES|LDMNMAEC_4_322 : position 319653-320558
+  - gnl|SPADES|LDMNMAEC_56_88 : position 96251-97156
+  - gnl|SPADES|LDMNMAEC_58_30 : position 34760-35623
+  - gnl|SPADES|LDMNMAEC_6_102 : position 117864-118745
+  - gnl|SPADES|LDMNMAEC_6_249 : position 275394-276287
+  - gnl|SPADES|LDMNMAEC_79_16 : position 14632-15534
+  - gnl|SPADES|LDMNMAEC_81_27 : position 24229-25125
+
+### adeN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; lincosamide antibiotic; carbapenem; cephalosporin; tetracycline antibiotic; rifamycin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_58_69 : position 94126-94863
+
+### adeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_81_80 : position 78700-79716
+
+### almE (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_250 : position 245007-246689
+  - gnl|SPADES|LDMNMAEC_50_6 : position 6997-8799
+
+### arlR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_190_37 : position 38482-39198
+  - gnl|SPADES|LDMNMAEC_39_107 : position 109876-110556
+
+### arnA (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_333_9 : position 5111-6058
+  - gnl|SPADES|LDMNMAEC_40_27 : position 27681-29663
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_132 : position 140286-141104
+
+### baeR (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_302_21 : position 20806-21507
+  - gnl|SPADES|LDMNMAEC_35_40 : position 46668-47393
+  - gnl|SPADES|LDMNMAEC_35_62 : position 78011-78700
+  - gnl|SPADES|LDMNMAEC_88_51 : position 59099-59809
+
+### baeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_41 : position 47399-48781
+
+### basS (found in 3 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_113 : position 114379-115737
+  - gnl|SPADES|LDMNMAEC_11_52 : position 52295-53368
+  - gnl|SPADES|LDMNMAEC_302_20 : position 19373-20809
+
+### bcr-1 (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_90 : position 98698-99924
+  - gnl|SPADES|LDMNMAEC_35_34 : position 39050-40333
+  - gnl|SPADES|LDMNMAEC_39_105 : position 107206-108408
+  - gnl|SPADES|LDMNMAEC_58_50 : position 60624-61832
+  - gnl|SPADES|LDMNMAEC_61_21 : position 24181-25362
+  - gnl|SPADES|LDMNMAEC_81_52 : position 50557-51756
+
+### bcrA (found in 8 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_141_21 : position 22529-23995
+  - gnl|SPADES|LDMNMAEC_141_26 : position 26964-28022
+  - gnl|SPADES|LDMNMAEC_35_71 : position 90201-91013
+  - gnl|SPADES|LDMNMAEC_3_303 : position 334407-335984
+  - gnl|SPADES|LDMNMAEC_4_229 : position 221416-222207
+  - gnl|SPADES|LDMNMAEC_56_60 : position 52599-53219
+  - gnl|SPADES|LDMNMAEC_6_121 : position 142277-143794
+  - gnl|SPADES|LDMNMAEC_6_86 : position 101394-102212
+
+### catB9
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_165 : position 177330-177962
+
+### cdeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_134_8 : position 10712-12061
+
+### clbB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_27 : position 36531-37790
+
+### cmlB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25_29 : position 35515-36699
+
+### cmlv (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_158 : position 169552-170739
+  - gnl|SPADES|LDMNMAEC_38_18 : position 21382-22551
+  - gnl|SPADES|LDMNMAEC_81_20 : position 17287-18522
+
+### cmx (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_71 : position 77022-78218
+  - gnl|SPADES|LDMNMAEC_39_74 : position 74811-75995
+
+### cprR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_53 : position 53365-54027
+
+### cpxA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25_42 : position 47772-49142
+  - gnl|SPADES|LDMNMAEC_38_86 : position 108104-109180
+  - gnl|SPADES|LDMNMAEC_4_278 : position 277922-279394
+  - gnl|SPADES|LDMNMAEC_54_37 : position 43099-44487
+
+### dfrA3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_70_28 : position 28862-29344
+
+### efpA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: rifamycin antibiotic; isoniazid-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_176 : position 192811-194211
+  - gnl|SPADES|LDMNMAEC_70_52 : position 58954-60447
+
+### efrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_53 : position 56616-57365
+
+### emrK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_173 : position 157390-158541
+
+### emrR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_63 : position 82193-82711
+
+### emrY (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_42 : position 48778-50202
+  - gnl|SPADES|LDMNMAEC_4_174 : position 158550-160088
+
+### eptB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38_47 : position 59047-60714
+
+### evgA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_101 : position 127698-128330
+  - gnl|SPADES|LDMNMAEC_35_20 : position 20491-21153
+  - gnl|SPADES|LDMNMAEC_4_43 : position 33648-34304
+
+### evgS (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_138374_1 : position 3-233
+  - gnl|SPADES|LDMNMAEC_4_75 : position 69685-70074
+  - gnl|SPADES|LDMNMAEC_58_74 : position 99980-102685
+  - gnl|SPADES|LDMNMAEC_6_176 : position 192223-194964
+  - gnl|SPADES|LDMNMAEC_791_3 : position 4025-6814
+  - gnl|SPADES|LDMNMAEC_79_31 : position 31537-33879
+
+### facT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_172 : position 185198-186493
+
+### farA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_58_70 : position 94856-95854
+
+### gadW (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_162 : position 147371-148273
+  - gnl|SPADES|LDMNMAEC_4_171 : position 156419-157168
+  - gnl|SPADES|LDMNMAEC_6_269 : position 296753-297730
+
+### gadX (found in 8 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_53 : position 64754-65635
+  - gnl|SPADES|LDMNMAEC_35_72 : position 91118-91915
+  - gnl|SPADES|LDMNMAEC_35_73 : position 92430-93266
+  - gnl|SPADES|LDMNMAEC_38_53 : position 65528-66076
+  - gnl|SPADES|LDMNMAEC_3_181 : position 218750-219631
+  - gnl|SPADES|LDMNMAEC_4_52 : position 42345-43091
+  - gnl|SPADES|LDMNMAEC_58_61 : position 71233-71988
+  - gnl|SPADES|LDMNMAEC_61_77 : position 89890-90651
+
+### golS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_14 : position 9423-9827
+  - gnl|SPADES|LDMNMAEC_333_15 : position 11147-11608
+
+### hmrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_78_20 : position 18393-19763
+
+### hp1181
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; nitroimidazole antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_85 : position 90791-92158
+
+### kdpD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_110_20 : position 22946-25636
+
+### kdpE (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_110_19 : position 22246-22935
+  - gnl|SPADES|LDMNMAEC_4_279 : position 279394-280065
+  - gnl|SPADES|LDMNMAEC_88_11 : position 6884-7582
+
+### leuO (found in 11 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_171_31 : position 32944-33849
+  - gnl|SPADES|LDMNMAEC_20_118 : position 124598-125488
+  - gnl|SPADES|LDMNMAEC_35_29 : position 32895-33851
+  - gnl|SPADES|LDMNMAEC_38_15 : position 17923-18834
+  - gnl|SPADES|LDMNMAEC_3_55 : position 64761-65702
+  - gnl|SPADES|LDMNMAEC_4_326 : position 323160-324092
+  - gnl|SPADES|LDMNMAEC_50_5 : position 5681-6634
+  - gnl|SPADES|LDMNMAEC_61_20 : position 23253-24212
+  - gnl|SPADES|LDMNMAEC_61_33 : position 36137-37057
+  - gnl|SPADES|LDMNMAEC_70_19 : position 19432-20337
+  - gnl|SPADES|LDMNMAEC_70_27 : position 27867-28790
+
+### lfrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_78_15 : position 13268-14644
+
+### lmrC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_131_13 : position 13856-14509
+
+### lmrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_81_58 : position 55161-56936
+
+### lsaD
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_347 : position 338372-339136
+
+### macB (found in 19 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_89 : position 90637-91326
+  - gnl|SPADES|LDMNMAEC_11_98 : position 97796-98599
+  - gnl|SPADES|LDMNMAEC_14_209 : position 236837-239773
+  - gnl|SPADES|LDMNMAEC_190_22 : position 20670-21764
+  - gnl|SPADES|LDMNMAEC_38_40 : position 51338-52318
+  - gnl|SPADES|LDMNMAEC_397_20 : position 17056-17838
+  - gnl|SPADES|LDMNMAEC_3_142 : position 179067-179795
+  - gnl|SPADES|LDMNMAEC_3_222 : position 264437-265636
+  - gnl|SPADES|LDMNMAEC_40_24 : position 24471-25241
+  - gnl|SPADES|LDMNMAEC_40_4 : position 3755-4561
+  - gnl|SPADES|LDMNMAEC_4_271 : position 270669-271388
+  - gnl|SPADES|LDMNMAEC_58_40 : position 46500-47222
+  - gnl|SPADES|LDMNMAEC_6_202 : position 223216-223938
+  - gnl|SPADES|LDMNMAEC_6_209 : position 231672-232358
+  - gnl|SPADES|LDMNMAEC_6_287 : position 315013-315738
+  - gnl|SPADES|LDMNMAEC_78_46 : position 48612-49607
+  - gnl|SPADES|LDMNMAEC_79_2 : position 853-1884
+  - gnl|SPADES|LDMNMAEC_88_26 : position 23621-24730
+  - gnl|SPADES|LDMNMAEC_93_27 : position 26629-27297
+
+### marA (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_42_41 : position 41067-41927
+  - gnl|SPADES|LDMNMAEC_93_51 : position 51465-52307
+
+### mdtA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_45 : position 56544-57833
+
+### mdtB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_44 : position 53395-56544
+
+### mdtC (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_141_11 : position 9637-12777
+  - gnl|SPADES|LDMNMAEC_35_43 : position 50300-53398
+
+### mdtG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_55 : position 46742-47926
+
+### mdtH (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_163 : position 196765-198009
+  - gnl|SPADES|LDMNMAEC_4_207 : position 197924-199129
+
+### mdtN (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_125 : position 145724-146659
+  - gnl|SPADES|LDMNMAEC_39_61 : position 61866-62852
+
+### mdtO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_39_60 : position 59904-61856
+
+### mdtP (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_39_59 : position 58462-59907
+  - gnl|SPADES|LDMNMAEC_6_62 : position 80701-82158
+
+### mecC
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_9 : position 8885-10798
+
+### mef(B)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_175 : position 212894-214090
+
+### mgrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; penam; tetracycline antibiotic; peptide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_39_38 : position 36218-36658
+
+### mphJ
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide phosphotransferase (MPH)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_78_62 : position 67158-68036
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_70_45 : position 50237-51175
+
+### msbA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_123 : position 155412-157103
+  - gnl|SPADES|LDMNMAEC_3_124 : position 157106-158827
+  - gnl|SPADES|LDMNMAEC_3_94 : position 115594-117342
+  - gnl|SPADES|LDMNMAEC_467_3 : position 2312-3007
+
+### mtrA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_35 : position 37852-38763
+  - gnl|SPADES|LDMNMAEC_38_96 : position 120808-121989
+  - gnl|SPADES|LDMNMAEC_6_68 : position 85882-86703
+
+### nalD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_86 : position 78455-79012
+  - gnl|SPADES|LDMNMAEC_4_88 : position 80717-81352
+
+### novA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_58_66 : position 76391-78535
+
+### oleC (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_302_22 : position 21753-22700
+  - gnl|SPADES|LDMNMAEC_354_7 : position 6429-7934
+  - gnl|SPADES|LDMNMAEC_4_103 : position 96606-97343
+  - gnl|SPADES|LDMNMAEC_93_38 : position 38486-39187
+
+### optrA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_54_86 : position 97380-99308
+  - gnl|SPADES|LDMNMAEC_56_83 : position 90014-91582
+
+### otr(B) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_100 : position 115176-116666
+  - gnl|SPADES|LDMNMAEC_6_5 : position 8832-10262
+
+### patA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_254_15 : position 17295-17957
+  - gnl|SPADES|LDMNMAEC_40_36 : position 37867-38688
+
+### pp-flo
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38_97 : position 122103-123578
+
+### qacG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_167: position 153623-153991
+
+### ramA (found in 10 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_10 : position 12176-12565
+  - gnl|SPADES|LDMNMAEC_20_137 : position 146699-147640
+  - gnl|SPADES|LDMNMAEC_35_74 : position 93365-94180
+  - gnl|SPADES|LDMNMAEC_39_120 : position 120154-120501
+  - gnl|SPADES|LDMNMAEC_39_23 : position 23919-25352
+  - gnl|SPADES|LDMNMAEC_45_75 : position 89131-89985
+  - gnl|SPADES|LDMNMAEC_4_137 : position 126959-127372
+  - gnl|SPADES|LDMNMAEC_56_81 : position 88860-89213
+  - gnl|SPADES|LDMNMAEC_6_244 : position 269217-269570
+  - gnl|SPADES|LDMNMAEC_6_262 : position 290531-291391
+
+### rosA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_22 : position 17966-19189
+
+### rosB (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_23 : position 19691-21388
+  - gnl|SPADES|LDMNMAEC_54_88 : position 100011-101825
+  - gnl|SPADES|LDMNMAEC_70_32 : position 31531-33417
+
+### rphA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_49 : position 51318-53693
+
+### rphB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_42_37 : position 34905-36380
+
+### rsmA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_61_84: position 100632-100817
+
+### sdiA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_254_6 : position 8670-9317
+  - gnl|SPADES|LDMNMAEC_3_36 : position 46511-47251
+
+### smeS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35_63 : position 78810-80159
+  - gnl|SPADES|LDMNMAEC_88_50 : position 57640-59118
+
+### sta
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_88 : position 97585-98409
+
+### sul4
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_59 : position 59575-60408
+
+### tet(35)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_242 : position 236470-237924
+
+### tet(42) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_296 : position 326699-327916
+  - gnl|SPADES|LDMNMAEC_467_7 : position 7855-9036
+
+### tet(43)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_47 : position 51107-52423
+
+### tet(M)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_54_100 : position 109503-109712
+
+### tet(S)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_50_75 : position 92755-94194
+
+### tetA(58) (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_90 : position 91336-92142
+  - gnl|SPADES|LDMNMAEC_54_83 : position 94828-95610
+  - gnl|SPADES|LDMNMAEC_58_26 : position 29745-30533
+  - gnl|SPADES|LDMNMAEC_58_71 : position 95866-97602
+  - gnl|SPADES|LDMNMAEC_79_60 : position 63912-64637
+  - gnl|SPADES|LDMNMAEC_93_37 : position 37664-38434
+
+### tetA(60) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_56 : position 56835-58607
+  - gnl|SPADES|LDMNMAEC_50_69 : position 85495-86292
+
+### tetB(46) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_131_14 : position 14503-15315
+  - gnl|SPADES|LDMNMAEC_20_135 : position 143984-145504
+
+### tetB(60) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30_55 : position 55064-56842
+  - gnl|SPADES|LDMNMAEC_78_47 : position 49604-50416
+
+### tetB(P)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_169 : position 185421-187214
+
+### tsnR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_15 : position 17945-18670
+  - gnl|SPADES|LDMNMAEC_70_72 : position 85308-86423
+
+### ugd
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_58_4 : position 3504-4670
+
+### vanE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14_143 : position 166583-167932
+
+### vanH gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_224 : position 243438-244676
+
+### vanH gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40_75 : position 81654-82646
+
+### vanH gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_93_4 : position 3776-4753
+
+### vanH gene in vanO cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38_84 : position 105177-106157
+  - gnl|SPADES|LDMNMAEC_56_16 : position 13784-14911
+
+### vanH gene in vanP cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4_203 : position 194402-195343
+
+### vanR gene in vanA cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6_109 : position 123516-124388
+  - gnl|SPADES|LDMNMAEC_70_71 : position 84451-85167
+
+### vanR gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11_114 : position 115734-116396
+
+### vanR gene in vanC cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_322 : position 356454-357188
+
+### vanR gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_39_94 : position 99882-100778
+
+### vanR gene in vanF cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_45_55 : position 63448-64164
+  - gnl|SPADES|LDMNMAEC_4_74 : position 68598-69650
+
+### vanR gene in vanG cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_107_22 : position 22627-24237
+  - gnl|SPADES|LDMNMAEC_56_76 : position 81660-82403
+
+### vanR gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38_66 : position 81342-82310
+
+### vanS gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_358_2 : position 1254-2690
+
+### vanS gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_39_108 : position 110572-112029
+
+### vanS gene in vanP cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_45_56 : position 64165-65634
+
+### vanT gene in vanC cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_42_114 : position 126640-127719
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_81_51 : position 49412-50482
+
+### vatB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3_330 : position 364206-364772
+
+### vatF
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20_80 : position 85814-86095
+
+### ykkC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_42_11 : position 12511-12828
+
+
+## Latilactobacillus sakei
+**Strain Statistics:**
+- Total genome length: 1031.0 kbp
+- Total scaffolds: 966
+- Scaffolds with AMR genes: 121
+- Total genes annotated: 1952
+- Total AMR genes: 196
+- Unique AMR genes: 117
+- Distinct AMR mechanisms: 11
+- Distinct AMR families: 56
+- Distinct drug classes: 34
+
+**Circos Plot:**
+
+![Circos plot for Latilactobacillus sakei](../circos_LB01_Bolton_QG_A1_S7_Latilactobacillus_sakei.png)
+
+### AAC(6')-34
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_315_16 : position 13275-13838
+
+### ADC-8
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: ADC beta-lactamase without carbapenemase activity
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_26 : position 27434-28585
+
+### Acinetobacter baumannii AbaQ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4621_1 : position 2-988
+
+### BKC-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: BKC Beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4139_2 : position 364-1233
+
+### CRP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_371_1 : position 459-1127
+
+### Clostridioides difficile gyrA conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104_15 : position 17053-19626
+  - gnl|SPADES|LDMNMAEC_523_5 : position 4696-7170
+
+### Clostridioides difficile gyrB conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104_14 : position 15014-17005
+  - gnl|SPADES|LDMNMAEC_523_6 : position 7191-9182
+
+### D-Ala-D-Ala ligase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104_55 : position 54906-55958
+
+### Enterococcus faecalis cls with mutation conferring resistance to daptomycin (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_250_24 : position 23374-24831
+  - gnl|SPADES|LDMNMAEC_5730_1 : position 3-881
+  - gnl|SPADES|LDMNMAEC_5883_1 : position 1-858
+
+### Erm(34)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_779_8 : position 4610-5503
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_509_2 : position 1184-1825
+
+### Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_449_13 : position 11517-12707
+
+### Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: disinfecting agents and antiseptics; isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant fabI
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_388_12 : position 9293-10042
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1858_1 : position 1-963
+  - gnl|SPADES|LDMNMAEC_34015_1 : position 2-310
+
+### GES-22
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; penam
+- **AMR Family**: GES beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_416_6 : position 6118-7101
+
+### HelR (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: helicase-like RNA polymerase protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_57 : position 59335-61626
+  - gnl|SPADES|LDMNMAEC_351_2 : position 1184-3481
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1238_5 : position 2225-4222
+  - gnl|SPADES|LDMNMAEC_144_12 : position 11227-13308
+  - gnl|SPADES|LDMNMAEC_277_21 : position 19566-22121
+
+### IreK
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: cephalosporin
+- **AMR Family**: Serine/threonine kinases
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_414_4 : position 2386-4269
+
+### LRA-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penam
+- **AMR Family**: subclass B3 LRA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_8 : position 7057-7863
+
+### Listeria monocytogenes mprF (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: defensin resistant mprF
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_189390_1 : position 1-210
+  - gnl|SPADES|LDMNMAEC_752_4 : position 1697-4318
+
+### MexL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_642_1 : position 202-837
+
+### MexR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_28 : position 29252-29734
+
+### MexS (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_250_1 : position 2-994
+  - gnl|SPADES|LDMNMAEC_286_13 : position 10882-11835
+  - gnl|SPADES|LDMNMAEC_4130_1 : position 131-1162
+
+### Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_291_18 : position 15271-16572
+
+### Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant kasA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_388_18 : position 13952-15184
+
+### Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: Pyrazinamide resistant pncA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4396_2 : position 135-674
+
+### NmcR (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_336_7 : position 6770-7642
+  - gnl|SPADES|LDMNMAEC_523_2 : position 126-1091
+
+### PRC-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penam
+- **AMR Family**: PRC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_509_5 : position 5554-6564
+
+### Pseudomonas aeruginosa soxR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_371_14 : position 16620-17066
+
+### QnrS4
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_752_5 : position 4405-5040
+
+### RanA (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2089_1 : position 1-594
+  - gnl|SPADES|LDMNMAEC_209_8 : position 6938-7747
+  - gnl|SPADES|LDMNMAEC_209_9 : position 7768-8526
+  - gnl|SPADES|LDMNMAEC_311_19 : position 16322-17413
+  - gnl|SPADES|LDMNMAEC_4337_1 : position 2-505
+  - gnl|SPADES|LDMNMAEC_436_4 : position 6030-6992
+  - gnl|SPADES|LDMNMAEC_505_9 : position 7152-7940
+  - gnl|SPADES|LDMNMAEC_5628_2 : position 289-900
+  - gnl|SPADES|LDMNMAEC_578_10 : position 8313-9251
+
+### Rhodococcus fascians cmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_578_2 : position 95-1477
+
+### RlmA(II)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (G748)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_272_17 : position 17945-18781
+
+### Rv1877 (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1009_1 : position 53-1525
+  - gnl|SPADES|LDMNMAEC_5221_1 : position 1-888
+
+### SAT-3
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1803_2 : position 1460-2005
+
+### SAT-4
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_272_20 : position 21111-21548
+
+### SRT-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: SRT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_144_39 : position 39593-40774
+
+### SatA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_714_3 : position 1243-1704
+
+### Staphylococcus aureus LmrS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; oxazolidinone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_277_18 : position 16193-17668
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_392_30 : position 15537-17624
+  - gnl|SPADES|LDMNMAEC_688_8 : position 5735-7312
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2476_1 : position 1-894
+  - gnl|SPADES|LDMNMAEC_2743_1 : position 171-1844
+  - gnl|SPADES|LDMNMAEC_391_13 : position 9728-12376
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2677_1 : position 2-1885
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1047_4 : position 3668-4927
+
+### Staphylococcus aureus rpoB mutants conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_466_5 : position 5997-9590
+
+### Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_676_4 : position 2219-4357
+
+### Streptomyces rimosus otr(A) (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4947_1 : position 2-1027
+  - gnl|SPADES|LDMNMAEC_6053_1 : position 77-835
+
+### TaeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1119_4 : position 2895-4784
+
+### ThfT
+- **Mechanism**: resistance by host-dependent nutrient acquisition
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: ECF transporter S component
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4241_2 : position 608-1201
+
+### aadT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_584_10 : position 8658-9866
+
+### almE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_505_14 : position 11955-13184
+
+### arlS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_5 : position 2977-4875
+  - gnl|SPADES|LDMNMAEC_209_4 : position 2497-4158
+
+### arnA (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_414_7 : position 6367-7323
+  - gnl|SPADES|LDMNMAEC_7234_2 : position 218-697
+  - gnl|SPADES|LDMNMAEC_7235_2 : position 218-697
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_314_1 : position 1-828
+
+### basS
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_314_15 : position 12837-13904
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_351_18 : position 19413-20594
+
+### bcrA (found in 8 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_144_20 : position 20789-21517
+  - gnl|SPADES|LDMNMAEC_1509_2 : position 710-1600
+  - gnl|SPADES|LDMNMAEC_1741_2 : position 331-1221
+  - gnl|SPADES|LDMNMAEC_2285_2 : position 1048-1935
+  - gnl|SPADES|LDMNMAEC_2521_3 : position 1369-2004
+  - gnl|SPADES|LDMNMAEC_7002_1 : position 34-720
+  - gnl|SPADES|LDMNMAEC_775_10 : position 7119-7352
+  - gnl|SPADES|LDMNMAEC_879_2 : position 1996-3195
+
+### bcrC
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1257_2 : position 2228-2866
+
+### cdeA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10075_2 : position 262-519
+  - gnl|SPADES|LDMNMAEC_1053_2 : position 920-2236
+
+### dfrL
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: aminoglycoside antibiotic; tetracycline antibiotic; diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7959_2 : position 121-621
+
+### efpA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: rifamycin antibiotic; isoniazid-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1099_4 : position 2946-4304
+
+### efrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1291_2 : position 1692-3431
+  - gnl|SPADES|LDMNMAEC_509_3 : position 1849-3579
+
+### efrB (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1291_1 : position 2-1705
+  - gnl|SPADES|LDMNMAEC_25982_1 : position 1-342
+  - gnl|SPADES|LDMNMAEC_3612_1 : position 1-297
+
+### emrY
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1215_3 : position 1130-2527
+
+### evgA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_311_13 : position 12012-12644
+  - gnl|SPADES|LDMNMAEC_784_6 : position 4764-5369
+
+### facT (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6628_2 : position 323-766
+  - gnl|SPADES|LDMNMAEC_829_4 : position 2764-4323
+
+### fexB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104_42 : position 42999-44189
+
+### golS (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10347_1 : position 31-510
+  - gnl|SPADES|LDMNMAEC_1512_1 : position 93-494
+  - gnl|SPADES|LDMNMAEC_1885_2 : position 882-1283
+  - gnl|SPADES|LDMNMAEC_520_5 : position 3928-4353
+  - gnl|SPADES|LDMNMAEC_578_8 : position 5959-6723
+
+### leuO (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2136_1 : position 1-531
+  - gnl|SPADES|LDMNMAEC_3700_1 : position 129-1016
+
+### lmrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic; nucleoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5226_1 : position 1-966
+
+### lsaC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2023_5 : position 2287-2502
+
+### macB (found in 15 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_47 : position 48457-49215
+  - gnl|SPADES|LDMNMAEC_1431_2 : position 193-879
+  - gnl|SPADES|LDMNMAEC_144_7 : position 6632-7783
+  - gnl|SPADES|LDMNMAEC_150710_1 : position 3-230
+  - gnl|SPADES|LDMNMAEC_2236_2 : position 764-1504
+  - gnl|SPADES|LDMNMAEC_286_23 : position 21584-22246
+  - gnl|SPADES|LDMNMAEC_291_25 : position 20424-21458
+  - gnl|SPADES|LDMNMAEC_311_16 : position 14158-14823
+  - gnl|SPADES|LDMNMAEC_314_13 : position 11237-12013
+  - gnl|SPADES|LDMNMAEC_391_3 : position 941-1594
+  - gnl|SPADES|LDMNMAEC_436_5 : position 7021-8046
+  - gnl|SPADES|LDMNMAEC_507_2 : position 2014-3954
+  - gnl|SPADES|LDMNMAEC_5678_2 : position 74-463
+  - gnl|SPADES|LDMNMAEC_584_7 : position 5836-6708
+  - gnl|SPADES|LDMNMAEC_900_3 : position 2467-3201
+
+### mdeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic; penam; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2995_1 : position 1-1422
+
+### mdtG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_577_8 : position 6440-7693
+
+### mecI
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_314_21 : position 21854-22294
+
+### mepA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_752_7 : position 5895-7262
+
+### mepR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1512_2 : position 626-1177
+
+### mgrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; penam; tetracycline antibiotic; peptide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_209_33 : position 31164-31619
+
+### msbA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1512_3 : position 1190-2941
+  - gnl|SPADES|LDMNMAEC_209_28 : position 24574-27426
+  - gnl|SPADES|LDMNMAEC_2560_1 : position 282-1124
+  - gnl|SPADES|LDMNMAEC_6811_1 : position 1-114
+
+### msr(G)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; streptogramin antibiotic
+- **AMR Family**: msr-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1075_4 : position 2593-4860
+
+### mtrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_371_13 : position 15732-16595
+  - gnl|SPADES|LDMNMAEC_5744_1 : position 3-743
+
+### nalC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_250_2 : position 996-1682
+
+### novA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_291_28 : position 23145-23927
+
+### optrA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104_1 : position 348-1973
+  - gnl|SPADES|LDMNMAEC_528_2 : position 1959-2966
+
+### patA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_120675_1 : position 3-242
+  - gnl|SPADES|LDMNMAEC_120784_1 : position 3-242
+
+### patB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_509_4 : position 3579-5456
+
+### poxtA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic; oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19741_1 : position 2-373
+  - gnl|SPADES|LDMNMAEC_286_18 : position 15184-16818
+
+### qacA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_19 : position 20523-21746
+
+### ramA
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5641_1 : position 63-896
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_416_10 : position 11595-12755
+
+### rphB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_314_22 : position 22444-23841
+
+### smeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_314_14 : position 12153-12827
+
+### sta
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_520_6 : position 4408-4926
+
+### sul4
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_538_8 : position 5729-6814
+
+### tcr3
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_272_24 : position 24433-25893
+
+### tet(T)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_387_10 : position 6118-7956
+
+### tetA(58) (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104_57 : position 56717-57613
+  - gnl|SPADES|LDMNMAEC_250_29 : position 29649-30440
+  - gnl|SPADES|LDMNMAEC_336_28 : position 20877-21767
+  - gnl|SPADES|LDMNMAEC_3982_2 : position 742-1278
+  - gnl|SPADES|LDMNMAEC_5049_1 : position 1-693
+  - gnl|SPADES|LDMNMAEC_642_3 : position 1971-2696
+  - gnl|SPADES|LDMNMAEC_784_3 : position 2025-2897
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_429_16 : position 14785-16530
+
+### tetB(46) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_429_15 : position 12993-14783
+  - gnl|SPADES|LDMNMAEC_523_9 : position 10772-11431
+
+### tetB(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_250_30 : position 30453-31175
+
+### tetB(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2560_2 : position 1100-1975
+
+### tetB(P)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1283_2 : position 782-1684
+
+### tsnR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1605_6 : position 2679-3152
+  - gnl|SPADES|LDMNMAEC_311_3 : position 1653-2414
+
+### ugd
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15048_1 : position 3-416
+
+### vanC
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_144_44 : position 45737-46888
+
+### vanE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_798_1 : position 120-1232
+
+### vanH gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4677_2 : position 797-1087
+
+### vanH gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1075_2 : position 935-1378
+
+### vanH gene in vanP cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4324_1 : position 105-1115
+  - gnl|SPADES|LDMNMAEC_775_2 : position 1310-2263
+
+### vanO
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1067_2 : position 1500-3779
+
+### vanR gene in vanI cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_4 : position 2254-2967
+  - gnl|SPADES|LDMNMAEC_209_3 : position 1797-2510
+
+### vanT gene in vanG cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1220_3 : position 1270-2412
+  - gnl|SPADES|LDMNMAEC_2401_3 : position 690-1709
+
+### vanZ gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanZ; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114_27 : position 28630-29226
+
+### vanZ gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanZ; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_776_3 : position 1901-3049
+
+### vatB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2136_2 : position 653-1228
+
+### vatE
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_578_7 : position 5361-5927
+
+### vatF (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104_60 : position 61416-62033
+  - gnl|SPADES|LDMNMAEC_68100_1 : position 3-269
+
+### vmlR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic; nucleoside antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19002_1 : position 1-378
+
+
+## Latilactobacillus sakei subsp. sakei
+**Strain Statistics:**
+- Total genome length: 89.5 kbp
+- Total scaffolds: 70
+- Scaffolds with AMR genes: 6
+- Total genes annotated: 170
+- Total AMR genes: 15
+- Unique AMR genes: 15
+- Distinct AMR mechanisms: 5
+- Distinct AMR families: 9
+- Distinct drug classes: 15
+
+**Circos Plot:**
+
+![Circos plot for Latilactobacillus sakei subsp. sakei](../circos_LB01_Bolton_QG_A1_S7_Latilactobacillus_sakei_subsp._sakei.png)
+
+### Agrobacterium fabrum chloramphenicol acetyltransferase
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_321_17 : position 18878-19525
+
+### RanA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_548_5 : position 2710-3441
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_883_1 : position 358-2781
+
+### baeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_321_8 : position 8703-10139
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_927_4 : position 3254-4429
+
+### cmlv
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_883_3 : position 5082-6260
+
+### golS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_242_21 : position 19035-19454
+
+### macB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_548_10 : position 8753-11278
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_321_19 : position 21423-22376
+
+### patA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_927_6 : position 5296-5910
+
+### tet(T)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_587_2 : position 298-2136
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_242_16 : position 14354-15112
+
+### tetR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_927_5 : position 4482-5153
+
+### vanR gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_321_9 : position 10139-10879
+
+### vanZ gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanZ; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_321_1 : position 315-923
+
+
+## Latilactobacillus sakei subsp. sakei 23K
+**Strain Statistics:**
+- Total genome length: 117.5 kbp
+- Total scaffolds: 25
+- Scaffolds with AMR genes: 7
+- Total genes annotated: 210
+- Total AMR genes: 18
+- Unique AMR genes: 18
+- Distinct AMR mechanisms: 3
+- Distinct AMR families: 10
+- Distinct drug classes: 18
+
+**Circos Plot:**
+
+![Circos plot for Latilactobacillus sakei subsp. sakei 23K](../circos_LB01_Bolton_QG_A1_S7_Latilactobacillus_sakei_subsp._sakei_23K.png)
+
+### CRP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_194_24 : position 27025-27726
+
+### HelR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: helicase-like RNA polymerase protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_267_21 : position 24063-26111
+
+### MexS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_244_19 : position 20386-21321
+
+### PmrF
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_580_11 : position 8582-9514
+
+### YajC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_194_27 : position 30731-31087
+
+### arlR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_244_30 : position 29460-30146
+
+### arlS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_244_31 : position 30143-31645
+
+### bcrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_267_12 : position 13713-14393
+
+### fexA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_580_2 : position 745-1941
+
+### lmrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_267_22 : position 26288-28081
+
+### lsaA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1043_1 : position 537-2048
+
+### lsaD
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11403_1 : position 3-479
+
+### optrA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_194_4 : position 2423-4444
+
+### patA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_267_23 : position 28085-29047
+
+### poxtA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic; oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_19742_1 : position 2-373
+
+### qacH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_580_5 : position 3761-4081
+
+### vanR gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_267_18 : position 20289-20975
+
+### vanS gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_267_17 : position 19090-20289
+
+
+## Latilactobacillus sakei subsp. sakei DSM 20017 = JCM 1157
+**Strain Statistics:**
+- Total genome length: 32.8 kbp
+- Total scaffolds: 1
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 68
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 1
+
+**Circos Plot:**
+
+![Circos plot for Latilactobacillus sakei subsp. sakei DSM 20017 = JCM 1157](../circos_LB01_Bolton_QG_A1_S7_Latilactobacillus_sakei_subsp._sakei_DSM_20017_=_JCM_1157.png)
+
+### macB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_233_31 : position 29485-30210
+
+
+## Serratia fonticola
+**Strain Statistics:**
+- Total genome length: 1967.5 kbp
+- Total scaffolds: 1794
+- Scaffolds with AMR genes: 440
+- Total genes annotated: 3755
+- Total AMR genes: 583
+- Unique AMR genes: 239
+- Distinct AMR mechanisms: 11
+- Distinct AMR families: 74
+- Distinct drug classes: 36
+
+**Circos Plot:**
+
+![Circos plot for Serratia fonticola](../circos_LB01_Bolton_QG_A1_S7_Serratia_fonticola.png)
+
+### AAC(6')-34
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_759_4 : position 2704-3201
+
+### AAC(6')-Ia
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_961_6 : position 3322-3840
+
+### ACT-8
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: ACT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4027_1: position 168-1265
+
+### AIM-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: AIM beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1310_3 : position 2354-3346
+
+### APH(6)-Ic
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: APH(6)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_901_4 : position 4016-4720
+
+### Acinetobacter baumannii AbaF (found in 12 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1107_2 : position 432-1829
+  - gnl|SPADES|LDMNMAEC_1203_2 : position 1053-2336
+  - gnl|SPADES|LDMNMAEC_1209_1 : position 2-415
+  - gnl|SPADES|LDMNMAEC_1241_1 : position 3-770
+  - gnl|SPADES|LDMNMAEC_1568_1 : position 1-366
+  - gnl|SPADES|LDMNMAEC_1616_1 : position 30-1532
+  - gnl|SPADES|LDMNMAEC_1749_1 : position 1-774
+  - gnl|SPADES|LDMNMAEC_1880_2 : position 739-2031
+  - gnl|SPADES|LDMNMAEC_2142_2 : position 334-1680
+  - gnl|SPADES|LDMNMAEC_2270_3 : position 1210-2208
+  - gnl|SPADES|LDMNMAEC_2706_2 : position 1379-1867
+  - gnl|SPADES|LDMNMAEC_7938_1 : position 1-510
+
+### Acinetobacter baumannii AbaQ (found in 11 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1051_6 : position 4177-5097
+  - gnl|SPADES|LDMNMAEC_1054_3 : position 2234-3580
+  - gnl|SPADES|LDMNMAEC_1073_2 : position 446-1792
+  - gnl|SPADES|LDMNMAEC_262_6 : position 4011-5381
+  - gnl|SPADES|LDMNMAEC_2660_2 : position 428-1783
+  - gnl|SPADES|LDMNMAEC_2791_2 : position 414-1709
+  - gnl|SPADES|LDMNMAEC_303_6 : position 4537-5805
+  - gnl|SPADES|LDMNMAEC_649_3 : position 1518-2318
+  - gnl|SPADES|LDMNMAEC_666_3 : position 3409-4701
+  - gnl|SPADES|LDMNMAEC_738_4 : position 2946-4172
+  - gnl|SPADES|LDMNMAEC_9155_1 : position 2-238
+
+### Acinetobacter baumannii AmvA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1028_6 : position 3076-4572
+  - gnl|SPADES|LDMNMAEC_842_5 : position 2849-4147
+
+### Agrobacterium fabrum chloramphenicol acetyltransferase
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_874_7 : position 4696-5325
+
+### ArnT (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2433_1: position 1-1206
+  - gnl|SPADES|LDMNMAEC_2433_2 : position 1148-1654
+
+### BahA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: Bah amidohydrolase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2310_2 : position 1111-2124
+
+### Bifidobacterium bifidum ileS conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4901_2 : position 662-1036
+
+### CAR-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: CAR beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5465_2 : position 363-929
+
+### CMY-95
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephamycin
+- **AMR Family**: CMY beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_262_3 : position 1865-3007
+
+### CRP (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1187_3: position 2547-3179
+  - gnl|SPADES|LDMNMAEC_5766_1 : position 3-761
+  - gnl|SPADES|LDMNMAEC_850_3 : position 3494-4195
+
+### Clostridioides difficile gyrA conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4896_1 : position 2-550
+
+### Enterobacter cloacae acrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_704_2 : position 426-1544
+
+### Enterococcus faecalis cls with mutation conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2511_2 : position 564-1634
+
+### Erm(37)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1544_3 : position 2376-3158
+
+### ErmC
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1777_4 : position 1812-2630
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_369_8 : position 8623-9240
+  - gnl|SPADES|LDMNMAEC_399_7 : position 5951-6598
+
+### Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1250_6 : position 3248-3682
+
+### Escherichia coli EF-Tu mutants conferring resistance to kirromycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_669_7 : position 7172-8746
+
+### Escherichia coli GlpT with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant GlpT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_337_12 : position 13225-14577
+
+### Escherichia coli acrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_399_8 : position 6741-7922
+
+### Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: disinfecting agents and antiseptics; isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant fabI
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_262_17 : position 13696-14478
+  - gnl|SPADES|LDMNMAEC_978_4 : position 1484-2239
+
+### Escherichia coli mdfA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_669_5 : position 3932-5368
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance (found in 9 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1302_3 : position 3083-3970
+  - gnl|SPADES|LDMNMAEC_1548_3 : position 1218-1661
+  - gnl|SPADES|LDMNMAEC_1584_3 : position 2105-2890
+  - gnl|SPADES|LDMNMAEC_1668_2 : position 483-1310
+  - gnl|SPADES|LDMNMAEC_4606_1 : position 1-912
+  - gnl|SPADES|LDMNMAEC_6284_1 : position 1-714
+  - gnl|SPADES|LDMNMAEC_687_5 : position 4800-5690
+  - gnl|SPADES|LDMNMAEC_801_1 : position 3-614
+  - gnl|SPADES|LDMNMAEC_873_1 : position 3-776
+
+### EstT
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide esterase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1087_3 : position 1266-2135
+
+### FONA-6
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: penam
+- **AMR Family**: FONA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2628_2: position 217-1104
+
+### FosA8
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_920_6: position 4518-4925
+
+### FosB3
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1628_3 : position 2680-3051
+
+### GMB-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: GMB beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1754_1 : position 3-803
+
+### GOB-5
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; penam
+- **AMR Family**: GOB beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2289_2 : position 1515-2162
+
+### H-NS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_716_8 : position 5948-6355
+
+### Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_544_10 : position 10418-11566
+  - gnl|SPADES|LDMNMAEC_991_7 : position 4614-5474
+
+### Helicobacter pylori frxA mutation conferring resistance to metronidazole
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: Antibiotic resistant Helicobacter pylori nitroreductase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2110_1 : position 168-782
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_433_8 : position 7727-10228
+  - gnl|SPADES|LDMNMAEC_935_2 : position 5117-5845
+
+### Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7869_1 : position 2-640
+
+### Klebsiella aerogenes Omp36
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3849_1 : position 190-1317
+
+### Klebsiella pneumoniae KpnE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1478_3 : position 1980-2348
+
+### Klebsiella pneumoniae KpnF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1478_4: position 2335-2664
+
+### Klebsiella pneumoniae KpnG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_494_1 : position 2-214
+
+### Klebsiella pneumoniae KpnH (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2103_2: position 801-2336
+  - gnl|SPADES|LDMNMAEC_3864_1 : position 1-1314
+
+### Klebsiella pneumoniae OmpK37 (found in 6 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1904_4 : position 1957-2625
+  - gnl|SPADES|LDMNMAEC_2321_1 : position 1-987
+  - gnl|SPADES|LDMNMAEC_3366_2 : position 1097-1516
+  - gnl|SPADES|LDMNMAEC_5192_1 : position 1-975
+  - gnl|SPADES|LDMNMAEC_530_3 : position 1371-2465
+  - gnl|SPADES|LDMNMAEC_836_1 : position 3-956
+
+### LptD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_514_3 : position 2162-4528
+
+### MOX-3
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: MOX beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1340_2 : position 374-1513
+
+### MSI-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: MSI beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2900_1 : position 1-504
+
+### MdtK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_685_3 : position 1157-2596
+
+### MexF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_704_4 : position 3104-4657
+
+### MexJ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_896_6 : position 5852-6145
+
+### MexK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_612_9 : position 5990-9070
+
+### MexL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1150_6 : position 3789-4385
+
+### MexS (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1023_4 : position 2763-3614
+  - gnl|SPADES|LDMNMAEC_1046_1 : position 1-486
+  - gnl|SPADES|LDMNMAEC_1491_3 : position 1215-2339
+  - gnl|SPADES|LDMNMAEC_2353_1 : position 260-1291
+  - gnl|SPADES|LDMNMAEC_2856_1 : position 82-1089
+  - gnl|SPADES|LDMNMAEC_644_7 : position 5648-6697
+  - gnl|SPADES|LDMNMAEC_942_3 : position 1528-2517
+
+### MexT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4236_2 : position 418-1203
+
+### MexV
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_803_2 : position 1098-2540
+
+### MexW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4712_1 : position 28-1077
+
+### Morganella morganii gyrB conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2778_3 : position 1223-1819
+
+### Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: antibiotic resistant gidB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_345_18 : position 19327-19947
+
+### Mycobacterium tuberculosis inhA mutations conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: isoniazid resistant inhA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1515_3 : position 1937-2695
+
+### Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant kasA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2155_2 : position 149-2347
+  - gnl|SPADES|LDMNMAEC_792_7 : position 5318-6487
+
+### Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_741_9 : position 5569-6897
+
+### Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: Pyrazinamide resistant pncA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4126_2 : position 900-1235
+
+### Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: salicylic acid antibiotic
+- **AMR Family**: aminosalicylate resistant thymidylate synthase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_912_2 : position 646-1440
+
+### Mycolicibacterium smegmatis ndh with mutation conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_882_5 : position 3396-4595
+
+### Neisseria gonorrhoeae pilQ gene conferring resistance to beta-lactam
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3964_1 : position 2-808
+
+### NmcR (found in 11 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1096_1 : position 2-634
+  - gnl|SPADES|LDMNMAEC_1209_4 : position 2769-3596
+  - gnl|SPADES|LDMNMAEC_1340_1 : position 1-273
+  - gnl|SPADES|LDMNMAEC_1491_2 : position 273-1175
+  - gnl|SPADES|LDMNMAEC_1920_4 : position 2361-2600
+  - gnl|SPADES|LDMNMAEC_2106_2 : position 1399-2373
+  - gnl|SPADES|LDMNMAEC_2196_1 : position 115-984
+  - gnl|SPADES|LDMNMAEC_2366_3 : position 1860-2129
+  - gnl|SPADES|LDMNMAEC_5570_1 : position 2-841
+  - gnl|SPADES|LDMNMAEC_910_4 : position 5077-6003
+  - gnl|SPADES|LDMNMAEC_948_6 : position 4905-5753
+
+### OmpA (found in 3 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: General Bacterial Porin with reduced permeability to peptide antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2592_2 : position 197-694
+  - gnl|SPADES|LDMNMAEC_303_13 : position 14017-14676
+  - gnl|SPADES|LDMNMAEC_991_6 : position 3489-4607
+
+### OpmB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1193_1 : position 1-1290
+
+### OprJ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; cephalosporin; penam; tetracycline antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1128_2 : position 1649-3130
+
+### ParR (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_524_14 : position 10996-11703
+  - gnl|SPADES|LDMNMAEC_751_5 : position 4365-5084
+
+### ParS (found in 3 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_188109_1 : position 2-211
+  - gnl|SPADES|LDMNMAEC_2016_1 : position 3-332
+  - gnl|SPADES|LDMNMAEC_453_7 : position 7282-8244
+
+### PmrF (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_622_2 : position 831-1820
+  - gnl|SPADES|LDMNMAEC_851_4 : position 2419-3330
+
+### Pseudomonas aeruginosa CpxR (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1157_5 : position 4435-4539
+  - gnl|SPADES|LDMNMAEC_1233_2 : position 644-1273
+  - gnl|SPADES|LDMNMAEC_453_6 : position 6578-7264
+  - gnl|SPADES|LDMNMAEC_590_6 : position 7611-8291
+  - gnl|SPADES|LDMNMAEC_6083_1 : position 2-640
+
+### Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic inactivation
+- **Drug Classes**: monobactam; carbapenem; cephalosporin
+- **AMR Family**: PDC beta-lactamase; ampR transcriptional regulator with mutation conferring resistance to monobactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2628_3 : position 1237-1923
+  - gnl|SPADES|LDMNMAEC_861_5 : position 3125-4066
+
+### QepA2
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_687_4 : position 3351-4745
+
+### QepA4
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1628_1 : position 220-1506
+
+### QnrB26
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_613_6 : position 3991-4644
+
+### RanA (found in 21 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1079_2 : position 2009-2998
+  - gnl|SPADES|LDMNMAEC_1130_4 : position 2807-3922
+  - gnl|SPADES|LDMNMAEC_1210_1 : position 45-857
+  - gnl|SPADES|LDMNMAEC_1295_1 : position 766-1551
+  - gnl|SPADES|LDMNMAEC_1381_2 : position 284-1060
+  - gnl|SPADES|LDMNMAEC_1404_2 : position 803-1909
+  - gnl|SPADES|LDMNMAEC_1554_3 : position 1796-2866
+  - gnl|SPADES|LDMNMAEC_1642_2 : position 2011-3069
+  - gnl|SPADES|LDMNMAEC_1670_3 : position 1093-1839
+  - gnl|SPADES|LDMNMAEC_1753_2 : position 175-1770
+  - gnl|SPADES|LDMNMAEC_2748_1 : position 256-1071
+  - gnl|SPADES|LDMNMAEC_3517_2 : position 207-1451
+  - gnl|SPADES|LDMNMAEC_440_18 : position 13928-14695
+  - gnl|SPADES|LDMNMAEC_4665_1 : position 1-510
+  - gnl|SPADES|LDMNMAEC_4665_2 : position 507-1088
+  - gnl|SPADES|LDMNMAEC_494_8 : position 6304-7503
+  - gnl|SPADES|LDMNMAEC_5027_2 : position 57-1007
+  - gnl|SPADES|LDMNMAEC_517_10 : position 9966-11039
+  - gnl|SPADES|LDMNMAEC_707_8 : position 6541-7668
+  - gnl|SPADES|LDMNMAEC_861_2 : position 772-1569
+  - gnl|SPADES|LDMNMAEC_9642_1 : position 3-536
+
+### RanB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2748_2 : position 1076-1840
+  - gnl|SPADES|LDMNMAEC_861_1 : position 2-775
+
+### Rhodococcus fascians cmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1261_2 : position 321-1505
+
+### RlmA(II)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (G748)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1934_2 : position 967-1854
+
+### SAT-3
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_898_5 : position 3667-4209
+
+### Salmonella serovars soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2528_1 : position 46-432
+
+### SatA (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1953_3 : position 2117-2506
+  - gnl|SPADES|LDMNMAEC_303_17 : position 18918-19364
+
+### Staphylococcus aureus FosB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2321_2 : position 1143-1559
+
+### Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant GlpT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_590_1 : position 4-1386
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1027_3 : position 1308-4124
+  - gnl|SPADES|LDMNMAEC_1778_2 : position 619-2808
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2020_1 : position 2-436
+  - gnl|SPADES|LDMNMAEC_5019_1 : position 1-1008
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_866_5 : position 1965-3224
+
+### Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_560_7 : position 5989-8547
+
+### Streptomyces lividans otr(A)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13008_1 : position 2-445
+
+### Streptomyces venezuelae rox (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1048_3 : position 1996-3174
+  - gnl|SPADES|LDMNMAEC_1048_4 : position 3404-4606
+
+### TaeA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1881_1 : position 3-1022
+  - gnl|SPADES|LDMNMAEC_512_6 : position 8995-9756
+  - gnl|SPADES|LDMNMAEC_665_1 : position 3-1088
+
+### TolC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2484_1 : position 3-1451
+
+### TriA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_490_1 : position 1-900
+
+### TriB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_612_10 : position 9070-9876
+
+### TxR (found in 14 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1031_1 : position 2-1330
+  - gnl|SPADES|LDMNMAEC_1199_3 : position 2108-3451
+  - gnl|SPADES|LDMNMAEC_1203_4 : position 3181-4365
+  - gnl|SPADES|LDMNMAEC_1511_3 : position 1629-3206
+  - gnl|SPADES|LDMNMAEC_1639_1 : position 2-1381
+  - gnl|SPADES|LDMNMAEC_1655_5 : position 2516-3046
+  - gnl|SPADES|LDMNMAEC_2150_2 : position 907-2247
+  - gnl|SPADES|LDMNMAEC_33908_1 : position 1-312
+  - gnl|SPADES|LDMNMAEC_4236_1 : position 2-421
+  - gnl|SPADES|LDMNMAEC_4315_1 : position 2-382
+  - gnl|SPADES|LDMNMAEC_590_4 : position 5073-6317
+  - gnl|SPADES|LDMNMAEC_8019_1 : position 3-632
+  - gnl|SPADES|LDMNMAEC_8513_2 : position 249-596
+  - gnl|SPADES|LDMNMAEC_985_5 : position 4243-5502
+
+### YojI
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_713_5 : position 3758-5410
+
+### aadT (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2529_2 : position 270-1577
+  - gnl|SPADES|LDMNMAEC_4132_1 : position 1-351
+
+### adeF (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_399_9: position 7940-11086
+  - gnl|SPADES|LDMNMAEC_778_6: position 4176-7301
+
+### adeH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30297_1 : position 1-303
+
+### adeL (found in 36 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1014_7 : position 4283-5170
+  - gnl|SPADES|LDMNMAEC_10548_1 : position 1-459
+  - gnl|SPADES|LDMNMAEC_1061_3 : position 1692-2579
+  - gnl|SPADES|LDMNMAEC_1061_5 : position 4170-5036
+  - gnl|SPADES|LDMNMAEC_1083_1 : position 155-1057
+  - gnl|SPADES|LDMNMAEC_11101_1 : position 1-486
+  - gnl|SPADES|LDMNMAEC_1170_1 : position 1-813
+  - gnl|SPADES|LDMNMAEC_1219_4 : position 3871-4293
+  - gnl|SPADES|LDMNMAEC_1386_4 : position 3368-3715
+  - gnl|SPADES|LDMNMAEC_1510_4 : position 2439-3368
+  - gnl|SPADES|LDMNMAEC_1521_2 : position 1354-2274
+  - gnl|SPADES|LDMNMAEC_1545_3 : position 2365-3264
+  - gnl|SPADES|LDMNMAEC_1622_3 : position 2296-3120
+  - gnl|SPADES|LDMNMAEC_1645_3 : position 797-1681
+  - gnl|SPADES|LDMNMAEC_1937_2 : position 1576-2499
+  - gnl|SPADES|LDMNMAEC_2601_3 : position 889-1764
+  - gnl|SPADES|LDMNMAEC_2759_2 : position 779-1702
+  - gnl|SPADES|LDMNMAEC_2778_2 : position 232-1128
+  - gnl|SPADES|LDMNMAEC_28500_1 : position 2-331
+  - gnl|SPADES|LDMNMAEC_3188_1 : position 1-729
+  - gnl|SPADES|LDMNMAEC_337_14 : position 15885-16892
+  - gnl|SPADES|LDMNMAEC_3544_1 : position 3-344
+  - gnl|SPADES|LDMNMAEC_399_17 : position 15824-16750
+  - gnl|SPADES|LDMNMAEC_420_17 : position 13503-14387
+  - gnl|SPADES|LDMNMAEC_428_7 : position 8854-9741
+  - gnl|SPADES|LDMNMAEC_461_16 : position 14225-15136
+  - gnl|SPADES|LDMNMAEC_4654_1 : position 72-1001
+  - gnl|SPADES|LDMNMAEC_527_6 : position 4020-4937
+  - gnl|SPADES|LDMNMAEC_614_4 : position 3182-4072
+  - gnl|SPADES|LDMNMAEC_653_8 : position 5222-6040
+  - gnl|SPADES|LDMNMAEC_665_2 : position 1139-2047
+  - gnl|SPADES|LDMNMAEC_7786_1 : position 1-567
+  - gnl|SPADES|LDMNMAEC_789_1 : position 14-919
+  - gnl|SPADES|LDMNMAEC_805_7 : position 4784-5692
+  - gnl|SPADES|LDMNMAEC_860_4 : position 3451-4380
+  - gnl|SPADES|LDMNMAEC_932_2 : position 1515-2402
+
+### almE (found in 5 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1515_1 : position 3-1079
+  - gnl|SPADES|LDMNMAEC_2035_2 : position 527-2248
+  - gnl|SPADES|LDMNMAEC_285_2 : position 470-4825
+  - gnl|SPADES|LDMNMAEC_461_1 : position 136-1677
+  - gnl|SPADES|LDMNMAEC_5424_1 : position 1-936
+
+### apmA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(2')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1319_3 : position 1306-2127
+
+### arlR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1913_4 : position 1664-2263
+
+### arnA (found in 5 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2076_2 : position 901-2442
+  - gnl|SPADES|LDMNMAEC_2624_2 : position 1128-1928
+  - gnl|SPADES|LDMNMAEC_31960_1 : position 3-317
+  - gnl|SPADES|LDMNMAEC_716_7 : position 4778-5788
+  - gnl|SPADES|LDMNMAEC_9109_1 : position 3-416
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2107_2 : position 529-1356
+
+### baeR (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1552_2 : position 1162-1878
+  - gnl|SPADES|LDMNMAEC_1588_1 : position 94-783
+  - gnl|SPADES|LDMNMAEC_3786_2 : position 1172-1339
+
+### baeS (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1472_2 : position 2293-3459
+  - gnl|SPADES|LDMNMAEC_1552_1 : position 1-1149
+  - gnl|SPADES|LDMNMAEC_1657_1 : position 2-247
+  - gnl|SPADES|LDMNMAEC_3786_1 : position 3-1175
+  - gnl|SPADES|LDMNMAEC_4157_1 : position 2-196
+  - gnl|SPADES|LDMNMAEC_590_3 : position 3076-5079
+
+### basS (found in 4 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1142_5 : position 3256-4614
+  - gnl|SPADES|LDMNMAEC_1182_2 : position 291-1355
+  - gnl|SPADES|LDMNMAEC_2478_2 : position 1044-2039
+  - gnl|SPADES|LDMNMAEC_3018_2 : position 697-1686
+
+### bcr-1 (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1036_3 : position 2818-4155
+  - gnl|SPADES|LDMNMAEC_1078_2 : position 1257-2369
+  - gnl|SPADES|LDMNMAEC_1586_2 : position 476-1660
+  - gnl|SPADES|LDMNMAEC_1855_4 : position 2255-2698
+  - gnl|SPADES|LDMNMAEC_2365_1 : position 3-767
+  - gnl|SPADES|LDMNMAEC_2461_1 : position 85-1281
+  - gnl|SPADES|LDMNMAEC_4478_1 : position 1-768
+  - gnl|SPADES|LDMNMAEC_801_7 : position 5389-6624
+  - gnl|SPADES|LDMNMAEC_853_4 : position 2192-3382
+
+### bcrA (found in 11 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1014_2 : position 521-1153
+  - gnl|SPADES|LDMNMAEC_1049_3 : position 1797-3365
+  - gnl|SPADES|LDMNMAEC_1353_2 : position 1016-2521
+  - gnl|SPADES|LDMNMAEC_2412_3 : position 1677-2096
+  - gnl|SPADES|LDMNMAEC_2982_2 : position 1375-1704
+  - gnl|SPADES|LDMNMAEC_3264_1 : position 321-1424
+  - gnl|SPADES|LDMNMAEC_3271_1 : position 3-701
+  - gnl|SPADES|LDMNMAEC_3733_1 : position 2-271
+  - gnl|SPADES|LDMNMAEC_591_4 : position 3618-5111
+  - gnl|SPADES|LDMNMAEC_615_10 : position 8473-9813
+  - gnl|SPADES|LDMNMAEC_822_4 : position 6456-6869
+
+### blt
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10844_1 : position 156-494
+
+### bmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; nucleoside antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2288_1 : position 1-726
+
+### clbB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2703_1 : position 3-1187
+
+### cmeC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; fusidane antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1806_2 : position 1632-2774
+
+### cmlA9
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5176_1 : position 120-977
+
+### cmlv (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3544_2 : position 464-1441
+  - gnl|SPADES|LDMNMAEC_614_3 : position 1901-3076
+  - gnl|SPADES|LDMNMAEC_6361_1 : position 3-746
+
+### cmx
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_494_5 : position 2628-3827
+
+### cprR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1142_4 : position 2597-3259
+  - gnl|SPADES|LDMNMAEC_1182_3 : position 1352-2014
+
+### cpxA (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3464_2 : position 637-1473
+  - gnl|SPADES|LDMNMAEC_524_13 : position 9537-10910
+  - gnl|SPADES|LDMNMAEC_590_5 : position 6226-7605
+  - gnl|SPADES|LDMNMAEC_6083_2 : position 637-834
+  - gnl|SPADES|LDMNMAEC_751_6 : position 5081-6451
+  - gnl|SPADES|LDMNMAEC_865_6 : position 5257-6414
+  - gnl|SPADES|LDMNMAEC_930_6 : position 3117-4436
+
+### dfrA3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1777_1 : position 39-521
+
+### efrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1819_3 : position 2202-2750
+
+### efrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17690_1 : position 2-388
+
+### emeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1023_2 : position 139-1497
+
+### emrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2070_2 : position 1203-2369
+  - gnl|SPADES|LDMNMAEC_2103_1 : position 1-783
+
+### emrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5065_1 : position 2-1000
+
+### emrK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_457_4 : position 3147-4316
+
+### emrR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_494_4 : position 1714-2235
+
+### emrY (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_345_2 : position 884-2302
+  - gnl|SPADES|LDMNMAEC_4157_2 : position 193-1227
+  - gnl|SPADES|LDMNMAEC_457_3 : position 1722-3143
+  - gnl|SPADES|LDMNMAEC_782_1 : position 1-132
+
+### eptA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1030_4 : position 2688-4322
+
+### eptB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1623_3 : position 1267-2961
+
+### evgA (found in 10 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_172419_1 : position 2-214
+  - gnl|SPADES|LDMNMAEC_3318_1 : position 3-230
+  - gnl|SPADES|LDMNMAEC_3464_1 : position 42-662
+  - gnl|SPADES|LDMNMAEC_457_5 : position 4808-5440
+  - gnl|SPADES|LDMNMAEC_458_3 : position 3755-4387
+  - gnl|SPADES|LDMNMAEC_490_11 : position 9830-10483
+  - gnl|SPADES|LDMNMAEC_730_3 : position 3729-4358
+  - gnl|SPADES|LDMNMAEC_778_4 : position 2958-3584
+  - gnl|SPADES|LDMNMAEC_930_5 : position 2494-3117
+  - gnl|SPADES|LDMNMAEC_966_2 : position 585-1235
+
+### evgS (found in 14 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1195_4 : position 2027-2416
+  - gnl|SPADES|LDMNMAEC_1199_4 : position 3438-4376
+  - gnl|SPADES|LDMNMAEC_1375_1 : position 3-1577
+  - gnl|SPADES|LDMNMAEC_1714_1 : position 1-1239
+  - gnl|SPADES|LDMNMAEC_1788_1 : position 3-1028
+  - gnl|SPADES|LDMNMAEC_2066_1 : position 3-959
+  - gnl|SPADES|LDMNMAEC_2654_2 : position 385-1905
+  - gnl|SPADES|LDMNMAEC_3337_1 : position 1-1293
+  - gnl|SPADES|LDMNMAEC_457_6 : position 5445-9041
+  - gnl|SPADES|LDMNMAEC_458_2 : position 244-3765
+  - gnl|SPADES|LDMNMAEC_489_10 : position 9827-11614
+  - gnl|SPADES|LDMNMAEC_490_10 : position 6772-9798
+  - gnl|SPADES|LDMNMAEC_5263_1 : position 2-961
+  - gnl|SPADES|LDMNMAEC_6092_2 : position 183-833
+
+### facT (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1061_4 : position 2691-4175
+  - gnl|SPADES|LDMNMAEC_2248_2 : position 1887-2234
+  - gnl|SPADES|LDMNMAEC_530_10 : position 11047-12105
+  - gnl|SPADES|LDMNMAEC_873_5 : position 5007-6356
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2504_4 : position 1611-2015
+
+### gadX
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_961_4 : position 1850-2569
+
+### golS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1224_5 : position 2484-2897
+  - gnl|SPADES|LDMNMAEC_1571_5 : position 2583-3017
+
+### hmrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1414_4 : position 1929-3305
+
+### hp1181
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; nitroimidazole antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1859_2 : position 708-2072
+
+### kdpD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1166_1 : position 3-1595
+  - gnl|SPADES|LDMNMAEC_1556_3 : position 2194-3246
+
+### kdpE (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1104_1 : position 75-746
+  - gnl|SPADES|LDMNMAEC_1166_2 : position 1614-2303
+  - gnl|SPADES|LDMNMAEC_2988_2 : position 575-1261
+
+### leuO (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1074_3 : position 1805-2713
+  - gnl|SPADES|LDMNMAEC_1386_3 : position 2448-3371
+  - gnl|SPADES|LDMNMAEC_1530_1 : position 3-761
+  - gnl|SPADES|LDMNMAEC_544_1 : position 58-1005
+  - gnl|SPADES|LDMNMAEC_888_1 : position 3-569
+
+### lfrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2251_2 : position 511-1902
+
+### lmrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic; nucleoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_653_7 : position 3712-5091
+
+### lmrC (found in 3 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4464_1 : position 3-194
+  - gnl|SPADES|LDMNMAEC_575_1 : position 13-1632
+  - gnl|SPADES|LDMNMAEC_981_7 : position 3835-4614
+
+### lmrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_671_8 : position 4516-5193
+
+### macA (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10049_1 : position 3-176
+  - gnl|SPADES|LDMNMAEC_1193_4 : position 3206-4393
+  - gnl|SPADES|LDMNMAEC_1197_3 : position 1736-2851
+  - gnl|SPADES|LDMNMAEC_1550_1 : position 3-164
+  - gnl|SPADES|LDMNMAEC_4900_2 : position 296-1036
+  - gnl|SPADES|LDMNMAEC_896_1 : position 153-719
+
+### macB (found in 36 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10049_2 : position 169-519
+  - gnl|SPADES|LDMNMAEC_1079_3 : position 2995-3975
+  - gnl|SPADES|LDMNMAEC_1091_5 : position 3091-3816
+  - gnl|SPADES|LDMNMAEC_1193_2 : position 1287-2939
+  - gnl|SPADES|LDMNMAEC_1193_3 : position 2917-3213
+  - gnl|SPADES|LDMNMAEC_1197_4 : position 2851-4380
+  - gnl|SPADES|LDMNMAEC_1314_1 : position 3-527
+  - gnl|SPADES|LDMNMAEC_1481_4 : position 2606-3436
+  - gnl|SPADES|LDMNMAEC_1526_1 : position 1-666
+  - gnl|SPADES|LDMNMAEC_1550_2 : position 157-2112
+  - gnl|SPADES|LDMNMAEC_1641_2 : position 500-1984
+  - gnl|SPADES|LDMNMAEC_1676_2 : position 691-2331
+  - gnl|SPADES|LDMNMAEC_1806_1 : position 1-1635
+  - gnl|SPADES|LDMNMAEC_1809_2 : position 1288-2004
+  - gnl|SPADES|LDMNMAEC_1809_3 : position 1991-2764
+  - gnl|SPADES|LDMNMAEC_1902_4 : position 1736-2488
+  - gnl|SPADES|LDMNMAEC_1923_1 : position 1-681
+  - gnl|SPADES|LDMNMAEC_2082_3 : position 1932-2438
+  - gnl|SPADES|LDMNMAEC_2436_4 : position 1690-2064
+  - gnl|SPADES|LDMNMAEC_2572_2 : position 936-1769
+  - gnl|SPADES|LDMNMAEC_257_6 : position 4146-4868
+  - gnl|SPADES|LDMNMAEC_2623_1 : position 1-1122
+  - gnl|SPADES|LDMNMAEC_3056_3 : position 1159-1449
+  - gnl|SPADES|LDMNMAEC_3056_4 : position 1394-1663
+  - gnl|SPADES|LDMNMAEC_345_7 : position 6180-7685
+  - gnl|SPADES|LDMNMAEC_3536_2 : position 807-1442
+  - gnl|SPADES|LDMNMAEC_399_13 : position 13526-14383
+  - gnl|SPADES|LDMNMAEC_4673_2 : position 135-839
+  - gnl|SPADES|LDMNMAEC_566_4 : position 2246-2950
+  - gnl|SPADES|LDMNMAEC_590_8 : position 9450-10538
+  - gnl|SPADES|LDMNMAEC_638_5 : position 3251-4000
+  - gnl|SPADES|LDMNMAEC_738_8 : position 6567-7253
+  - gnl|SPADES|LDMNMAEC_836_2 : position 991-1782
+  - gnl|SPADES|LDMNMAEC_919_4 : position 3563-4498
+  - gnl|SPADES|LDMNMAEC_963_6 : position 3823-4494
+  - gnl|SPADES|LDMNMAEC_976_3 : position 1533-2324
+
+### marA
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1400_4 : position 2625-3518
+
+### mdsB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_803_1 : position 1-1101
+
+### mdtA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6553_1 : position 1-774
+  - gnl|SPADES|LDMNMAEC_7036_2 : position 442-717
+
+### mdtB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1484_1 : position 3-2255
+  - gnl|SPADES|LDMNMAEC_7036_1 : position 2-442
+
+### mdtC (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1484_2 : position 2252-2722
+  - gnl|SPADES|LDMNMAEC_1484_3 : position 2814-3419
+  - gnl|SPADES|LDMNMAEC_3144_1 : position 3-1616
+
+### mdtH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_512_7 : position 9772-11001
+
+### mdtM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; lincosamide antibiotic; nucleoside antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_762_7 : position 6273-7535
+
+### mdtN (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1329_1 : position 3-785
+  - gnl|SPADES|LDMNMAEC_2306_1 : position 3-638
+  - gnl|SPADES|LDMNMAEC_443_17 : position 13963-14949
+  - gnl|SPADES|LDMNMAEC_4651_1 : position 2-916
+
+### mdtO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1128_1 : position 3-1652
+
+### mdtP (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_494_2 : position 236-1105
+  - gnl|SPADES|LDMNMAEC_494_3 : position 1083-1691
+
+### mecA
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7158_1 : position 2-703
+
+### mepA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2370_3 : position 1343-2125
+
+### mexQ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; carbapenem; tetracycline antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5058_1 : position 1-675
+
+### mgrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; penam; tetracycline antibiotic; peptide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_262_14 : position 11488-11931
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1027_2 : position 339-1277
+
+### msbA (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2052_1 : position 3-680
+  - gnl|SPADES|LDMNMAEC_2499_2 : position 766-2022
+  - gnl|SPADES|LDMNMAEC_3211_1 : position 3-740
+  - gnl|SPADES|LDMNMAEC_3735_1 : position 3-365
+  - gnl|SPADES|LDMNMAEC_4819_1 : position 3-1055
+  - gnl|SPADES|LDMNMAEC_4900_1 : position 3-296
+  - gnl|SPADES|LDMNMAEC_4971_1 : position 3-1019
+  - gnl|SPADES|LDMNMAEC_677_6 : position 5458-6258
+  - gnl|SPADES|LDMNMAEC_896_2 : position 719-2866
+
+### mtrA (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1006_4 : position 1468-2241
+  - gnl|SPADES|LDMNMAEC_1006_7 : position 4436-5305
+  - gnl|SPADES|LDMNMAEC_4083_1 : position 1-480
+  - gnl|SPADES|LDMNMAEC_4342_2 : position 258-1082
+  - gnl|SPADES|LDMNMAEC_981_1 : position 2-574
+
+### nalC (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1082_6 : position 3304-3942
+  - gnl|SPADES|LDMNMAEC_1861_3 : position 2042-2689
+
+### nalD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1028_5 : position 2397-2954
+
+### novA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1109_7 : position 4317-4829
+  - gnl|SPADES|LDMNMAEC_1172_3 : position 1762-2508
+  - gnl|SPADES|LDMNMAEC_811_5 : position 5014-6972
+
+### oleC (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_443_2 : position 623-1333
+  - gnl|SPADES|LDMNMAEC_4503_1 : position 1-870
+
+### optrA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2039_4 : position 1983-2483
+  - gnl|SPADES|LDMNMAEC_988_5 : position 3605-5488
+
+### oqxB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_704_3 : position 1555-3063
+
+### otr(B) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1860_1 : position 3-1385
+  - gnl|SPADES|LDMNMAEC_549_4 : position 3911-5092
+
+### otr(C)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8349_2 : position 306-608
+
+### patA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_671_7 : position 3845-4522
+  - gnl|SPADES|LDMNMAEC_762_4 : position 3899-4576
+
+### patB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4307_1 : position 2-517
+
+### pmrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2549_3 : position 1303-1983
+
+### qacB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9273_1 : position 1-555
+
+### qacG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1085_2: position 2210-2542
+
+### qacL (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1638_1 : position 207-524
+  - gnl|SPADES|LDMNMAEC_1705_5 : position 2571-2930
+
+### ramA (found in 5 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1106_2 : position 2468-3382
+  - gnl|SPADES|LDMNMAEC_1217_1 : position 2-649
+  - gnl|SPADES|LDMNMAEC_1281_3 : position 1214-2194
+  - gnl|SPADES|LDMNMAEC_1520_1 : position 12-890
+  - gnl|SPADES|LDMNMAEC_865_2 : position 1198-2037
+
+### rosA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_422_11 : position 12361-13635
+
+### rosB (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2100_1 : position 2-1666
+  - gnl|SPADES|LDMNMAEC_422_10 : position 10444-12135
+  - gnl|SPADES|LDMNMAEC_812_4 : position 2082-3935
+
+### rphA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1522_2 : position 842-3328
+
+### rphB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5205_1 : position 2-970
+
+### rsmA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_98493_1 : position 3-95
+
+### salD
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3295_1 : position 962-1549
+
+### salE
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2736_2 : position 777-1850
+
+### sdiA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1367_3 : position 2060-2776
+  - gnl|SPADES|LDMNMAEC_303_20 : position 22928-23671
+  - gnl|SPADES|LDMNMAEC_539_9 : position 8097-8834
+
+### sdrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_369_15 : position 16371-17738
+
+### smeC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1550_3 : position 2109-3254
+
+### smeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_716_4 : position 2048-2266
+
+### smeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_983_5 : position 4547-5509
+
+### sta (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1326_4 : position 3435-3902
+  - gnl|SPADES|LDMNMAEC_386_15 : position 17667-18146
+
+### sul4 (found in 2 locations)
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3304_1 : position 1-651
+  - gnl|SPADES|LDMNMAEC_49774_1 : position 1-159
+
+### tcr3
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1236_2 : position 981-2426
+
+### tet(35)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_898_1 : position 2-1117
+
+### tet(43) (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1032_3 : position 1325-2767
+  - gnl|SPADES|LDMNMAEC_1545_2 : position 970-2172
+  - gnl|SPADES|LDMNMAEC_2366_1 : position 3-518
+
+### tet(M) (found in 3 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1412_5 : position 3398-3661
+  - gnl|SPADES|LDMNMAEC_257_2 : position 891-2321
+  - gnl|SPADES|LDMNMAEC_4953_1 : position 1-1023
+
+### tet(O/32/O)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1083_6 : position 4619-4936
+
+### tet(O/W)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1206_6 : position 3587-4351
+
+### tet(T)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4617_1 : position 3-1022
+
+### tet(V)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_677_3 : position 1933-3201
+
+### tet(Z)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2254_2 : position 304-1455
+
+### tetA(58) (found in 16 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1196_1 : position 82-798
+  - gnl|SPADES|LDMNMAEC_1196_2 : position 795-1670
+  - gnl|SPADES|LDMNMAEC_1229_3 : position 1793-2518
+  - gnl|SPADES|LDMNMAEC_1278_3 : position 1286-2800
+  - gnl|SPADES|LDMNMAEC_1341_3 : position 1314-2342
+  - gnl|SPADES|LDMNMAEC_1418_2 : position 739-1494
+  - gnl|SPADES|LDMNMAEC_1732_2 : position 592-2133
+  - gnl|SPADES|LDMNMAEC_1770_3 : position 1267-2190
+  - gnl|SPADES|LDMNMAEC_2766_3 : position 1485-1826
+  - gnl|SPADES|LDMNMAEC_2788_1 : position 3-1439
+  - gnl|SPADES|LDMNMAEC_443_16 : position 12217-13953
+  - gnl|SPADES|LDMNMAEC_517_4 : position 3898-4665
+  - gnl|SPADES|LDMNMAEC_517_5 : position 4670-5371
+  - gnl|SPADES|LDMNMAEC_566_3 : position 1444-2232
+  - gnl|SPADES|LDMNMAEC_668_7 : position 5781-7271
+  - gnl|SPADES|LDMNMAEC_852_3 : position 2588-3373
+
+### tetA(60) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1234_1 : position 102-1877
+  - gnl|SPADES|LDMNMAEC_433_10 : position 12734-13531
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6082_1 : position 3-833
+
+### tetB(60) (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1234_2 : position 1870-3648
+  - gnl|SPADES|LDMNMAEC_1497_1 : position 1-441
+  - gnl|SPADES|LDMNMAEC_22485_1 : position 148-360
+
+### tetB(P)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_51132_1 : position 1-279
+
+### tetR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_443_18 : position 14977-15675
+
+### tlrC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1689_1 : position 2-367
+
+### tsnR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2007_2 : position 954-2045
+  - gnl|SPADES|LDMNMAEC_627_7 : position 6715-7446
+
+### ugd
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_716_6 : position 3425-4768
+
+### vanC
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_825_6 : position 5071-5991
+
+### vanG (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3191_1 : position 2-820
+  - gnl|SPADES|LDMNMAEC_3743_1 : position 264-1358
+
+### vanH gene in vanB cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2356_3 : position 1581-2138
+  - gnl|SPADES|LDMNMAEC_2497_2 : position 764-2002
+
+### vanH gene in vanD cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1085_5 : position 3582-4574
+
+### vanH gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_303_5 : position 3481-4455
+
+### vanH gene in vanO cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1617_4 : position 1872-2993
+
+### vanH gene in vanP cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2456_1 : position 275-1216
+
+### vanL
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2148_4 : position 2116-2352
+
+### vanR gene in vanA cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14532_1 : position 1-423
+  - gnl|SPADES|LDMNMAEC_2498_2 : position 1391-2020
+
+### vanR gene in vanC cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2548_2 : position 269-1003
+  - gnl|SPADES|LDMNMAEC_489_11 : position 11604-12455
+
+### vanR gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_924_2 : position 281-997
+
+### vanR gene in vanF cluster (found in 4 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1195_5 : position 2466-3515
+  - gnl|SPADES|LDMNMAEC_1461_1 : position 2-322
+  - gnl|SPADES|LDMNMAEC_2233_2 : position 1336-2049
+  - gnl|SPADES|LDMNMAEC_539_10 : position 9112-9795
+
+### vanR gene in vanL cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1401_1 : position 50-1600
+  - gnl|SPADES|LDMNMAEC_8334_1 : position 115-609
+
+### vanR gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1290_7 : position 3923-4036
+
+### vanR gene in vanN cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5543_1 : position 3-248
+  - gnl|SPADES|LDMNMAEC_897_4 : position 3840-4670
+
+### vanS gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_539_11 : position 9941-11458
+
+### vanS gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2233_1 : position 1-1332
+
+### vanT gene in vanC cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2584_1 : position 3-776
+  - gnl|SPADES|LDMNMAEC_942_5 : position 4115-5194
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_457_10 : position 13880-15109
+
+### vanTr gene in vanL cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11790_1 : position 2-286
+
+### vanU gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanU
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2039_3 : position 1370-1600
+
+### vatB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_760_7 : position 6671-7243
+
+### vatD
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1417_2 : position 284-877
+
+### vatE
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_898_4 : position 3199-3666
+
+### vmlR (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic; nucleoside antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3454_2 : position 1274-1480
+  - gnl|SPADES|LDMNMAEC_8233_1 : position 2-616
+
+
+## Serratia liquefaciens
+**Strain Statistics:**
+- Total genome length: 306.1 kbp
+- Total scaffolds: 396
+- Scaffolds with AMR genes: 53
+- Total genes annotated: 563
+- Total AMR genes: 78
+- Unique AMR genes: 56
+- Distinct AMR mechanisms: 8
+- Distinct AMR families: 28
+- Distinct drug classes: 28
+
+**Circos Plot:**
+
+![Circos plot for Serratia liquefaciens](../circos_LB01_Bolton_QG_A1_S7_Serratia_liquefaciens.png)
+
+### Acinetobacter baumannii AbaF (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2625_2 : position 378-1688
+  - gnl|SPADES|LDMNMAEC_4713_1 : position 1-963
+
+### Acinetobacter baumannii AbaQ (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1307_1 : position 56-1456
+  - gnl|SPADES|LDMNMAEC_1377_6 : position 3483-3731
+  - gnl|SPADES|LDMNMAEC_2861_1 : position 30-1322
+  - gnl|SPADES|LDMNMAEC_2861_2 : position 1395-1769
+  - gnl|SPADES|LDMNMAEC_33374_1 : position 2-313
+
+### Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2127_1 : position 386-1711
+
+### CRP (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_551_13 : position 10483-11247
+  - gnl|SPADES|LDMNMAEC_597_10: position 9676-10308
+
+### CrcB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_406_16 : position 15115-15498
+
+### Helicobacter pylori pbp2 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_406_7 : position 5540-7435
+
+### Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7852_1 : position 2-643
+
+### LlmA 23S ribosomal RNA methyltransferase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Llm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_495_1 : position 2-1174
+
+### MexS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1663_1 : position 191-1126
+
+### Mycobacterium tuberculosis inhA mutations conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: isoniazid resistant inhA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_221_30 : position 32896-33654
+
+### Mycobacterium tuberculosis rpoB mutations conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2127_2 : position 1687-2373
+
+### Mycobacterium tuberculosis rpsA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: pyrazinamide resistant rpsA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_667_1 : position 3-422
+
+### NmcR (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_221_7 : position 5676-6596
+  - gnl|SPADES|LDMNMAEC_4063_1 : position 356-1252
+  - gnl|SPADES|LDMNMAEC_945_1 : position 2-841
+
+### OmpA
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: General Bacterial Porin with reduced permeability to peptide antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1305_2 : position 138-653
+
+### Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam
+- **Mechanism**: antibiotic target alteration; antibiotic inactivation
+- **Drug Classes**: monobactam; carbapenem; cephalosporin
+- **AMR Family**: PDC beta-lactamase; ampR transcriptional regulator with mutation conferring resistance to monobactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1072_4 : position 4092-5009
+
+### QepA4
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1154_2 : position 1243-2775
+
+### RanA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_533_7 : position 5799-6572
+  - gnl|SPADES|LDMNMAEC_551_3 : position 1267-2379
+
+### Rhodococcus fascians cmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1659_1 : position 2-826
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3164_1 : position 146-943
+
+### SRT-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: SRT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1659_2 : position 826-1995
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1837_2 : position 464-2578
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_406_1 : position 1-2262
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1903_1 : position 2-436
+  - gnl|SPADES|LDMNMAEC_4284_1 : position 1-1188
+  - gnl|SPADES|LDMNMAEC_857_6 : position 5116-6474
+
+### Staphylococcus aureus pgsA mutations conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant pgsA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1488_3 : position 2518-3066
+
+### Streptomyces venezuelae rox
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_931_2 : position 1443-2645
+
+### adeL (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1154_1 : position 180-1067
+  - gnl|SPADES|LDMNMAEC_1659_3 : position 2119-3006
+  - gnl|SPADES|LDMNMAEC_1663_2 : position 1230-2117
+  - gnl|SPADES|LDMNMAEC_221_12 : position 10047-11132
+  - gnl|SPADES|LDMNMAEC_29635_1 : position 1-210
+  - gnl|SPADES|LDMNMAEC_3523_2 : position 256-1143
+  - gnl|SPADES|LDMNMAEC_5970_1 : position 2-673
+
+### almE (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_221_21 : position 19728-23672
+  - gnl|SPADES|LDMNMAEC_221_28 : position 30410-32038
+
+### arnA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_781_3 : position 1622-2566
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_375_8 : position 10003-10827
+
+### basS
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_972_4 : position 3035-4099
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_406_19 : position 16399-17589
+
+### bcrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_659_4 : position 2465-3997
+
+### cmlv
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32532_1 : position 2-316
+
+### cmx
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6419_1 : position 49-792
+
+### cprR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_972_3 : position 2376-3038
+
+### eptA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3272_1 : position 2-1348
+
+### evgA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1488_1 : position 2-634
+  - gnl|SPADES|LDMNMAEC_597_3 : position 2329-3054
+
+### golS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1072_3 : position 823-1221
+  - gnl|SPADES|LDMNMAEC_781_8 : position 6294-6725
+
+### macB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_684_10 : position 7795-8505
+
+### mdtG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29503_1 : position 2-328
+
+### mdtN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1098_4 : position 3794-4876
+
+### msbA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_647_1 : position 249-1010
+
+### novA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_375_12 : position 14653-16449
+  - gnl|SPADES|LDMNMAEC_375_13 : position 16443-18185
+  - gnl|SPADES|LDMNMAEC_576_4 : position 2569-3315
+
+### qacL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_535_7 : position 4369-4686
+
+### rosB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1063_3 : position 975-2828
+
+### sdiA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2003_1 : position 119-856
+
+### sul4
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_893_3 : position 2206-3039
+
+### tet(35)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1465_3 : position 1969-3420
+
+### tet(54)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline inactivation enzyme
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_931_3 : position 2732-3910
+
+### tet(J)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1154_4 : position 2999-4216
+
+### tet(V)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_221_25 : position 26780-28048
+
+### tetA(58)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_221_22 : position 23750-24550
+
+### tetR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_951_1 : position 1-483
+
+### tlrB conferring tylosin resistance
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (G748)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1268_5 : position 2344-3165
+
+### tsnR
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_620_4 : position 4318-5049
+
+### vanE
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2102_1 : position 3-1262
+
+
+## Serratia liquefaciens ATCC 27592
+**Strain Statistics:**
+- Total genome length: 4290.4 kbp
+- Total scaffolds: 215
+- Scaffolds with AMR genes: 115
+- Total genes annotated: 7872
+- Total AMR genes: 564
+- Unique AMR genes: 229
+- Distinct AMR mechanisms: 10
+- Distinct AMR families: 81
+- Distinct drug classes: 38
+
+**Circos Plot:**
+
+![Circos plot for Serratia liquefaciens ATCC 27592](../circos_LB01_Bolton_QG_A1_S7_Serratia_liquefaciens_ATCC_27592.png)
+
+### AAC(3)-Ia
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(3)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_217_31 : position 34387-34935
+
+### AAC(3)-Ib/AAC(6')-Ib3 bifunctional protein
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: aminoglycoside bifunctional resistance protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_204_9 : position 6512-6964
+
+### AAC(6')-Iai
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_2 : position 1005-1457
+
+### AAC(6')-Iak
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_594_11 : position 9248-9694
+
+### AAC(6')-Isa
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(6')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_175_21 : position 20767-21351
+
+### ACT-22
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: ACT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_127_28 : position 25655-27196
+
+### AIM-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: AIM beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_28 : position 20574-21518
+
+### APH(6)-Ic
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: APH(6)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_133_22 : position 20314-21168
+
+### AQU-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: AQU beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_301_25 : position 23557-24618
+
+### Acinetobacter baumannii AbaF (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_18 : position 18828-20135
+  - gnl|SPADES|LDMNMAEC_127_37 : position 36534-37844
+  - gnl|SPADES|LDMNMAEC_151_11 : position 8525-10027
+  - gnl|SPADES|LDMNMAEC_222_17 : position 16290-17615
+  - gnl|SPADES|LDMNMAEC_290_7 : position 6320-7642
+  - gnl|SPADES|LDMNMAEC_62_35 : position 49616-50998
+  - gnl|SPADES|LDMNMAEC_633_1 : position 225-1457
+
+### Acinetobacter baumannii AbaQ (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_101_53 : position 52924-54294
+  - gnl|SPADES|LDMNMAEC_109_53 : position 57608-58921
+  - gnl|SPADES|LDMNMAEC_146_26 : position 24321-25634
+  - gnl|SPADES|LDMNMAEC_152_38 : position 40932-42200
+  - gnl|SPADES|LDMNMAEC_347_13 : position 13056-14318
+  - gnl|SPADES|LDMNMAEC_383_10 : position 8691-9986
+  - gnl|SPADES|LDMNMAEC_475_1 : position 192-1529
+  - gnl|SPADES|LDMNMAEC_59_33 : position 37333-38640
+  - gnl|SPADES|LDMNMAEC_80_30 : position 36528-37835
+
+### Acinetobacter baumannii AmvA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_91_42 : position 46323-47795
+
+### ArnT
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_281_13: position 9362-11026
+
+### Bifidobacterium bifidum ileS conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_119_56 : position 63243-63617
+
+### CAR-1 (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: CAR beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_152_17 : position 16603-17403
+  - gnl|SPADES|LDMNMAEC_97_4 : position 2241-3047
+
+### CAU-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; penam
+- **AMR Family**: CAU beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1717_1 : position 71-2194
+
+### Clostridioides difficile gyrA conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_99_15 : position 16306-18957
+
+### Clostridioides difficile gyrB conferring resistance to fluoroquinolones (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_152_26 : position 25847-28261
+  - gnl|SPADES|LDMNMAEC_72_71 : position 85159-87054
+
+### DHA-6
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; cephamycin
+- **AMR Family**: DHA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_101_57 : position 57686-58828
+
+### EdeQ
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: peptide antibiotic; polyamine antibiotic
+- **AMR Family**: Edeine acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1095_8 : position 3292-3726
+
+### Enterobacter cloacae acrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_299_17 : position 19807-21009
+  - gnl|SPADES|LDMNMAEC_75_47 : position 50974-52161
+
+### Enterococcus faecalis cls with mutation conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_91_40 : position 43696-45156
+
+### Enterococcus faecium liaS mutant conferring daptomycin resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant liaS
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_318_2 : position 1603-3138
+
+### Erm(34)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_300_2 : position 1297-1923
+
+### Erm(37)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_452_4 : position 3315-4094
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime (found in 5 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26_133 : position 133685-134272
+  - gnl|SPADES|LDMNMAEC_301_23 : position 21763-22365
+  - gnl|SPADES|LDMNMAEC_32_83 : position 81770-82351
+  - gnl|SPADES|LDMNMAEC_75_46 : position 50142-50831
+  - gnl|SPADES|LDMNMAEC_80_18 : position 20798-21502
+
+### Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_133_36 : position 31187-31621
+  - gnl|SPADES|LDMNMAEC_59_39 : position 43575-44048
+
+### Escherichia coli EF-Tu mutants conferring resistance to Enacyloxin IIa
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1396_1 : position 2-2566
+
+### Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_274_8 : position 5920-7767
+
+### Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: disinfecting agents and antiseptics; isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant fabI
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_278_16 : position 12954-13700
+  - gnl|SPADES|LDMNMAEC_347_9 : position 9138-9893
+
+### Escherichia coli mdfA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_274_10 : position 8244-9491
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance (found in 9 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_29 : position 32649-33518
+  - gnl|SPADES|LDMNMAEC_117_47 : position 41442-42389
+  - gnl|SPADES|LDMNMAEC_133_12 : position 9047-9940
+  - gnl|SPADES|LDMNMAEC_146_13 : position 9645-10490
+  - gnl|SPADES|LDMNMAEC_151_27 : position 28574-29347
+  - gnl|SPADES|LDMNMAEC_167_25 : position 20936-21802
+  - gnl|SPADES|LDMNMAEC_265_2 : position 1298-1720
+  - gnl|SPADES|LDMNMAEC_301_3 : position 2557-3474
+  - gnl|SPADES|LDMNMAEC_32_95 : position 94564-95022
+
+### EstT (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide esterase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_146_36 : position 33264-34067
+  - gnl|SPADES|LDMNMAEC_26_102 : position 105966-106808
+  - gnl|SPADES|LDMNMAEC_5262_1 : position 72-902
+
+### FosA8
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_176_6: position 4775-5182
+
+### FosC2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosC phosphotransferase family
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_133_50 : position 45234-45641
+
+### FosM1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_273_8 : position 6345-6854
+
+### FosM2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_77_21 : position 23352-23762
+
+### GOB-12
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; penam
+- **AMR Family**: GOB beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_198_15 : position 18313-18960
+
+### H-NS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_91_23 : position 22348-22755
+
+### Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_276_14 : position 15388-17151
+  - gnl|SPADES|LDMNMAEC_59_83 : position 94939-96657
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_294_19 : position 17482-19983
+  - gnl|SPADES|LDMNMAEC_442_3 : position 7009-9357
+
+### Klebsiella aerogenes Omp36
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_99_9 : position 6386-7516
+
+### Klebsiella pneumoniae KpnE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_488_4 : position 4097-4465
+
+### Klebsiella pneumoniae KpnF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_488_5: position 4452-4781
+
+### Klebsiella pneumoniae KpnH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_43: position 37258-38793
+
+### Klebsiella pneumoniae OmpK37 (found in 3 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_176_20 : position 11475-12557
+  - gnl|SPADES|LDMNMAEC_198_13 : position 15682-16806
+  - gnl|SPADES|LDMNMAEC_32_17 : position 15140-16237
+
+### LRA-8
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penam
+- **AMR Family**: subclass B3 LRA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26_24 : position 20166-20921
+
+### LpsB (found in 2 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: Intrinsic peptide antibiotic resistant Lps
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_177_3 : position 2164-3261
+  - gnl|SPADES|LDMNMAEC_280_19 : position 24850-26058
+
+### LptD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_370_8 : position 7043-9406
+
+### MdtK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_76_22 : position 22690-24153
+
+### MexA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80_16 : position 17946-19088
+
+### MexE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_133_37 : position 32042-32899
+
+### MexG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_6 : position 3572-3985
+
+### MexL (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_127_40 : position 39200-39856
+  - gnl|SPADES|LDMNMAEC_146_32 : position 30033-30671
+  - gnl|SPADES|LDMNMAEC_173_12 : position 15295-15879
+
+### MexS (found in 10 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_124_46 : position 48459-49445
+  - gnl|SPADES|LDMNMAEC_269_16 : position 16846-17826
+  - gnl|SPADES|LDMNMAEC_269_6 : position 6424-7449
+  - gnl|SPADES|LDMNMAEC_273_27 : position 24620-25555
+  - gnl|SPADES|LDMNMAEC_273_28 : position 25648-26637
+  - gnl|SPADES|LDMNMAEC_313_23 : position 19479-20513
+  - gnl|SPADES|LDMNMAEC_32_118 : position 119128-120255
+  - gnl|SPADES|LDMNMAEC_62_50 : position 63617-64606
+  - gnl|SPADES|LDMNMAEC_72_39 : position 47933-48961
+  - gnl|SPADES|LDMNMAEC_76_70 : position 69250-70257
+
+### MexT (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_313_21 : position 17759-18688
+  - gnl|SPADES|LDMNMAEC_77_3 : position 732-1682
+  - gnl|SPADES|LDMNMAEC_80_4 : position 3035-3931
+  - gnl|SPADES|LDMNMAEC_99_5 : position 3755-4657
+
+### MexV
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_188_8 : position 6549-8000
+
+### MexZ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_41 : position 41027-41659
+
+### Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: antibiotic resistant gidB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_363_3 : position 1789-2409
+
+### Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant kasA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26_15 : position 10854-12023
+  - gnl|SPADES|LDMNMAEC_26_18 : position 13218-14447
+  - gnl|SPADES|LDMNMAEC_474_7 : position 8195-9475
+
+### Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: isoniazid resistant katG
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_331_7 : position 7403-9601
+
+### Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_278_25 : position 19658-20962
+
+### Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: Pyrazinamide resistant pncA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_274_13 : position 11624-12175
+  - gnl|SPADES|LDMNMAEC_76_2 : position 1225-1911
+  - gnl|SPADES|LDMNMAEC_91_5 : position 3249-3881
+
+### Mycobacterium tuberculosis thyA with mutation conferring resistance to para-aminosalicylic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: salicylic acid antibiotic
+- **AMR Family**: aminosalicylate resistant thymidylate synthase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_4 : position 1477-2271
+
+### Mycolicibacterium smegmatis ndh with mutation conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_413_13 : position 10735-11943
+
+### Neisseria gonorrhoeae pilQ gene conferring resistance to beta-lactam
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_217_3 : position 553-1794
+
+### NmcR (found in 25 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_101_30 : position 31953-32882
+  - gnl|SPADES|LDMNMAEC_117_18 : position 15438-16367
+  - gnl|SPADES|LDMNMAEC_117_55 : position 48899-49801
+  - gnl|SPADES|LDMNMAEC_117_60 : position 54307-55245
+  - gnl|SPADES|LDMNMAEC_146_42 : position 38151-39074
+  - gnl|SPADES|LDMNMAEC_165_36 : position 30492-31370
+  - gnl|SPADES|LDMNMAEC_173_15 : position 18250-19158
+  - gnl|SPADES|LDMNMAEC_218_23 : position 22990-23871
+  - gnl|SPADES|LDMNMAEC_26_103 : position 106917-107789
+  - gnl|SPADES|LDMNMAEC_270_26 : position 26723-27577
+  - gnl|SPADES|LDMNMAEC_273_17 : position 16207-17196
+  - gnl|SPADES|LDMNMAEC_274_21 : position 22256-23110
+  - gnl|SPADES|LDMNMAEC_307_19 : position 20314-21288
+  - gnl|SPADES|LDMNMAEC_32_106 : position 104748-105650
+  - gnl|SPADES|LDMNMAEC_32_119 : position 120284-121201
+  - gnl|SPADES|LDMNMAEC_32_56 : position 53791-54678
+  - gnl|SPADES|LDMNMAEC_519_8 : position 8186-9127
+  - gnl|SPADES|LDMNMAEC_59_9 : position 7753-8643
+  - gnl|SPADES|LDMNMAEC_633_4 : position 3808-4635
+  - gnl|SPADES|LDMNMAEC_639_2 : position 996-1895
+  - gnl|SPADES|LDMNMAEC_72_11 : position 12767-13663
+  - gnl|SPADES|LDMNMAEC_72_64 : position 77024-77857
+  - gnl|SPADES|LDMNMAEC_76_78 : position 76322-77194
+  - gnl|SPADES|LDMNMAEC_80_21 : position 24031-24894
+  - gnl|SPADES|LDMNMAEC_97_38 : position 45311-46264
+
+### OmpA (found in 3 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: General Bacterial Porin with reduced permeability to peptide antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_36 : position 39780-40277
+  - gnl|SPADES|LDMNMAEC_152_42 : position 45379-46038
+  - gnl|SPADES|LDMNMAEC_474_12 : position 13240-14316
+
+### OpmH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_670_5 : position 7353-8726
+
+### OprM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80_14 : position 13335-14789
+
+### ParR (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_170_6 : position 5982-6743
+  - gnl|SPADES|LDMNMAEC_217_18 : position 16088-16807
+
+### ParS (found in 3 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_30 : position 23335-24933
+  - gnl|SPADES|LDMNMAEC_170_7 : position 6740-8044
+  - gnl|SPADES|LDMNMAEC_85_6 : position 5416-7197
+
+### PmrF (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_177_8 : position 7739-8722
+  - gnl|SPADES|LDMNMAEC_281_16 : position 13907-14887
+
+### Pseudomonas aeruginosa CpxR (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_31 : position 24942-25631
+  - gnl|SPADES|LDMNMAEC_177_28 : position 27557-28255
+  - gnl|SPADES|LDMNMAEC_188_28 : position 30205-30879
+  - gnl|SPADES|LDMNMAEC_200_30 : position 32339-33019
+  - gnl|SPADES|LDMNMAEC_26_150 : position 151217-151957
+
+### Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic inactivation
+- **Drug Classes**: monobactam; carbapenem; cephalosporin
+- **AMR Family**: PDC beta-lactamase; ampR transcriptional regulator with mutation conferring resistance to monobactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_206_14 : position 10620-11549
+  - gnl|SPADES|LDMNMAEC_301_20 : position 18270-19145
+
+### QepA2
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_75_13 : position 10683-12089
+
+### QepA4
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59_8 : position 6358-7653
+
+### RanA (found in 23 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_152_6 : position 5975-6751
+  - gnl|SPADES|LDMNMAEC_163_32 : position 43072-44061
+  - gnl|SPADES|LDMNMAEC_165_32 : position 26038-27240
+  - gnl|SPADES|LDMNMAEC_173_19 : position 22163-22876
+  - gnl|SPADES|LDMNMAEC_173_4 : position 5230-6267
+  - gnl|SPADES|LDMNMAEC_176_34 : position 29203-30171
+  - gnl|SPADES|LDMNMAEC_182_22 : position 25561-27153
+  - gnl|SPADES|LDMNMAEC_196_23 : position 20274-21350
+  - gnl|SPADES|LDMNMAEC_205_41 : position 33161-33976
+  - gnl|SPADES|LDMNMAEC_218_16 : position 14748-16424
+  - gnl|SPADES|LDMNMAEC_26_49 : position 45215-45958
+  - gnl|SPADES|LDMNMAEC_299_2 : position 563-1624
+  - gnl|SPADES|LDMNMAEC_32_112 : position 112011-113888
+  - gnl|SPADES|LDMNMAEC_32_7 : position 5472-6407
+  - gnl|SPADES|LDMNMAEC_498_3 : position 3262-4332
+  - gnl|SPADES|LDMNMAEC_59_23 : position 22354-23433
+  - gnl|SPADES|LDMNMAEC_59_86 : position 97835-98596
+  - gnl|SPADES|LDMNMAEC_62_16 : position 20458-21450
+  - gnl|SPADES|LDMNMAEC_63_40 : position 45968-47101
+  - gnl|SPADES|LDMNMAEC_80_53 : position 64633-65748
+  - gnl|SPADES|LDMNMAEC_91_31 : position 34070-35086
+  - gnl|SPADES|LDMNMAEC_91_32 : position 35083-36084
+  - gnl|SPADES|LDMNMAEC_97_33 : position 40304-41140
+
+### RanB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_205_42 : position 33981-34763
+
+### Rhodococcus fascians cmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_77_43 : position 47115-48542
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80_17 : position 19240-20754
+
+### SAT-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_42 : position 41675-42304
+
+### SAT-3
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_31 : position 27440-27982
+
+### SPR-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: SPR beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_99_4 : position 2779-3675
+
+### SRT-3
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: SRT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_301_21 : position 19350-20486
+
+### Salmonella serovars soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_176_12 : position 7312-7698
+
+### SatA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: nucleoside antibiotic
+- **AMR Family**: streptothricin acetyltransferase (SAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_152_43 : position 46306-46701
+
+### Staphylococcus aureus FosB
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: fosfomycin thiol transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_99_8 : position 5816-6232
+
+### Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant GlpT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_161_23 : position 22517-23872
+
+### Staphylococcus aureus LmrS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; oxazolidinone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_14 : position 9411-10793
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_173_5 : position 6540-8645
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_10 : position 7573-10389
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_205_47 : position 36716-37975
+
+### Staphylococcus aureus norA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_318_1 : position 171-1502
+  - gnl|SPADES|LDMNMAEC_85_1 : position 401-1747
+
+### Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_217_8 : position 4156-6714
+
+### Streptomyces rimosus otr(A) (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_491_5 : position 3234-4931
+  - gnl|SPADES|LDMNMAEC_696_4 : position 2154-3953
+
+### Streptomyces venezuelae rox (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_119_42 : position 49177-50310
+  - gnl|SPADES|LDMNMAEC_124_35 : position 34875-36587
+
+### TaeA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_37 : position 40418-42085
+  - gnl|SPADES|LDMNMAEC_474_2 : position 2209-4113
+
+### TolC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_348_20 : position 19708-21258
+
+### TriA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_118_7 : position 6275-7246
+
+### TxR (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_124_52 : position 57722-59512
+  - gnl|SPADES|LDMNMAEC_124_8 : position 5645-7711
+  - gnl|SPADES|LDMNMAEC_197_6 : position 6758-8644
+  - gnl|SPADES|LDMNMAEC_270_13 : position 10814-11821
+  - gnl|SPADES|LDMNMAEC_270_6 : position 4518-6089
+  - gnl|SPADES|LDMNMAEC_284_15 : position 14819-16777
+  - gnl|SPADES|LDMNMAEC_348_18 : position 16318-18264
+  - gnl|SPADES|LDMNMAEC_491_8 : position 8095-9507
+  - gnl|SPADES|LDMNMAEC_98_42 : position 45169-46506
+
+### VIM-69
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: VIM beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_22 : position 23922-24806
+
+### YajC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; oxazolidinone antibiotic; glycopeptide antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_243_6 : position 6069-6401
+
+### YojI
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_34 : position 35258-36910
+
+### aac(6')-Ib-cr11
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic
+- **AMR Family**: AAC(6'); AAC(6')-Ib-cr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_77_53 : position 61281-61799
+
+### aadT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_127_3 : position 2257-3468
+
+### abeM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_62_41 : position 56677-58041
+
+### acrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80_15 : position 14791-17943
+
+### adeF (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_170_24: position 29715-32900
+  - gnl|SPADES|LDMNMAEC_265_12: position 10312-13425
+  - gnl|SPADES|LDMNMAEC_278_28: position 22865-26008
+  - gnl|SPADES|LDMNMAEC_299_16: position 16641-19814
+  - gnl|SPADES|LDMNMAEC_75_48: position 52179-55325
+
+### adeH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_151_12 : position 10435-11799
+
+### adeL (found in 46 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_21 : position 22905-23813
+  - gnl|SPADES|LDMNMAEC_109_35 : position 37064-37984
+  - gnl|SPADES|LDMNMAEC_109_38 : position 41117-42061
+  - gnl|SPADES|LDMNMAEC_109_43 : position 45585-46481
+  - gnl|SPADES|LDMNMAEC_112_38 : position 42116-43027
+  - gnl|SPADES|LDMNMAEC_112_6 : position 4427-5350
+  - gnl|SPADES|LDMNMAEC_112_61 : position 64163-65107
+  - gnl|SPADES|LDMNMAEC_117_8 : position 6261-7154
+  - gnl|SPADES|LDMNMAEC_118_36 : position 33143-34051
+  - gnl|SPADES|LDMNMAEC_124_37 : position 36783-37709
+  - gnl|SPADES|LDMNMAEC_124_43 : position 45225-46112
+  - gnl|SPADES|LDMNMAEC_124_47 : position 49577-50464
+  - gnl|SPADES|LDMNMAEC_133_43 : position 38877-39806
+  - gnl|SPADES|LDMNMAEC_133_57 : position 50354-51262
+  - gnl|SPADES|LDMNMAEC_1569_2 : position 990-1925
+  - gnl|SPADES|LDMNMAEC_165_13 : position 8408-9352
+  - gnl|SPADES|LDMNMAEC_165_27 : position 19675-20568
+  - gnl|SPADES|LDMNMAEC_205_8 : position 5044-5955
+  - gnl|SPADES|LDMNMAEC_218_10 : position 9195-10130
+  - gnl|SPADES|LDMNMAEC_218_31 : position 30141-31073
+  - gnl|SPADES|LDMNMAEC_223_7 : position 7076-7993
+  - gnl|SPADES|LDMNMAEC_261_3 : position 1600-2472
+  - gnl|SPADES|LDMNMAEC_269_10 : position 11282-12217
+  - gnl|SPADES|LDMNMAEC_269_17 : position 17947-18837
+  - gnl|SPADES|LDMNMAEC_26_112 : position 114730-115638
+  - gnl|SPADES|LDMNMAEC_26_20 : position 15439-16326
+  - gnl|SPADES|LDMNMAEC_273_13 : position 10569-11462
+  - gnl|SPADES|LDMNMAEC_273_26 : position 23636-24535
+  - gnl|SPADES|LDMNMAEC_278_14 : position 11312-12223
+  - gnl|SPADES|LDMNMAEC_284_20 : position 21296-22195
+  - gnl|SPADES|LDMNMAEC_301_24 : position 22526-23455
+  - gnl|SPADES|LDMNMAEC_313_3 : position 1159-2076
+  - gnl|SPADES|LDMNMAEC_318_12 : position 13715-14578
+  - gnl|SPADES|LDMNMAEC_3240_1 : position 207-1124
+  - gnl|SPADES|LDMNMAEC_32_24 : position 22498-23412
+  - gnl|SPADES|LDMNMAEC_498_9 : position 11167-12138
+  - gnl|SPADES|LDMNMAEC_59_54 : position 65402-66322
+  - gnl|SPADES|LDMNMAEC_62_63 : position 77599-78516
+  - gnl|SPADES|LDMNMAEC_62_69 : position 83897-84799
+  - gnl|SPADES|LDMNMAEC_72_38 : position 46904-47824
+  - gnl|SPADES|LDMNMAEC_72_70 : position 84182-85078
+  - gnl|SPADES|LDMNMAEC_75_57 : position 60160-61092
+  - gnl|SPADES|LDMNMAEC_76_35 : position 36735-37634
+  - gnl|SPADES|LDMNMAEC_76_62 : position 63768-64670
+  - gnl|SPADES|LDMNMAEC_76_67 : position 65925-66857
+  - gnl|SPADES|LDMNMAEC_98_39 : position 41754-42677
+
+### adeN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; lincosamide antibiotic; carbapenem; cephalosporin; tetracycline antibiotic; rifamycin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_99_7 : position 5244-5822
+
+### adeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: glycylcycline; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_91_19 : position 17607-18620
+
+### almE (found in 4 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_118_48 : position 49646-52627
+  - gnl|SPADES|LDMNMAEC_26_90 : position 86732-89827
+  - gnl|SPADES|LDMNMAEC_276_6 : position 6822-8513
+  - gnl|SPADES|LDMNMAEC_488_10 : position 8897-10585
+
+### arlR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_299_18 : position 21298-22005
+  - gnl|SPADES|LDMNMAEC_32_67 : position 63594-64265
+
+### arnA (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_281_15 : position 11925-13910
+  - gnl|SPADES|LDMNMAEC_85_60 : position 73742-74380
+
+### baeR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26_155 : position 159146-159835
+  - gnl|SPADES|LDMNMAEC_85_40 : position 39868-40584
+
+### baeS (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26_156 : position 159860-161176
+  - gnl|SPADES|LDMNMAEC_299_19 : position 22005-23459
+  - gnl|SPADES|LDMNMAEC_85_41 : position 40584-41966
+  - gnl|SPADES|LDMNMAEC_98_44 : position 47378-48814
+
+### basS (found in 4 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_188_29 : position 30866-32284
+  - gnl|SPADES|LDMNMAEC_222_26 : position 23857-25263
+  - gnl|SPADES|LDMNMAEC_222_9 : position 9975-11393
+  - gnl|SPADES|LDMNMAEC_294_11 : position 8308-9666
+
+### bcr-1 (found in 8 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_133_58 : position 51386-52597
+  - gnl|SPADES|LDMNMAEC_152_46 : position 49508-50848
+  - gnl|SPADES|LDMNMAEC_170_12 : position 12306-13454
+  - gnl|SPADES|LDMNMAEC_177_38 : position 36331-37515
+  - gnl|SPADES|LDMNMAEC_182_24 : position 28111-29319
+  - gnl|SPADES|LDMNMAEC_300_22 : position 20583-21929
+  - gnl|SPADES|LDMNMAEC_547_5 : position 4154-5350
+  - gnl|SPADES|LDMNMAEC_72_56 : position 64624-66045
+
+### bcrA (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_147_30 : position 25111-26595
+  - gnl|SPADES|LDMNMAEC_175_42 : position 41491-42249
+  - gnl|SPADES|LDMNMAEC_197_15 : position 20084-20782
+  - gnl|SPADES|LDMNMAEC_206_11 : position 7615-8247
+  - gnl|SPADES|LDMNMAEC_212_25 : position 26340-27407
+  - gnl|SPADES|LDMNMAEC_32_125 : position 127211-128719
+  - gnl|SPADES|LDMNMAEC_59_79 : position 90272-91219
+  - gnl|SPADES|LDMNMAEC_72_54 : position 61792-63330
+  - gnl|SPADES|LDMNMAEC_77_13 : position 13131-14630
+
+### catB10 (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol acetyltransferase (CAT)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_118_21 : position 20577-21179
+  - gnl|SPADES|LDMNMAEC_188_23 : position 25740-26369
+
+### clbB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_98_8 : position 7452-8648
+
+### cmlv (found in 6 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_20 : position 21433-22587
+  - gnl|SPADES|LDMNMAEC_117_7 : position 4900-6084
+  - gnl|SPADES|LDMNMAEC_146_23 : position 21626-22798
+  - gnl|SPADES|LDMNMAEC_26_21 : position 16433-17608
+  - gnl|SPADES|LDMNMAEC_301_22 : position 20532-21686
+  - gnl|SPADES|LDMNMAEC_331_9 : position 11344-12534
+
+### cmx
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_37 : position 31472-32671
+
+### cprR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_222_25 : position 23192-23860
+  - gnl|SPADES|LDMNMAEC_294_10 : position 7649-8311
+
+### cpxA (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_42 : position 36836-38161
+  - gnl|SPADES|LDMNMAEC_177_27 : position 26187-27560
+  - gnl|SPADES|LDMNMAEC_200_31 : position 33019-34341
+  - gnl|SPADES|LDMNMAEC_204_15 : position 13730-15196
+  - gnl|SPADES|LDMNMAEC_217_17 : position 14721-16091
+  - gnl|SPADES|LDMNMAEC_26_143 : position 142223-144835
+  - gnl|SPADES|LDMNMAEC_491_7 : position 7037-8086
+
+### dfrA3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_370_1 : position 39-521
+
+### efrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_670_4 : position 4274-6040
+
+### emeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_269_8 : position 8715-10073
+
+### emrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_68 : position 61910-62938
+  - gnl|SPADES|LDMNMAEC_165_42 : position 36068-37240
+
+### emrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_363_17 : position 18204-19619
+
+### emrR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_40 : position 34045-34566
+  - gnl|SPADES|LDMNMAEC_226_11 : position 14046-14594
+
+### emrY (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_67 : position 60303-61907
+  - gnl|SPADES|LDMNMAEC_85_42 : position 41966-43396
+
+### eptA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_133_45 : position 40741-42378
+
+### eptB (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_151_9 : position 6410-8062
+  - gnl|SPADES|LDMNMAEC_318_4 : position 4095-5789
+
+### erm(45)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_370_5 : position 3889-4707
+
+### evgA (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_50 : position 50684-51310
+  - gnl|SPADES|LDMNMAEC_117_41 : position 36216-36836
+  - gnl|SPADES|LDMNMAEC_146_2 : position 1489-2145
+  - gnl|SPADES|LDMNMAEC_212_5 : position 6281-6886
+  - gnl|SPADES|LDMNMAEC_243_9 : position 9323-9922
+  - gnl|SPADES|LDMNMAEC_265_10 : position 9094-9726
+  - gnl|SPADES|LDMNMAEC_318_3 : position 3138-3728
+  - gnl|SPADES|LDMNMAEC_85_7 : position 7194-7826
+  - gnl|SPADES|LDMNMAEC_97_27 : position 33849-34499
+
+### evgS (found in 11 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_51 : position 52000-56379
+  - gnl|SPADES|LDMNMAEC_212_4 : position 3069-6284
+  - gnl|SPADES|LDMNMAEC_243_10 : position 9900-11654
+  - gnl|SPADES|LDMNMAEC_247_25 : position 23540-26272
+  - gnl|SPADES|LDMNMAEC_290_16 : position 21862-23646
+  - gnl|SPADES|LDMNMAEC_298_2 : position 3631-6372
+  - gnl|SPADES|LDMNMAEC_373_9 : position 8041-10380
+  - gnl|SPADES|LDMNMAEC_463_9 : position 10181-10570
+  - gnl|SPADES|LDMNMAEC_594_9 : position 7490-8782
+  - gnl|SPADES|LDMNMAEC_99_12 : position 9875-12577
+  - gnl|SPADES|LDMNMAEC_99_14 : position 13271-16072
+
+### facT (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_251_13 : position 8094-9392
+  - gnl|SPADES|LDMNMAEC_284_2 : position 1249-2685
+  - gnl|SPADES|LDMNMAEC_32_23 : position 21032-22384
+  - gnl|SPADES|LDMNMAEC_32_27 : position 25055-26479
+
+### farA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_205_10 : position 6607-7542
+
+### farB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59_19 : position 16730-18172
+
+### floR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_239_12 : position 11784-12977
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_213_13 : position 10023-10889
+
+### golS (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_36 : position 32400-33425
+  - gnl|SPADES|LDMNMAEC_170_28 : position 37372-37872
+  - gnl|SPADES|LDMNMAEC_75_22 : position 20987-21388
+  - gnl|SPADES|LDMNMAEC_7919_1 : position 161-565
+
+### hmrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_133_62 : position 55374-56750
+
+### hp1181
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; nitroimidazole antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_243_29 : position 29849-31213
+
+### iri
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_197_21 : position 25012-26226
+
+### kdpD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_119_21 : position 21242-23935
+
+### kdpE (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_119_22 : position 23954-24643
+  - gnl|SPADES|LDMNMAEC_204_14 : position 13062-13733
+  - gnl|SPADES|LDMNMAEC_331_4 : position 1821-2507
+
+### leuO (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_19 : position 20520-21443
+  - gnl|SPADES|LDMNMAEC_124_44 : position 46438-47358
+  - gnl|SPADES|LDMNMAEC_276_5 : position 5302-6249
+
+### lfrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_325_1 : position 13-1473
+
+### lmrC (found in 3 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_14 : position 10030-10809
+  - gnl|SPADES|LDMNMAEC_118_54 : position 57302-58090
+  - gnl|SPADES|LDMNMAEC_251_25 : position 22310-23929
+
+### macA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_151_14 : position 13740-14924
+  - gnl|SPADES|LDMNMAEC_200_29 : position 30971-32164
+  - gnl|SPADES|LDMNMAEC_63_16 : position 20327-21406
+
+### macB (found in 31 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_119_52 : position 59626-60351
+  - gnl|SPADES|LDMNMAEC_151_13 : position 11803-13743
+  - gnl|SPADES|LDMNMAEC_163_33 : position 44058-45038
+  - gnl|SPADES|LDMNMAEC_176_30 : position 24752-25888
+  - gnl|SPADES|LDMNMAEC_176_35 : position 30161-31147
+  - gnl|SPADES|LDMNMAEC_196_38 : position 37516-38187
+  - gnl|SPADES|LDMNMAEC_198_8 : position 6719-7495
+  - gnl|SPADES|LDMNMAEC_200_26 : position 26958-28046
+  - gnl|SPADES|LDMNMAEC_200_28 : position 29016-30971
+  - gnl|SPADES|LDMNMAEC_204_25 : position 26093-26797
+  - gnl|SPADES|LDMNMAEC_213_3 : position 1027-1779
+  - gnl|SPADES|LDMNMAEC_226_30 : position 31485-32516
+  - gnl|SPADES|LDMNMAEC_239_17 : position 17752-18561
+  - gnl|SPADES|LDMNMAEC_261_7 : position 6736-7524
+  - gnl|SPADES|LDMNMAEC_269_19 : position 19563-20588
+  - gnl|SPADES|LDMNMAEC_269_5 : position 5470-6303
+  - gnl|SPADES|LDMNMAEC_26_144 : position 144977-146497
+  - gnl|SPADES|LDMNMAEC_270_20 : position 18390-19382
+  - gnl|SPADES|LDMNMAEC_273_7 : position 5487-6314
+  - gnl|SPADES|LDMNMAEC_274_18 : position 18021-19562
+  - gnl|SPADES|LDMNMAEC_300_10 : position 7449-8171
+  - gnl|SPADES|LDMNMAEC_32_45 : position 45689-46411
+  - gnl|SPADES|LDMNMAEC_363_12 : position 12823-14328
+  - gnl|SPADES|LDMNMAEC_410_8 : position 5823-6590
+  - gnl|SPADES|LDMNMAEC_62_30 : position 44098-45207
+  - gnl|SPADES|LDMNMAEC_62_60 : position 73014-75845
+  - gnl|SPADES|LDMNMAEC_63_15 : position 18381-20327
+  - gnl|SPADES|LDMNMAEC_63_31 : position 38340-39068
+  - gnl|SPADES|LDMNMAEC_75_15 : position 14925-15611
+  - gnl|SPADES|LDMNMAEC_75_53 : position 57772-58494
+  - gnl|SPADES|LDMNMAEC_97_32 : position 39636-40307
+
+### marA (found in 4 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_11 : position 6265-7272
+  - gnl|SPADES|LDMNMAEC_278_30 : position 27515-27871
+  - gnl|SPADES|LDMNMAEC_299_5 : position 3600-4598
+  - gnl|SPADES|LDMNMAEC_76_1 : position 100-1062
+
+### mdsC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_299_15 : position 15241-16644
+
+### mdtA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_85_45 : position 49603-50850
+
+### mdtB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_85_44 : position 46484-49603
+
+### mdtC (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_188_9 : position 7997-11116
+  - gnl|SPADES|LDMNMAEC_85_43 : position 43407-46487
+
+### mdtG (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_151_33 : position 33115-34353
+  - gnl|SPADES|LDMNMAEC_59_71 : position 81727-82923
+
+### mdtH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_175_20 : position 19216-20421
+
+### mdtN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_804_2 : position 1065-2051
+
+### mdtP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_41 : position 34591-36042
+
+### mecC
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59_82 : position 92911-94836
+
+### mexP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; carbapenem; tetracycline antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_170_23 : position 28561-29715
+
+### mgrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; penam; tetracycline antibiotic; peptide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_101_45 : position 46033-46485
+  - gnl|SPADES|LDMNMAEC_318_6 : position 6596-7060
+
+### mphH
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: macrolide phosphotransferase (MPH)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_147_18 : position 15003-15914
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_11 : position 10546-11484
+
+### msbA (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_40 : position 42642-44408
+  - gnl|SPADES|LDMNMAEC_198_31 : position 37183-38949
+  - gnl|SPADES|LDMNMAEC_239_16 : position 16956-17747
+  - gnl|SPADES|LDMNMAEC_281_18 : position 16429-17184
+  - gnl|SPADES|LDMNMAEC_63_9 : position 12073-13809
+
+### mtrA (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_3 : position 1131-1943
+  - gnl|SPADES|LDMNMAEC_173_7 : position 9747-10574
+  - gnl|SPADES|LDMNMAEC_26_96 : position 99653-100567
+  - gnl|SPADES|LDMNMAEC_274_20 : position 21043-22221
+  - gnl|SPADES|LDMNMAEC_59_67 : position 79103-79972
+  - gnl|SPADES|LDMNMAEC_76_23 : position 24157-25014
+
+### nalC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_269_22 : position 22140-22784
+
+### nalD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80_46 : position 55550-56191
+
+### norA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_132 : position 134890-136113
+
+### novA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_25 : position 26483-28219
+  - gnl|SPADES|LDMNMAEC_59_45 : position 51857-53992
+  - gnl|SPADES|LDMNMAEC_85_58 : position 72162-72974
+
+### oleC (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_197_14 : position 19268-20074
+  - gnl|SPADES|LDMNMAEC_299_8 : position 6667-7422
+  - gnl|SPADES|LDMNMAEC_325_15 : position 14122-15012
+  - gnl|SPADES|LDMNMAEC_63_83 : position 91478-92794
+
+### oleD
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ole glycosyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_3 : position 1035-2309
+
+### opmE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; carbapenem; tetracycline antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_170_25 : position 32897-34393
+
+### optrA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_108 : position 106309-107901
+  - gnl|SPADES|LDMNMAEC_410_11 : position 8300-10213
+
+### oqxA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_278_29 : position 26031-27218
+
+### otr(B)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59_13 : position 12396-13883
+
+### patA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_77_40 : position 44726-45403
+
+### pmrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_284_19 : position 19934-21160
+  - gnl|SPADES|LDMNMAEC_85_32 : position 31497-32786
+
+### putative nickel/cobalt transporter
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic; isoniazid-like antibiotic
+- **AMR Family**: metal transporters with antibiotic efflux
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_124_26 : position 24945-25976
+
+### qacA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_273_15 : position 13148-14512
+
+### qacG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_170_21: position 24229-24549
+
+### qnrE1
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: quinolone resistance protein (qnr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_127_11 : position 9400-10044
+
+### ramA (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_101_18 : position 17039-17917
+  - gnl|SPADES|LDMNMAEC_85_49 : position 54212-55708
+
+### rosA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_75_28 : position 28654-29949
+
+### rosB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_410_13 : position 10901-12709
+  - gnl|SPADES|LDMNMAEC_75_29 : position 30197-31888
+
+### rphB (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_200_33 : position 35161-36888
+  - gnl|SPADES|LDMNMAEC_518_6 : position 4392-6770
+
+### salD
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_118_24 : position 22881-23585
+
+### sdiA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_146_19 : position 16590-17306
+
+### sdrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_12 : position 10416-11912
+
+### smeR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_147_26 : position 20265-20978
+  - gnl|SPADES|LDMNMAEC_222_10 : position 11390-12085
+
+### tcr3
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_383_4 : position 2563-3912
+
+### tet(31)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_76_25 : position 26539-27795
+
+### tet(35)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_98_11 : position 10844-12283
+
+### tet(50)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline inactivation enzyme
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_85_2 : position 1788-2924
+
+### tet(52) (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline inactivation enzyme
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59_37 : position 40969-42120
+  - gnl|SPADES|LDMNMAEC_59_46 : position 54025-55182
+
+### tet(L)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_352_6 : position 7215-8522
+
+### tet(S)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_300_13 : position 9258-10685
+
+### tetA(58) (found in 16 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_118_25 : position 23602-24390
+  - gnl|SPADES|LDMNMAEC_147_53 : position 47920-49413
+  - gnl|SPADES|LDMNMAEC_173_18 : position 21400-22170
+  - gnl|SPADES|LDMNMAEC_196_28 : position 26185-26886
+  - gnl|SPADES|LDMNMAEC_196_29 : position 26890-27657
+  - gnl|SPADES|LDMNMAEC_205_35 : position 28367-29092
+  - gnl|SPADES|LDMNMAEC_212_15 : position 16009-17481
+  - gnl|SPADES|LDMNMAEC_212_21 : position 23517-24302
+  - gnl|SPADES|LDMNMAEC_281_5 : position 3099-3884
+  - gnl|SPADES|LDMNMAEC_294_4 : position 1990-2913
+  - gnl|SPADES|LDMNMAEC_331_15 : position 17629-18504
+  - gnl|SPADES|LDMNMAEC_383_16 : position 14909-16462
+  - gnl|SPADES|LDMNMAEC_59_78 : position 89278-90282
+  - gnl|SPADES|LDMNMAEC_633_7 : position 6648-8162
+  - gnl|SPADES|LDMNMAEC_804_3 : position 2062-3792
+  - gnl|SPADES|LDMNMAEC_98_36 : position 37688-38716
+
+### tetA(60) (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1602_1 : position 3-1736
+  - gnl|SPADES|LDMNMAEC_294_21 : position 22483-23280
+  - gnl|SPADES|LDMNMAEC_331_14 : position 16916-17632
+  - gnl|SPADES|LDMNMAEC_75_69 : position 73092-74867
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_301_1 : position 3-1451
+
+### tetB(60) (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_261_11 : position 11814-13325
+  - gnl|SPADES|LDMNMAEC_270_21 : position 19384-20196
+  - gnl|SPADES|LDMNMAEC_63_8 : position 10202-12070
+  - gnl|SPADES|LDMNMAEC_75_68 : position 71321-73099
+
+### tetR
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_804_1 : position 357-1046
+
+### tsnR (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_165_44 : position 38866-39966
+  - gnl|SPADES|LDMNMAEC_589_12 : position 9389-10051
+
+### ugd
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_91_21 : position 19779-21122
+
+### vanG (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_21: position 18646-19749
+  - gnl|SPADES|LDMNMAEC_276_22 : position 26200-27120
+
+### vanH gene in vanA cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80_29 : position 35486-36436
+
+### vanH gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1743_3 : position 1603-2841
+
+### vanH gene in vanD cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_64 : position 57916-58875
+  - gnl|SPADES|LDMNMAEC_170_18 : position 22013-23005
+
+### vanH gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_152_37 : position 39788-40765
+
+### vanH gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109_54 : position 58931-59869
+
+### vanH gene in vanO cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_188_32 : position 34252-35373
+
+### vanH gene in vanP cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_147_2 : position 2091-3032
+  - gnl|SPADES|LDMNMAEC_80_36 : position 43582-44562
+
+### vanR gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_112_27 : position 31066-31782
+
+### vanR gene in vanF cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_77 : position 76075-76788
+  - gnl|SPADES|LDMNMAEC_463_8 : position 8843-9892
+
+### vanR gene in vanG cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_206_28 : position 23597-24331
+  - gnl|SPADES|LDMNMAEC_226_14 : position 15577-17133
+
+### vanR gene in vanP cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_298_4 : position 7483-8178
+
+### vanS gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_76 : position 74605-76071
+
+### vanS gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_32_68 : position 64262-65686
+
+### vanT gene in vanC cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_274_11 : position 9759-10703
+  - gnl|SPADES|LDMNMAEC_62_52 : position 66229-67308
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_239_11 : position 10707-11780
+
+### vanX gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanX; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59_74 : position 85171-85734
+
+### vatC
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_117_30 : position 26973-27443
+
+### vatH
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_62_58 : position 71145-71702
+
+### vmlR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic; nucleoside antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_80_64 : position 76224-77951
+
+
+## Yersinia alsatica
+**Strain Statistics:**
+- Total genome length: 30.0 kbp
+- Total scaffolds: 1604
+- Scaffolds with AMR genes: 92
+- Total genes annotated: 16
+- Total AMR genes: 92
+- Unique AMR genes: 72
+- Distinct AMR mechanisms: 5
+- Distinct AMR families: 26
+- Distinct drug classes: 28
+
+**Circos Plot:**
+
+![Circos plot for Yersinia alsatica](../circos_LB01_Bolton_QG_A1_S7_Yersinia_alsatica.png)
+
+### ACT-62
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: ACT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9127_2 : position 294-563
+
+### Acinetobacter baumannii AbaF (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_44507_1 : position 1-285
+  - gnl|SPADES|LDMNMAEC_78226_1 : position 2-262
+  - gnl|SPADES|LDMNMAEC_8259_1 : position 2-613
+  - gnl|SPADES|LDMNMAEC_83850_1 : position 2-259
+
+### CrcB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_153114_1 : position 1-228
+
+### Escherichia coli mdfA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_76832_1 : position 3-263
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20684_1 : position 103-369
+
+### H-NS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13680_1 : position 319-435
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_148481_1 : position 1-231
+
+### LAQ-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: LAQ beta lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_74887_1 : position 2-265
+
+### LptD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_26899_1 : position 1-339
+  - gnl|SPADES|LDMNMAEC_45954_1 : position 3-284
+
+### MdtK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_70958_1 : position 1-267
+
+### MexF (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_127029_1 : position 1-240
+  - gnl|SPADES|LDMNMAEC_22069_1 : position 3-362
+
+### MexK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_37963_1 : position 2-298
+
+### MexT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_63184_1 : position 1-270
+
+### MuxB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_40314_1 : position 2-184
+
+### Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_34075_1 : position 2-310
+
+### NmcR (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_125250_1 : position 1-240
+  - gnl|SPADES|LDMNMAEC_89388_1 : position 2-259
+
+### Pseudomonas aeruginosa CpxR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11985_1 : position 2-466
+
+### RanA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_45186_1 : position 1-285
+  - gnl|SPADES|LDMNMAEC_72067_1 : position 3-266
+  - gnl|SPADES|LDMNMAEC_92288_1 : position 2-256
+  - gnl|SPADES|LDMNMAEC_93487_1 : position 2-256
+
+### RanB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_22709_1 : position 1-357
+
+### Rhodococcus fascians cmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_114321_1 : position 1-246
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_169944_1 : position 2-220
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7326_2 : position 215-691
+
+### TolC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_89932_1 : position 1-258
+
+### TriC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18186_1 : position 2-385
+
+### TxR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_187404_1 : position 2-211
+  - gnl|SPADES|LDMNMAEC_6365_2 : position 345-797
+
+### aadT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_109535_1 : position 2-247
+
+### adeL
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_129598_1 : position 3-239
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_164476_1 : position 1-222
+
+### baeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_70256_1 : position 1-267
+
+### bcr-1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_179602_1 : position 1-216
+
+### cmlA8
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_158958_1 : position 2-226
+
+### cmlv
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_107726_1 : position 3-248
+
+### cpxA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16145_1 : position 1-405
+
+### efrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_43601_1 : position 2-286
+
+### emrY
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9977_1 : position 2-523
+
+### eptA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12676_1 : position 3-452
+
+### evgS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30209_1 : position 3-326
+  - gnl|SPADES|LDMNMAEC_59422_1 : position 3-272
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25756_1 : position 3-344
+
+### leuO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29293_1 : position 3-329
+
+### lmrD
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_42716_1 : position 3-287
+
+### lsaD
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13483_1 : position 1-438
+
+### macB (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_107578_1 : position 1-249
+  - gnl|SPADES|LDMNMAEC_185298_1 : position 2-211
+  - gnl|SPADES|LDMNMAEC_20657_1 : position 2-370
+  - gnl|SPADES|LDMNMAEC_49949_1 : position 3-278
+  - gnl|SPADES|LDMNMAEC_88505_1 : position 3-257
+
+### mdtA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_126630_1 : position 3-239
+  - gnl|SPADES|LDMNMAEC_182635_1 : position 2-214
+
+### mdtB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17473_1 : position 2-391
+
+### mdtC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21781_1 : position 2-364
+
+### mdtN
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35620_1 : position 2-307
+
+### mdtP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14889_1 : position 1-417
+
+### mgrA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; penam; tetracycline antibiotic; peptide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_190773_1 : position 3-209
+
+### msbA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_174423_1 : position 1-216
+  - gnl|SPADES|LDMNMAEC_29947_1 : position 3-326
+
+### novA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13485_1 : position 2-436
+
+### oleB
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_29125_1 : position 2-328
+
+### oleC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33160_1 : position 1-315
+
+### opmE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; carbapenem; tetracycline antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_187217_1 : position 3-212
+
+### patB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_182896_1 : position 2-214
+  - gnl|SPADES|LDMNMAEC_185045_1 : position 1-213
+
+### salA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_23676_1 : position 2-352
+
+### sdiA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_181552_1 : position 2-214
+
+### smeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7322_2 : position 95-655
+
+### smeS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21461_1 : position 2-364
+
+### tetA(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9202_1 : position 147-557
+
+### tetA(58) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_144870_1 : position 1-231
+  - gnl|SPADES|LDMNMAEC_26455_1 : position 10-339
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_137133_1 : position 1-171
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_47447_1 : position 3-281
+
+### tetB(60) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_183631_1 : position 1-213
+  - gnl|SPADES|LDMNMAEC_24835_1 : position 3-347
+
+### vanH gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_187374_1 : position 2-211
+
+### vanH gene in vanP cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_44189_1 : position 1-285
+
+### vanL
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_125767_1 : position 2-241
+
+### vanP
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7201_1 : position 82-699
+
+### vanR gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27311_1 : position 103-336
+
+### vanS gene in vanE cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13996_1 : position 2-430
+
+### vanT gene in vanC cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_155998_1 : position 29-226
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_140930_1 : position 2-232
+
+### y56 beta-lactamase
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penam; penem
+- **AMR Family**: BlaA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7718_1 : position 69-656
+
+
+## Yersinia enterocolitica
+**Strain Statistics:**
+- Total genome length: 530.2 kbp
+- Total scaffolds: 5041
+- Scaffolds with AMR genes: 513
+- Total genes annotated: 820
+- Total AMR genes: 558
+- Unique AMR genes: 208
+- Distinct AMR mechanisms: 11
+- Distinct AMR families: 63
+- Distinct drug classes: 36
+
+**Circos Plot:**
+
+![Circos plot for Yersinia enterocolitica](../circos_LB01_Bolton_QG_A1_S7_Yersinia_enterocolitica.png)
+
+### ALG11-1
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem
+- **AMR Family**: ALG11 beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7143_1 : position 3-647
+
+### Acinetobacter baumannii AbaF (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12213_1 : position 1-459
+  - gnl|SPADES|LDMNMAEC_21190_1 : position 1-366
+  - gnl|SPADES|LDMNMAEC_2296_2 : position 445-1629
+  - gnl|SPADES|LDMNMAEC_7175_1 : position 3-704
+  - gnl|SPADES|LDMNMAEC_8290_2 : position 232-612
+
+### Acinetobacter baumannii AbaQ (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10316_1 : position 2-466
+  - gnl|SPADES|LDMNMAEC_143198_1 : position 2-232
+  - gnl|SPADES|LDMNMAEC_165730_1 : position 2-220
+  - gnl|SPADES|LDMNMAEC_17713_1 : position 1-390
+  - gnl|SPADES|LDMNMAEC_2679_2 : position 444-1676
+  - gnl|SPADES|LDMNMAEC_5886_1 : position 1-858
+  - gnl|SPADES|LDMNMAEC_5987_2 : position 601-846
+
+### Acinetobacter baumannii AmvA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_183520_1 : position 2-214
+  - gnl|SPADES|LDMNMAEC_5296_1 : position 3-716
+
+### AcrE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4545_1 : position 3-992
+
+### AcrF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12866_1 : position 3-449
+
+### ArnT (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_31709_1 : position 1-318
+  - gnl|SPADES|LDMNMAEC_4595_1: position 1-1104
+
+### Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4357_1 : position 1-1167
+
+### Bifidobacterium bifidum ileS conferring resistance to mupirocin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1922_1 : position 3-1742
+
+### CMY-51
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephamycin
+- **AMR Family**: CMY beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_25095_1 : position 2-346
+
+### CRP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_23037_1 : position 1-315
+
+### Chlamydia trachomatis intrinsic murA conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1264_1 : position 3-284
+
+### Clostridioides difficile cplR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; nucleoside antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3255_3 : position 1444-1566
+
+### Clostridioides difficile gyrB conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4954_1 : position 3-473
+
+### Clostridium perfringes cplR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3557_2 : position 761-1030
+
+### Clostridium sporogenes cplR
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7285_2 : position 394-693
+
+### Corynebacterium striatum tetA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_180278_1 : position 2-214
+
+### CrcB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9401_2 : position 180-548
+
+### EC-15
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: EC beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7703_1 : position 26-655
+
+### Enterococcus faecium cls conferring resistance to daptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: daptomycin resistant cls
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_13194_1 : position 2-442
+
+### Erm(34) (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2392_3 : position 588-1214
+  - gnl|SPADES|LDMNMAEC_6323_2 : position 303-803
+
+### ErmX
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic
+- **AMR Family**: Erm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_57412_1 : position 3-188
+
+### Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime (found in 3 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_132933_1 : position 3-161
+  - gnl|SPADES|LDMNMAEC_178760_1 : position 1-216
+  - gnl|SPADES|LDMNMAEC_2274_3 : position 1827-2207
+
+### Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5539_1 : position 223-654
+
+### Escherichia coli acrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1901_1 : position 407-1609
+  - gnl|SPADES|LDMNMAEC_2274_2 : position 495-1682
+
+### Escherichia coli mdfA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5217_1 : position 2-967
+
+### Escherichia coli parE conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant parE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5406_1 : position 45-938
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance (found in 2 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_17496_2 : position 201-392
+  - gnl|SPADES|LDMNMAEC_5050_1 : position 3-188
+
+### H-NS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14306_1 : position 190-426
+
+### Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2240_1 : position 1-1767
+  - gnl|SPADES|LDMNMAEC_3219_1 : position 3-1511
+  - gnl|SPADES|LDMNMAEC_5670_1 : position 305-895
+
+### Helicobacter pylori pbp2 mutants conferring resistance to amoxicillin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2903_2 : position 550-1221
+
+### Helicobacter pylori rpoB mutation conferring resistance to rifampicin
+- **Mechanism**: antibiotic target alteration; antibiotic target replacement
+- **Drug Classes**: fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5240_1 : position 2-964
+
+### Klebsiella pneumoniae KpnE
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8848_2 : position 112-489
+
+### Klebsiella pneumoniae KpnF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8848_1 : position 3-125
+
+### Klebsiella pneumoniae KpnG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3444_2 : position 199-417
+
+### Klebsiella pneumoniae KpnH (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3853_1: position 2-1303
+  - gnl|SPADES|LDMNMAEC_77112_1 : position 3-140
+
+### Klebsiella pneumoniae OmpK37 (found in 11 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; penem
+- **AMR Family**: General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10606_1 : position 1-501
+  - gnl|SPADES|LDMNMAEC_13674_1 : position 3-434
+  - gnl|SPADES|LDMNMAEC_145512_1 : position 2-232
+  - gnl|SPADES|LDMNMAEC_22524_1 : position 3-359
+  - gnl|SPADES|LDMNMAEC_32479_1 : position 1-315
+  - gnl|SPADES|LDMNMAEC_36191_1 : position 2-304
+  - gnl|SPADES|LDMNMAEC_38568_1 : position 3-296
+  - gnl|SPADES|LDMNMAEC_4071_1 : position 1-513
+  - gnl|SPADES|LDMNMAEC_4365_1 : position 1-357
+  - gnl|SPADES|LDMNMAEC_7057_1 : position 216-716
+  - gnl|SPADES|LDMNMAEC_9585_1 : position 1-243
+
+### LRA-19
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penam
+- **AMR Family**: subclass B3 LRA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_33989_1 : position 1-312
+
+### LlmA 23S ribosomal RNA methyltransferase
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Llm 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4863_1 : position 1-1044
+
+### LptD (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: carbapenem; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_152898_1 : position 92-229
+  - gnl|SPADES|LDMNMAEC_155588_1 : position 2-226
+  - gnl|SPADES|LDMNMAEC_31964_1 : position 3-317
+  - gnl|SPADES|LDMNMAEC_63120_1 : position 2-271
+  - gnl|SPADES|LDMNMAEC_7009_1 : position 2-721
+  - gnl|SPADES|LDMNMAEC_8160_1 : position 2-622
+
+### MCR-4.6
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: MCR phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38586_1 : position 2-127
+
+### MdtK (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4517_1 : position 13-1122
+  - gnl|SPADES|LDMNMAEC_4946_2 : position 829-1026
+
+### MexB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6783_1 : position 1-744
+
+### MexE (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4145_1 : position 2-1234
+  - gnl|SPADES|LDMNMAEC_5727_2 : position 381-884
+
+### MexF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1574_4 : position 2007-3209
+
+### MexH
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1998_2 : position 1359-2522
+
+### MexJ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_8391_1 : position 3-347
+
+### MexK (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; tetracycline antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_163670_1 : position 3-221
+  - gnl|SPADES|LDMNMAEC_4256_1 : position 2-208
+
+### MexS (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18358_1 : position 2-352
+  - gnl|SPADES|LDMNMAEC_2259_2 : position 1098-2219
+  - gnl|SPADES|LDMNMAEC_4327_2 : position 629-1132
+  - gnl|SPADES|LDMNMAEC_5033_1 : position 1-930
+
+### MexT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_113121_1 : position 2-247
+
+### Morganella morganii gyrB conferring resistance to fluoroquinolones
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: fluoroquinolone resistant gyrB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3824_2 : position 739-1329
+
+### MuxB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_30428_1 : position 3-233
+
+### Mycobacterium tuberculosis gidB mutation conferring resistance to streptomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: antibiotic resistant gidB
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3042_1 : position 1-579
+
+### Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant kasA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10550_1 : position 1-447
+  - gnl|SPADES|LDMNMAEC_2400_3 : position 551-1726
+
+### Mycobacterium tuberculosis ndh with mutation conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant ndh
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7358_1 : position 3-686
+
+### Mycobacterium tuberculosis pncA mutations conferring resistance to pyrazinamide
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: pyrazine antibiotic
+- **AMR Family**: Pyrazinamide resistant pncA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3941_2 : position 993-1292
+
+### Neisseria gonorrhoeae pilQ gene conferring resistance to beta-lactam
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: cephalosporin; cephamycin; penam
+- **AMR Family**: Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6072_1 : position 3-746
+
+### NmcR (found in 13 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: carbapenem; cephalosporin; cephamycin; penam
+- **AMR Family**: NmcA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_193855_1 : position 3-206
+  - gnl|SPADES|LDMNMAEC_2739_1 : position 1-549
+  - gnl|SPADES|LDMNMAEC_32551_1 : position 3-317
+  - gnl|SPADES|LDMNMAEC_3511_2 : position 999-1451
+  - gnl|SPADES|LDMNMAEC_35712_1 : position 1-306
+  - gnl|SPADES|LDMNMAEC_3954_1 : position 61-969
+  - gnl|SPADES|LDMNMAEC_4511_1 : position 284-1123
+  - gnl|SPADES|LDMNMAEC_4803_1 : position 1-330
+  - gnl|SPADES|LDMNMAEC_4856_1 : position 3-893
+  - gnl|SPADES|LDMNMAEC_4967_1 : position 2-532
+  - gnl|SPADES|LDMNMAEC_6061_1 : position 2-835
+  - gnl|SPADES|LDMNMAEC_60929_1 : position 105-272
+  - gnl|SPADES|LDMNMAEC_7016_2 : position 460-720
+
+### OmpA (found in 5 locations)
+- **Mechanism**: reduced permeability to antibiotic
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: General Bacterial Porin with reduced permeability to peptide antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1632_3 : position 1900-2559
+  - gnl|SPADES|LDMNMAEC_3589_1 : position 2-460
+  - gnl|SPADES|LDMNMAEC_5782_1 : position 71-580
+  - gnl|SPADES|LDMNMAEC_7728_1 : position 2-430
+  - gnl|SPADES|LDMNMAEC_8409_1 : position 3-602
+
+### OpmB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; monobactam; tetracycline antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10033_1 : position 1-522
+
+### OprM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1973_2 : position 270-1676
+
+### ParR (found in 3 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3205_1 : position 2-505
+  - gnl|SPADES|LDMNMAEC_6415_1 : position 112-792
+  - gnl|SPADES|LDMNMAEC_7041_1 : position 3-398
+
+### ParS (found in 6 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; Outer Membrane Porin (Opr)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_104462_1 : position 1-249
+  - gnl|SPADES|LDMNMAEC_121194_1 : position 1-243
+  - gnl|SPADES|LDMNMAEC_19266_1 : position 1-378
+  - gnl|SPADES|LDMNMAEC_3205_2 : position 502-1584
+  - gnl|SPADES|LDMNMAEC_3356_1 : position 2-340
+  - gnl|SPADES|LDMNMAEC_7488_1 : position 3-674
+
+### Planobispora rosea EF-Tu mutants conferring resistance to inhibitor GE2270A
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: elfamycin resistant EF-Tu
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5131_1 : position 2-988
+
+### PmrF (found in 4 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_110732_1 : position 1-138
+  - gnl|SPADES|LDMNMAEC_20091_1 : position 2-373
+  - gnl|SPADES|LDMNMAEC_2068_2 : position 1872-2450
+  - gnl|SPADES|LDMNMAEC_2620_2 : position 243-1616
+
+### Pseudomonas aeruginosa CpxR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; aminoglycoside antibiotic; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12635_1 : position 2-451
+  - gnl|SPADES|LDMNMAEC_2213_2 : position 115-798
+
+### Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam
+- **Mechanism**: antibiotic target alteration; antibiotic inactivation
+- **Drug Classes**: monobactam; carbapenem; cephalosporin
+- **AMR Family**: PDC beta-lactamase; ampR transcriptional regulator with mutation conferring resistance to monobactam antibiotics
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1807_1 : position 24-965
+
+### QepA4
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2515_2 : position 566-2008
+
+### RanA (found in 20 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1070_2 : position 1089-2138
+  - gnl|SPADES|LDMNMAEC_1256_2 : position 1042-2064
+  - gnl|SPADES|LDMNMAEC_1911_1 : position 3-941
+  - gnl|SPADES|LDMNMAEC_2051_2 : position 196-1011
+  - gnl|SPADES|LDMNMAEC_20771_1 : position 2-367
+  - gnl|SPADES|LDMNMAEC_2186_2 : position 1028-1804
+  - gnl|SPADES|LDMNMAEC_2244_2 : position 276-1154
+  - gnl|SPADES|LDMNMAEC_26215_1 : position 3-341
+  - gnl|SPADES|LDMNMAEC_2886_1 : position 3-719
+  - gnl|SPADES|LDMNMAEC_2939_3 : position 316-951
+  - gnl|SPADES|LDMNMAEC_3169_1 : position 2-1129
+  - gnl|SPADES|LDMNMAEC_3278_1 : position 174-1220
+  - gnl|SPADES|LDMNMAEC_3971_2 : position 650-1285
+  - gnl|SPADES|LDMNMAEC_45410_1 : position 3-284
+  - gnl|SPADES|LDMNMAEC_5394_1 : position 2-940
+  - gnl|SPADES|LDMNMAEC_6324_1 : position 2-625
+  - gnl|SPADES|LDMNMAEC_6543_1 : position 3-776
+  - gnl|SPADES|LDMNMAEC_6596_2 : position 74-769
+  - gnl|SPADES|LDMNMAEC_7006_1 : position 2-706
+  - gnl|SPADES|LDMNMAEC_7578_1 : position 2-400
+
+### RanB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2939_4 : position 962-1732
+  - gnl|SPADES|LDMNMAEC_5750_1 : position 2-880
+
+### Rhodococcus fascians cmr
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_48182_1 : position 3-281
+
+### Rv1877
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1733_2 : position 521-1909
+
+### SRT-2
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin
+- **AMR Family**: SRT beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38483_1 : position 3-296
+
+### Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant GlpT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_191956_1 : position 3-188
+
+### Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: fusidane antibiotic
+- **AMR Family**: antibiotic resistant fusA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7255_1 : position 121-696
+
+### Staphylococcus aureus mupA conferring resistance to mupirocin (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3400_1 : position 3-1043
+  - gnl|SPADES|LDMNMAEC_5102_1 : position 3-995
+  - gnl|SPADES|LDMNMAEC_7871_1 : position 2-640
+
+### Staphylococcus aureus mupB conferring resistance to mupirocin (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: mupirocin-like antibiotic
+- **AMR Family**: antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14304_1 : position 2-424
+  - gnl|SPADES|LDMNMAEC_4895_1 : position 2-964
+
+### Staphylococcus aureus murA with mutation conferring resistance to fosfomycin
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: antibiotic-resistant murA transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2324_1 : position 1-906
+
+### Staphylococcus aureus norA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5511_1 : position 252-920
+
+### Streptomyces rimosus otr(A)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_23034_1 : position 2-355
+
+### Streptomyces venezuelae rox
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin monooxygenase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5242_1 : position 2-472
+
+### TaeA (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_129897_1 : position 2-238
+  - gnl|SPADES|LDMNMAEC_2189_1 : position 3-578
+  - gnl|SPADES|LDMNMAEC_2773_1 : position 3-1097
+  - gnl|SPADES|LDMNMAEC_4185_1 : position 3-572
+  - gnl|SPADES|LDMNMAEC_5106_1 : position 3-593
+  - gnl|SPADES|LDMNMAEC_5389_2 : position 364-942
+  - gnl|SPADES|LDMNMAEC_6646_1 : position 1-636
+
+### TolC (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3712_1 : position 56-1369
+  - gnl|SPADES|LDMNMAEC_3764_1 : position 519-1091
+  - gnl|SPADES|LDMNMAEC_4830_2 : position 640-1053
+  - gnl|SPADES|LDMNMAEC_9117_1 : position 1-561
+
+### TriB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4288_2 : position 495-1190
+
+### TriC (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3616_1 : position 1-1413
+  - gnl|SPADES|LDMNMAEC_4288_1 : position 1-495
+
+### TxR (found in 12 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_181381_1 : position 3-215
+  - gnl|SPADES|LDMNMAEC_18389_1 : position 2-385
+  - gnl|SPADES|LDMNMAEC_2608_2 : position 107-1444
+  - gnl|SPADES|LDMNMAEC_2664_2 : position 508-1896
+  - gnl|SPADES|LDMNMAEC_32272_1 : position 2-316
+  - gnl|SPADES|LDMNMAEC_33767_1 : position 3-311
+  - gnl|SPADES|LDMNMAEC_4743_1 : position 3-389
+  - gnl|SPADES|LDMNMAEC_4744_1 : position 1-807
+  - gnl|SPADES|LDMNMAEC_5318_2 : position 331-951
+  - gnl|SPADES|LDMNMAEC_6458_1 : position 1-786
+  - gnl|SPADES|LDMNMAEC_83798_1 : position 2-259
+  - gnl|SPADES|LDMNMAEC_85117_1 : position 2-259
+
+### acrB (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1973_1 : position 2-268
+  - gnl|SPADES|LDMNMAEC_2274_1 : position 2-478
+  - gnl|SPADES|LDMNMAEC_4467_1 : position 2-1132
+  - gnl|SPADES|LDMNMAEC_6814_2 : position 456-740
+  - gnl|SPADES|LDMNMAEC_7920_1 : position 3-638
+  - gnl|SPADES|LDMNMAEC_7989_1 : position 1-633
+
+### acrD (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_39432_1 : position 3-293
+  - gnl|SPADES|LDMNMAEC_4037_1 : position 3-1262
+  - gnl|SPADES|LDMNMAEC_4569_1 : position 3-473
+  - gnl|SPADES|LDMNMAEC_4569_2 : position 510-1109
+  - gnl|SPADES|LDMNMAEC_9149_1 : position 1-561
+
+### adeG
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9061_2 : position 244-564
+
+### adeK
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; lincosamide antibiotic; carbapenem; cephalosporin; tetracycline antibiotic; rifamycin antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_7439_1 : position 2-601
+
+### adeL (found in 26 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10524_1 : position 2-505
+  - gnl|SPADES|LDMNMAEC_125349_1 : position 1-213
+  - gnl|SPADES|LDMNMAEC_1271_4 : position 3763-4104
+  - gnl|SPADES|LDMNMAEC_18337_1 : position 2-343
+  - gnl|SPADES|LDMNMAEC_19596_1 : position 1-297
+  - gnl|SPADES|LDMNMAEC_22182_1 : position 1-360
+  - gnl|SPADES|LDMNMAEC_2782_1 : position 1-828
+  - gnl|SPADES|LDMNMAEC_31389_1 : position 64-321
+  - gnl|SPADES|LDMNMAEC_3560_2 : position 542-1435
+  - gnl|SPADES|LDMNMAEC_3824_1 : position 1-735
+  - gnl|SPADES|LDMNMAEC_3839_1 : position 3-857
+  - gnl|SPADES|LDMNMAEC_3959_2 : position 273-1181
+  - gnl|SPADES|LDMNMAEC_48561_1 : position 3-281
+  - gnl|SPADES|LDMNMAEC_48602_1 : position 94-279
+  - gnl|SPADES|LDMNMAEC_4982_3 : position 632-1018
+  - gnl|SPADES|LDMNMAEC_5004_1 : position 1-393
+  - gnl|SPADES|LDMNMAEC_5655_1 : position 1-453
+  - gnl|SPADES|LDMNMAEC_6013_2 : position 454-843
+  - gnl|SPADES|LDMNMAEC_6474_1 : position 2-505
+  - gnl|SPADES|LDMNMAEC_7459_1 : position 181-678
+  - gnl|SPADES|LDMNMAEC_8582_1 : position 2-247
+  - gnl|SPADES|LDMNMAEC_8815_1 : position 74-577
+  - gnl|SPADES|LDMNMAEC_8990_1 : position 106-570
+  - gnl|SPADES|LDMNMAEC_9073_1 : position 2-259
+  - gnl|SPADES|LDMNMAEC_9143_1 : position 213-560
+  - gnl|SPADES|LDMNMAEC_9535_1 : position 1-306
+
+### almE (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: polymyxin resistance operon; alm glycyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1494_2 : position 313-1242
+  - gnl|SPADES|LDMNMAEC_6735_1 : position 2-751
+
+### amrB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; aminoglycoside antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4545_2 : position 996-1115
+  - gnl|SPADES|LDMNMAEC_4605_1 : position 1-1104
+
+### apmA
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: AAC(2')
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1394_1 : position 2-409
+
+### arlR (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11378_2 : position 229-480
+  - gnl|SPADES|LDMNMAEC_5201_2 : position 487-972
+  - gnl|SPADES|LDMNMAEC_5231_2 : position 274-966
+  - gnl|SPADES|LDMNMAEC_9539_1 : position 3-212
+
+### arlS
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5129_2 : position 516-989
+
+### arnA (found in 5 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_110732_2 : position 135-248
+  - gnl|SPADES|LDMNMAEC_2617_1 : position 2-577
+  - gnl|SPADES|LDMNMAEC_5571_1 : position 3-665
+  - gnl|SPADES|LDMNMAEC_5571_2 : position 662-910
+  - gnl|SPADES|LDMNMAEC_9258_1 : position 1-525
+
+### bacA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: undecaprenyl pyrophosphate related proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1765_2 : position 992-1810
+
+### baeR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6177_2 : position 203-820
+
+### baeS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3102_2 : position 400-1641
+  - gnl|SPADES|LDMNMAEC_5757_1 : position 1-879
+
+### basS (found in 3 locations)
+- **Mechanism**: antibiotic target alteration; antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4397_1 : position 3-884
+  - gnl|SPADES|LDMNMAEC_4468_1 : position 3-1133
+  - gnl|SPADES|LDMNMAEC_5494_2 : position 759-923
+
+### bcr-1 (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: bicyclomycin-like antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2027_3 : position 1241-2464
+  - gnl|SPADES|LDMNMAEC_2322_1 : position 2-727
+  - gnl|SPADES|LDMNMAEC_4628_1 : position 181-1095
+
+### bcrA (found in 10 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10402_2 : position 114-509
+  - gnl|SPADES|LDMNMAEC_10724_1 : position 1-498
+  - gnl|SPADES|LDMNMAEC_140446_1 : position 2-232
+  - gnl|SPADES|LDMNMAEC_2017_3 : position 1713-2507
+  - gnl|SPADES|LDMNMAEC_3031_2 : position 1192-1680
+  - gnl|SPADES|LDMNMAEC_3545_2 : position 264-962
+  - gnl|SPADES|LDMNMAEC_4009_1 : position 1-660
+  - gnl|SPADES|LDMNMAEC_4112_2 : position 363-989
+  - gnl|SPADES|LDMNMAEC_8948_1 : position 3-206
+  - gnl|SPADES|LDMNMAEC_9801_1 : position 1-531
+
+### carA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9868_1 : position 2-361
+
+### clbB (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; oxazolidinone antibiotic; phenicol antibiotic; pleuromutilin antibiotic
+- **AMR Family**: Cfr 23S ribosomal RNA methyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6240_1 : position 3-293
+  - gnl|SPADES|LDMNMAEC_6240_2 : position 277-813
+
+### cmlA9
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3139_1 : position 1-588
+
+### cmlB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2656_2 : position 869-1900
+
+### cmlv (found in 4 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: phenicol antibiotic
+- **AMR Family**: chloramphenicol phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4582_1 : position 165-1106
+  - gnl|SPADES|LDMNMAEC_6013_1 : position 1-102
+  - gnl|SPADES|LDMNMAEC_6451_1 : position 3-788
+  - gnl|SPADES|LDMNMAEC_8390_1 : position 97-603
+
+### cpxA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1394_4 : position 2446-3696
+  - gnl|SPADES|LDMNMAEC_1997_1 : position 1-1458
+  - gnl|SPADES|LDMNMAEC_4400_1 : position 2-679
+
+### dfrA3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: diaminopyrimidine antibiotic
+- **AMR Family**: trimethoprim resistant dihydrofolate reductase dfr
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10031_1 : position 186-521
+
+### efrA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3290_1 : position 2-511
+  - gnl|SPADES|LDMNMAEC_3972_1 : position 612-1283
+  - gnl|SPADES|LDMNMAEC_6381_1 : position 112-795
+
+### efrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_9242_1 : position 1-555
+
+### emrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21094_1 : position 2-367
+  - gnl|SPADES|LDMNMAEC_3444_3 : position 446-1357
+
+### emrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3444_4 : position 1397-1483
+
+### emrR
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14933_1 : position 2-307
+
+### emrY (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2361_1 : position 2-1033
+  - gnl|SPADES|LDMNMAEC_6214_1 : position 3-419
+
+### eptA
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3026_2 : position 534-1682
+
+### eptB
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2488_2 : position 428-2032
+
+### evgA (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15125_1 : position 2-415
+  - gnl|SPADES|LDMNMAEC_2924_2 : position 809-1438
+  - gnl|SPADES|LDMNMAEC_3008_1 : position 3-413
+  - gnl|SPADES|LDMNMAEC_3067_1 : position 611-1240
+  - gnl|SPADES|LDMNMAEC_5180_2 : position 717-977
+  - gnl|SPADES|LDMNMAEC_5197_2 : position 496-795
+  - gnl|SPADES|LDMNMAEC_6591_1 : position 49-681
+  - gnl|SPADES|LDMNMAEC_7163_1 : position 2-622
+  - gnl|SPADES|LDMNMAEC_9493_1 : position 1-516
+
+### evgS (found in 14 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11245_1 : position 3-455
+  - gnl|SPADES|LDMNMAEC_122952_1 : position 2-241
+  - gnl|SPADES|LDMNMAEC_1443_1 : position 3-1412
+  - gnl|SPADES|LDMNMAEC_1886_1 : position 2-1081
+  - gnl|SPADES|LDMNMAEC_23706_1 : position 2-352
+  - gnl|SPADES|LDMNMAEC_2731_2 : position 183-572
+  - gnl|SPADES|LDMNMAEC_3121_1 : position 1-1629
+  - gnl|SPADES|LDMNMAEC_4524_2 : position 484-1119
+  - gnl|SPADES|LDMNMAEC_4710_1 : position 2-1078
+  - gnl|SPADES|LDMNMAEC_48345_1 : position 1-201
+  - gnl|SPADES|LDMNMAEC_5059_1 : position 3-1004
+  - gnl|SPADES|LDMNMAEC_7082_1 : position 3-713
+  - gnl|SPADES|LDMNMAEC_7305_1 : position 1-693
+  - gnl|SPADES|LDMNMAEC_9372_1 : position 1-549
+
+### facT
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: elfamycin antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2256_1 : position 378-1682
+
+### farB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: antibacterial free fatty acids
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12230_1 : position 2-460
+
+### gadW (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1654_2 : position 257-1045
+  - gnl|SPADES|LDMNMAEC_5626_1 : position 3-833
+  - gnl|SPADES|LDMNMAEC_6656_2 : position 308-760
+  - gnl|SPADES|LDMNMAEC_7431_1 : position 2-604
+
+### golS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: monobactam; carbapenem; cephalosporin; cephamycin; penam; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3107_3 : position 610-1029
+  - gnl|SPADES|LDMNMAEC_3584_3 : position 713-1138
+
+### hmrM
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: multidrug and toxic compound extrusion (MATE) transporter
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4375_1 : position 3-842
+
+### hp1181 (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; tetracycline antibiotic; nitroimidazole antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_35797_1 : position 1-306
+  - gnl|SPADES|LDMNMAEC_8501_1 : position 75-410
+  - gnl|SPADES|LDMNMAEC_8501_2 : position 394-597
+
+### kdpD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_36972_1 : position 3-302
+  - gnl|SPADES|LDMNMAEC_3732_1 : position 1-1362
+
+### kdpE (found in 6 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic
+- **AMR Family**: kdpDE
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10236_1 : position 2-514
+  - gnl|SPADES|LDMNMAEC_123098_1 : position 3-242
+  - gnl|SPADES|LDMNMAEC_166140_1 : position 3-152
+  - gnl|SPADES|LDMNMAEC_39655_1 : position 3-293
+  - gnl|SPADES|LDMNMAEC_5129_1 : position 3-494
+  - gnl|SPADES|LDMNMAEC_9954_2 : position 358-525
+
+### leuO (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2688_2 : position 261-872
+  - gnl|SPADES|LDMNMAEC_3054_1 : position 84-986
+  - gnl|SPADES|LDMNMAEC_3390_2 : position 1116-1508
+  - gnl|SPADES|LDMNMAEC_46916_1 : position 2-283
+  - gnl|SPADES|LDMNMAEC_7804_1 : position 2-178
+
+### lmrC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_14364_1 : position 3-425
+
+### lmrD (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: lincosamide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_38967_1 : position 1-294
+  - gnl|SPADES|LDMNMAEC_6001_2 : position 626-844
+
+### lsaA
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6647_1 : position 1-762
+
+### lsaE
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic
+- **AMR Family**: lsa-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3841_1 : position 3-386
+
+### macA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2213_3 : position 987-2195
+  - gnl|SPADES|LDMNMAEC_34823_1 : position 3-308
+  - gnl|SPADES|LDMNMAEC_5944_1 : position 3-851
+
+### macB (found in 46 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10314_1 : position 2-511
+  - gnl|SPADES|LDMNMAEC_106160_1 : position 1-249
+  - gnl|SPADES|LDMNMAEC_1256_1 : position 65-1045
+  - gnl|SPADES|LDMNMAEC_13056_1 : position 1-444
+  - gnl|SPADES|LDMNMAEC_144644_1 : position 3-233
+  - gnl|SPADES|LDMNMAEC_149238_1 : position 2-175
+  - gnl|SPADES|LDMNMAEC_15519_1 : position 2-409
+  - gnl|SPADES|LDMNMAEC_156062_1 : position 1-225
+  - gnl|SPADES|LDMNMAEC_156267_1 : position 2-226
+  - gnl|SPADES|LDMNMAEC_1688_4 : position 2326-2961
+  - gnl|SPADES|LDMNMAEC_1694_2 : position 644-1675
+  - gnl|SPADES|LDMNMAEC_1750_4 : position 1593-2279
+  - gnl|SPADES|LDMNMAEC_175843_1 : position 3-218
+  - gnl|SPADES|LDMNMAEC_176081_1 : position 2-217
+  - gnl|SPADES|LDMNMAEC_1824_2 : position 354-1079
+  - gnl|SPADES|LDMNMAEC_19943_1 : position 3-374
+  - gnl|SPADES|LDMNMAEC_2119_2 : position 1098-2387
+  - gnl|SPADES|LDMNMAEC_2403_2 : position 1401-2099
+  - gnl|SPADES|LDMNMAEC_2544_1 : position 2-505
+  - gnl|SPADES|LDMNMAEC_26674_2 : position 75-338
+  - gnl|SPADES|LDMNMAEC_2718_1 : position 3-524
+  - gnl|SPADES|LDMNMAEC_2792_2 : position 994-1698
+  - gnl|SPADES|LDMNMAEC_3017_2 : position 748-1686
+  - gnl|SPADES|LDMNMAEC_31664_1 : position 34-318
+  - gnl|SPADES|LDMNMAEC_3171_3 : position 1013-1606
+  - gnl|SPADES|LDMNMAEC_3285_2 : position 273-1553
+  - gnl|SPADES|LDMNMAEC_36915_1 : position 2-172
+  - gnl|SPADES|LDMNMAEC_3937_1 : position 3-536
+  - gnl|SPADES|LDMNMAEC_4133_2 : position 1112-1234
+  - gnl|SPADES|LDMNMAEC_4221_1 : position 2-1207
+  - gnl|SPADES|LDMNMAEC_4391_2 : position 424-1158
+  - gnl|SPADES|LDMNMAEC_4922_2 : position 227-1033
+  - gnl|SPADES|LDMNMAEC_5096_1 : position 1-678
+  - gnl|SPADES|LDMNMAEC_5137_2 : position 218-988
+  - gnl|SPADES|LDMNMAEC_5481_2 : position 497-925
+  - gnl|SPADES|LDMNMAEC_5561_2 : position 572-913
+  - gnl|SPADES|LDMNMAEC_5827_1 : position 18-383
+  - gnl|SPADES|LDMNMAEC_5865_1 : position 3-863
+  - gnl|SPADES|LDMNMAEC_6678_2 : position 370-759
+  - gnl|SPADES|LDMNMAEC_6912_1 : position 1-450
+  - gnl|SPADES|LDMNMAEC_7277_1 : position 2-694
+  - gnl|SPADES|LDMNMAEC_7422_2 : position 361-681
+  - gnl|SPADES|LDMNMAEC_7731_1 : position 1-420
+  - gnl|SPADES|LDMNMAEC_8687_1 : position 1-435
+  - gnl|SPADES|LDMNMAEC_9279_1 : position 1-555
+  - gnl|SPADES|LDMNMAEC_9794_1 : position 2-529
+
+### marA (found in 3 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2585_1 : position 140-1015
+  - gnl|SPADES|LDMNMAEC_3586_2 : position 951-1427
+  - gnl|SPADES|LDMNMAEC_6762_1 : position 3-335
+
+### mdtA (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_36673_1 : position 1-303
+  - gnl|SPADES|LDMNMAEC_5974_1 : position 2-682
+  - gnl|SPADES|LDMNMAEC_75170_1 : position 1-264
+
+### mdtB (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_141318_1 : position 3-233
+  - gnl|SPADES|LDMNMAEC_164069_1 : position 3-221
+  - gnl|SPADES|LDMNMAEC_23870_2 : position 92-352
+  - gnl|SPADES|LDMNMAEC_30834_1 : position 2-322
+  - gnl|SPADES|LDMNMAEC_4360_1 : position 3-1166
+  - gnl|SPADES|LDMNMAEC_5974_2 : position 682-849
+  - gnl|SPADES|LDMNMAEC_7103_1 : position 1-711
+
+### mdtC (found in 7 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_100369_1 : position 116-253
+  - gnl|SPADES|LDMNMAEC_10775_1 : position 3-266
+  - gnl|SPADES|LDMNMAEC_10775_2 : position 286-495
+  - gnl|SPADES|LDMNMAEC_10922_1 : position 3-491
+  - gnl|SPADES|LDMNMAEC_23870_1 : position 3-95
+  - gnl|SPADES|LDMNMAEC_2959_1 : position 3-1505
+  - gnl|SPADES|LDMNMAEC_40903_1 : position 1-291
+
+### mdtG (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5052_2 : position 534-1004
+  - gnl|SPADES|LDMNMAEC_5283_1 : position 307-732
+  - gnl|SPADES|LDMNMAEC_5283_2 : position 677-958
+
+### mdtH (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_111864_1 : position 2-247
+  - gnl|SPADES|LDMNMAEC_7359_1 : position 3-275
+  - gnl|SPADES|LDMNMAEC_7359_2 : position 300-686
+
+### mdtN (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16872_1 : position 3-275
+  - gnl|SPADES|LDMNMAEC_4187_1 : position 1-861
+  - gnl|SPADES|LDMNMAEC_5690_1 : position 3-791
+
+### mdtO
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4476_1 : position 2-1132
+
+### mdtP
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nucleoside antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3403_2 : position 465-1502
+
+### mecB
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2903_1 : position 2-553
+
+### mecD (found in 3 locations)
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: penam
+- **AMR Family**: methicillin resistant PBP2
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2513_1 : position 3-548
+  - gnl|SPADES|LDMNMAEC_32009_1 : position 3-317
+  - gnl|SPADES|LDMNMAEC_5141_2 : position 453-986
+
+### mreA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_11096_1 : position 2-487
+
+### msbA (found in 9 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: nitroimidazole antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10285_1 : position 3-512
+  - gnl|SPADES|LDMNMAEC_1126_3 : position 4243-4719
+  - gnl|SPADES|LDMNMAEC_12431_1 : position 3-260
+  - gnl|SPADES|LDMNMAEC_13482_1 : position 1-438
+  - gnl|SPADES|LDMNMAEC_158873_1 : position 2-226
+  - gnl|SPADES|LDMNMAEC_26829_1 : position 2-337
+  - gnl|SPADES|LDMNMAEC_4450_1 : position 1-1140
+  - gnl|SPADES|LDMNMAEC_45648_1 : position 2-283
+  - gnl|SPADES|LDMNMAEC_50074_1 : position 2-280
+
+### msrH
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; streptogramin antibiotic
+- **AMR Family**: msr-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6345_1 : position 3-284
+
+### mtrA (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2320_1 : position 2-802
+  - gnl|SPADES|LDMNMAEC_8401_1 : position 82-603
+
+### nalC
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; diaminopyrimidine antibiotic; sulfonamide antibiotic; phenicol antibiotic; penem
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4810_2 : position 469-1056
+
+### novA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminocoumarin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3376_1 : position 1-591
+  - gnl|SPADES|LDMNMAEC_4999_1 : position 3-800
+  - gnl|SPADES|LDMNMAEC_5727_1 : position 3-368
+  - gnl|SPADES|LDMNMAEC_6116_1 : position 190-828
+
+### oleB
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4185_2 : position 523-1017
+
+### oleC (found in 5 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2026_1 : position 1-447
+  - gnl|SPADES|LDMNMAEC_3850_1 : position 3-143
+  - gnl|SPADES|LDMNMAEC_6989_2 : position 419-721
+  - gnl|SPADES|LDMNMAEC_7264_1 : position 2-694
+  - gnl|SPADES|LDMNMAEC_8152_1 : position 3-620
+
+### optrA (found in 3 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: oxazolidinone antibiotic; phenicol antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2068_1 : position 1-1830
+  - gnl|SPADES|LDMNMAEC_2765_3 : position 916-1830
+  - gnl|SPADES|LDMNMAEC_6310_1 : position 634-804
+
+### oqxB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1901_2 : position 1622-2632
+
+### otr(B)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1632_1 : position 3-998
+
+### patA (found in 4 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3597_2 : position 1111-1422
+  - gnl|SPADES|LDMNMAEC_6288_1 : position 3-806
+  - gnl|SPADES|LDMNMAEC_85869_1 : position 3-260
+  - gnl|SPADES|LDMNMAEC_97957_1 : position 3-254
+
+### patB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3557_3 : position 1076-1435
+  - gnl|SPADES|LDMNMAEC_4170_2 : position 988-1224
+
+### putative nickel/cobalt transporter
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; aminoglycoside antibiotic; isoniazid-like antibiotic
+- **AMR Family**: metal transporters with antibiotic efflux
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4049_1 : position 2-496
+
+### qacJ
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: disinfecting agents and antiseptics
+- **AMR Family**: small multidrug resistance (SMR) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2382_2: position 1175-1507
+
+### ramA (found in 2 locations)
+- **Mechanism**: antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6772_1 : position 1-204
+  - gnl|SPADES|LDMNMAEC_9556_2 : position 323-541
+
+### rosA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1960_2 : position 1185-2417
+
+### rosB (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10189_1 : position 186-515
+  - gnl|SPADES|LDMNMAEC_1960_1 : position 1-948
+
+### rphB (found in 2 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: rifamycin antibiotic
+- **AMR Family**: rifampin phosphotransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15305_1 : position 3-413
+  - gnl|SPADES|LDMNMAEC_59844_1 : position 2-274
+
+### salA (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10346_1 : position 2-217
+  - gnl|SPADES|LDMNMAEC_23385_1 : position 1-354
+
+### salC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic
+- **AMR Family**: sal-type ABC-F protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2939_2 : position 144-359
+
+### sdiA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3579_1 : position 63-665
+
+### smeB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1998_1 : position 1-1362
+
+### smeR (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2123_4 : position 1654-2352
+  - gnl|SPADES|LDMNMAEC_3189_1 : position 1-1167
+
+### smeS (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: aminoglycoside antibiotic; cephalosporin; cephamycin; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2949_2 : position 547-1725
+  - gnl|SPADES|LDMNMAEC_4400_2 : position 654-920
+
+### srmB
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4599_2 : position 728-1105
+
+### sul3
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_155526_1 : position 1-141
+
+### sul4
+- **Mechanism**: antibiotic target replacement
+- **Drug Classes**: sulfonamide antibiotic
+- **AMR Family**: sulfonamide resistant sul
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4544_1 : position 2-688
+
+### tet(39)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3179_1 : position 1-879
+
+### tet(43)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20840_1 : position 1-291
+
+### tet(M)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3952_2 : position 440-1012
+
+### tet(S)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_72078_1 : position 1-267
+
+### tet(T) (found in 2 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4512_1 : position 3-1067
+  - gnl|SPADES|LDMNMAEC_5400_1 : position 3-938
+
+### tet(W)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21676_1 : position 3-362
+
+### tet(W/32/O)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2212_4 : position 1928-2281
+
+### tet(X1)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline inactivation enzyme
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5479_1 : position 3-497
+
+### tetA(46) (found in 2 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3087_2 : position 56-427
+  - gnl|SPADES|LDMNMAEC_5437_1 : position 2-934
+
+### tetA(58) (found in 17 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_21018_1 : position 1-366
+  - gnl|SPADES|LDMNMAEC_2118_1 : position 1-780
+  - gnl|SPADES|LDMNMAEC_2130_1 : position 1-540
+  - gnl|SPADES|LDMNMAEC_2244_3 : position 1141-1857
+  - gnl|SPADES|LDMNMAEC_2547_2 : position 976-1764
+  - gnl|SPADES|LDMNMAEC_2756_2 : position 1241-1834
+  - gnl|SPADES|LDMNMAEC_3174_1 : position 3-284
+  - gnl|SPADES|LDMNMAEC_3395_2 : position 397-1503
+  - gnl|SPADES|LDMNMAEC_3545_3 : position 1090-1440
+  - gnl|SPADES|LDMNMAEC_3841_2 : position 370-1194
+  - gnl|SPADES|LDMNMAEC_4124_2 : position 269-970
+  - gnl|SPADES|LDMNMAEC_5175_1 : position 3-803
+  - gnl|SPADES|LDMNMAEC_64989_1 : position 3-185
+  - gnl|SPADES|LDMNMAEC_6997_1 : position 2-280
+  - gnl|SPADES|LDMNMAEC_8564_1 : position 2-592
+  - gnl|SPADES|LDMNMAEC_8643_1 : position 3-569
+  - gnl|SPADES|LDMNMAEC_8840_1 : position 1-576
+
+### tetA(60) (found in 3 locations)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27795_1 : position 2-334
+  - gnl|SPADES|LDMNMAEC_5849_1 : position 1-864
+  - gnl|SPADES|LDMNMAEC_6852_1 : position 1-738
+
+### tetB(46)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3087_3 : position 476-1648
+
+### tetB(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6808_1 : position 24-743
+
+### tlrC (found in 5 locations)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_130213_1 : position 3-239
+  - gnl|SPADES|LDMNMAEC_2987_1 : position 2-208
+  - gnl|SPADES|LDMNMAEC_4831_1 : position 1-390
+  - gnl|SPADES|LDMNMAEC_7717_1 : position 1-315
+  - gnl|SPADES|LDMNMAEC_8329_1 : position 1-465
+
+### tsnR
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: non-erm 23S ribosomal RNA methyltransferase (A1067)
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3397_1 : position 59-799
+
+### tva(A)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6922_2 : position 282-728
+
+### ugd
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: peptide antibiotic
+- **AMR Family**: pmr phosphoethanolamine transferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_59841_1 : position 3-272
+
+### vanH gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1654_3 : position 1091-2224
+
+### vanH gene in vanD cluster (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_20451_1 : position 45-371
+  - gnl|SPADES|LDMNMAEC_2679_1 : position 3-275
+  - gnl|SPADES|LDMNMAEC_33029_1 : position 2-316
+
+### vanH gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1771_1 : position 62-1021
+
+### vanH gene in vanP cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanH; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1823_2 : position 1796-2743
+  - gnl|SPADES|LDMNMAEC_4620_1 : position 266-1096
+
+### vanL (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; Van ligase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2200_3 : position 1115-2215
+  - gnl|SPADES|LDMNMAEC_3116_1 : position 2-694
+
+### vanR gene in vanA cluster (found in 2 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_10378_1 : position 3-329
+  - gnl|SPADES|LDMNMAEC_8376_1 : position 35-604
+
+### vanR gene in vanB cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_16450_2 : position 144-401
+
+### vanR gene in vanF cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2731_3 : position 647-1696
+
+### vanR gene in vanL cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4524_1 : position 3-509
+
+### vanR gene in vanM cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3753_2 : position 636-1334
+
+### vanR gene in vanN cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanR
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_27850_1 : position 53-334
+
+### vanS gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: vanS; glycopeptide resistance gene cluster
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4548_2 : position 276-1115
+
+### vanT gene in vanC cluster (found in 3 locations)
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_15691_1 : position 1-408
+  - gnl|SPADES|LDMNMAEC_21882_1 : position 2-361
+  - gnl|SPADES|LDMNMAEC_27394_1 : position 3-335
+
+### vanT gene in vanG cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3817_1 : position 3-332
+
+### vanTr gene in vanL cluster
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: glycopeptide antibiotic
+- **AMR Family**: glycopeptide resistance gene cluster; vanT
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_6165_2 : position 349-822
+
+### vatF (found in 3 locations)
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: streptogramin antibiotic; streptogramin A antibiotic
+- **AMR Family**: streptogramin vat acetyltransferase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_18102_2 : position 196-387
+  - gnl|SPADES|LDMNMAEC_6199_2 : position 637-816
+  - gnl|SPADES|LDMNMAEC_7494_1 : position 3-281
+
+### y56 beta-lactamase
+- **Mechanism**: antibiotic inactivation
+- **Drug Classes**: cephalosporin; penam; penem
+- **AMR Family**: BlaA beta-lactamase
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2055_4 : position 1654-2463
+
+
+## Yersinia enterocolitica (type O:5) str. YE53/03
+**Strain Statistics:**
+- Total genome length: 15.1 kbp
+- Total scaffolds: 87
+- Scaffolds with AMR genes: 9
+- Total genes annotated: 22
+- Total AMR genes: 9
+- Unique AMR genes: 9
+- Distinct AMR mechanisms: 4
+- Distinct AMR families: 7
+- Distinct drug classes: 16
+
+**Circos Plot:**
+
+![Circos plot for Yersinia enterocolitica (type O:5) str. YE53/03](../circos_LB01_Bolton_QG_A1_S7_Yersinia_enterocolitica_(type_O_5)_str._YE53_03.png)
+
+### Acinetobacter baumannii AbaF
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: phosphonic acid antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2374_2 : position 326-1729
+
+### Escherichia coli soxS with mutation conferring antibiotic resistance
+- **Mechanism**: antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic
+- **Drug Classes**: fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2876_3 : position 1320-1760
+
+### Mycobacterium tuberculosis kasA mutant conferring resistance to isoniazid
+- **Mechanism**: antibiotic target alteration
+- **Drug Classes**: isoniazid-like antibiotic
+- **AMR Family**: antibiotic resistant kasA
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2048_3 : position 1623-2468
+
+### QepA1
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic
+- **AMR Family**: major facilitator superfamily (MFS) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4199_2 : position 262-1215
+
+### acrB
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_2909_1 : position 1-1746
+
+### gadW
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: macrolide antibiotic; fluoroquinolone antibiotic; penam
+- **AMR Family**: resistance-nodulation-cell division (RND) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_5524_2 : position 669-920
+
+### tet(W)
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: tetracycline-resistant ribosomal protection protein
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_4057_1 : position 3-1253
+
+### tetA(60)
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: tetracycline antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_12119_1 : position 1-462
+
+### tlrC
+- **Mechanism**: antibiotic target protection
+- **Drug Classes**: macrolide antibiotic; lincosamide antibiotic
+- **AMR Family**: Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_1592_2 : position 1275-2093
+
+
+## Yersinia enterocolitica subsp. palearctica Y11
+**Strain Statistics:**
+- Total genome length: 1.6 kbp
+- Total scaffolds: 2
+- Scaffolds with AMR genes: 1
+- Total genes annotated: 4
+- Total AMR genes: 1
+- Unique AMR genes: 1
+- Distinct AMR mechanisms: 1
+- Distinct AMR families: 1
+- Distinct drug classes: 1
+
+**Circos Plot:**
+
+![Circos plot for Yersinia enterocolitica subsp. palearctica Y11](../circos_LB01_Bolton_QG_A1_S7_Yersinia_enterocolitica_subsp._palearctica_Y11.png)
+
+### TaeA
+- **Mechanism**: antibiotic efflux
+- **Drug Classes**: pleuromutilin antibiotic
+- **AMR Family**: ATP-binding cassette (ABC) antibiotic efflux pump
+- **Locations**:
+  - gnl|SPADES|LDMNMAEC_3225_3 : position 1286-1579
+
+
